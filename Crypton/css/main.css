@@ -1,0 +1,267 @@
+@import "bootstrap.css";
+@import "icon.css";
+@import "checkbox.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.0.4/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+body {background: #f7f7f7;font-family: 'Open Sans', sans-serif;font-size: 14px;color: #5f6a6e;}
+a {color: #bfcfdc;}
+a:hover {color: #adbdcb;}
+a:focus {outline: none;}
+
+.header {background: #2d3750!important;padding: 0px 10px;color: #fff;}
+#logo {font-size: 45px;color: #fff;text-decoration: none;}
+#logo-footer {font-size: 45px;color: #5f6a6e;text-decoration: none;}
+
+.navbar-light .navbar-nav .nav-link {color: #fff;padding: 25px 10px;}
+.navbar-light .navbar-nav .nav-link:hover {color: #fff;background: #252d42;}
+.navbar-light .navbar-nav .nav-link:focus {color: #fff;}
+.navbar-light .navbar-toggler {color: #fff!important;border: 0px;outline: none;}
+.navbar-brand {padding: 0px;}
+
+.course-coins {background: #fff;border-bottom: 1px solid #e4eff5;height: 51px;overflow: hidden;margin-bottom: 20px;}
+.courseblock {flex-wrap: nowrap;overflow: hidden;overflow-x: scroll;height: calc(100% + 20px);}
+.courseblock::-webkit-scrollbar {width: 0px;background: rgba(255, 255, 255, 0.0);}
+.course-now {width: 120px;padding: 10px 10px;}
+.course-now:hover {text-decoration: none;background: #f4fafa;}
+.coin-ico {float: left;margin-right: 10px;}
+.course-ico {width: 30px;}
+.coin-name {float: left;color: #000;margin-top: 5px;}
+.course-list {display: flex;float: left;}
+.course-btc {float: left;font-size: 30px;color: #FFB119;margin-right: 10px;transform: rotate(15deg);}
+.course-bch {float: left;font-size: 30px;color: #8DC451;margin-right: 10px;transform: rotate(-15deg);}
+.course-eth {float: left;font-size: 30px;color: #4A90E2;margin-right: 10px;}
+.course-dash {float: left;font-size: 30px;color: #1c75bc;margin-right: 10px;}
+.course-zcash {float: left;font-size: 30px;color: #ecb244;margin-right: 10px;}
+.course-xmr {float: left;font-size: 30px;color: #ff6600;margin-right: 10px;}
+.course-btg {float: left;font-size: 30px;color: #eba809;margin-right: 10px;}
+.course-ltc {float: left;font-size: 30px;color: #BEBEBE;margin-right: 10px;}
+
+.walletblock {display: block;background: #fff;border: 1px solid #e4eff5;border-radius: 1px;}
+.wallettitle {padding: 15px 20px;border-bottom: 1px solid #e4eff5;font-size: 16px;color: #5f6a6e;}
+.walletlist {display: block;}
+
+.walletnow {display: block;padding: 20px;border-bottom: 1px solid #e4eff5;display: flex;}
+.walletnow:last-child {border-bottom: 0px;}
+.walletnow:hover {background: #f4fafa;text-decoration: none;}
+.walletnow div {margin-left: 10px;color: #c6cacd;}
+.wallet-active {background: #f4fafa;cursor: default;}
+.wallet-active div {margin-left: 10px;color: #5f6a6e;}
+
+.walletadd {display: block;padding: 21px;color: #bbbcbd;text-align: center;border-top: 1px solid #e4eff5;}
+.walletadd:hover {background: #f4fafa;text-decoration: none;color: #a8a7a7;}
+.walletadd:focus {outline: none;}
+
+.wallet-ico {width: 30px;margin-top: -5px;margin-right: 10px;text-align: center;}
+.ico-btc {background-image: url(../img/icon/wallet-btc.svg);background-size: 30px 30px;height: 30px;width: 30px;float: left;margin-top: -5px;margin-right: 10px;}
+.wallet-btc {font-size: 25px;color: #FFB119;margin-top: -2px;transform: rotate(15deg);}
+.wallet-bch {font-size: 25px;color: #8DC451;margin-top: -2px;transform: rotate(-15deg);}
+.wallet-eth {font-size: 25px;color: #4A90E2;margin-top: -2px;}
+.wallet-dash {font-size: 25px;color: #1c75bc;margin-top: -2px;}
+.wallet-zcash {font-size: 25px;color: #ecb244;margin-top: -2px;}
+.wallet-xmr {font-size: 25px;color: #ff6600;margin-top: -2px;}
+.wallet-btg {font-size: 25px;color: #eba809;margin-top: -2px;}
+.wallet-ltc {font-size: 25px;color: #BEBEBE;margin-top: -2px;}
+
+.wallet-trans-block {background: #fbfdfc;padding: 21px;color: #5f6a6e;}
+.search-trans-block {float: right;}
+.search-trans {background: #ffffff;}
+.search-trans-block input[type="search"]::placeholder {color: #bbc9d4;}
+.search-trans-block input[type="search"] {border: 1px solid #ccdeec;outline: none;-webkit-appearance: none;vertical-align: middle;
+padding: 5px;border-radius: 1px;margin-top: -6px;width: 200px;padding-left: 30px;color: #868e96;}
+.search-trans-ico {position:absolute;padding-left: 10px;margin-top: 1px;color: #bfcfdc;}
+.search-trans-block input[type="search"]:focus {border: 1px solid #adbdcb;}
+.wallet-balance-block {padding: 12.5px 0px;margin: 0px 20px;border-bottom: 1px solid #e4eff5;display: block;}
+.coinbalancenow {font-size: 26px;color: #2d3750;display: inline;}
+.coinbalancenow span {font-size: 16px;color: #c6cacd;}
+.wallet-button-block {float: right;}
+.wallet-outline-button {border: 1px solid #ccdeec;background: #fff;outline: none;padding: 8px 10px;margin-left: 5px;border-radius: 1px;color: #bbc9d4;}
+.wallet-outline-button:hover {border: 1px solid #adbdcb;color: #adbdcb;cursor: pointer;}
+.wallet-outline-button:focus {outline: none;}
+.wallet-outline-button span {margin-left: 5px;}
+
+.wallet-trans-list {padding: 9.5px 0px;margin: 0px 20px;border-bottom: 1px solid #e4eff5;display: block;height: 64px;cursor: pointer;}
+.wallet-trans-list:last-child {border-bottom: 0px;}
+.trans-ico {float: left;font-size: 45px;}
+.trans-ico-send {color: #8DC451;margin-right: 15px;}
+.trans-ico-get {color: #FFB119;margin-right: 15px;}
+.trans-ico-mining {color: #8DC451;margin-right: 20px;}
+.trans-name {font-size: 16px;display: inline;float: left;}
+.trans-name div {font-size: 12px;color: #c6cacd;clear: both;}
+.wallet-trans-balance {float: right;text-align: right;font-size: 15px;margin-top: 0.5px;}
+.wallet-trans-balance div {clear: both;font-size: 12px;color: #c6cacd;}
+
+.wallet-trans-list-scroll {position: relative;overflow-y: scroll;height: 448px;overflow:auto;}
+.walletlist-scroll {position: relative;overflow-y: scroll;height: 511px;overflow:auto;}
+
+.modal-content {border-radius: 1px;border: 0px;}
+.close:not([disabled]):not(.disabled) {outline: none;padding: 20px;}
+.modal-body {padding: 0px;}
+.modal-footer {padding: 0px;}
+.send-footer {padding: 20px 0px;margin: 0px;}
+.control-coin {padding: 0px 20px;padding-top: 5px;}
+.control-coinchek {padding: 0px 20px;padding-top: 15px;}
+.form-control {border-radius: 1px;border: 1px solid #ccdeec;padding: 5px;color: #868e96!important;font-size: 14px;}
+.form-control:focus {outline: none;-webkit-appearance: none;box-shadow: none;border: 1px solid #adbdcb;}
+.button-tooltip {background: #fff;font-size: 12px;color: #ced4da;cursor: pointer;border: 0px;padding: 0px;}
+.button-tooltip:hover {color: #adbdcb;}
+.button-tooltip:focus {outline: none;color: #adbdcb;}
+.popover {border: 1px solid #ccdeec;}
+.popover-body {color: #5f6a6e;}
+.bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {border-top-color: #ccdeec;}
+.form-group span {position: absolute;right: 0;margin-top: 6px;margin-right: 15px;}
+.form-group a {color: #bbc9d4;}
+.form-group a:hover {color: #aebcc7;}
+.form-control::placeholder {color: #bbc9d4;}
+.send-amount {padding-right: 45px;}
+.sendcoincheklist {margin-bottom: 10px;font-weight: bold;text-align: right;}
+.send-balance {display: block;background: #f4fafa;text-align: center;padding: 10px 0px;margin: 20px 0px;border-radius: 1px;font-size: 14px;margin-top: 10px;}
+.send-balance div {font-size: 30px;font-weight: bold;color: #8DC451;}
+
+.send-button {border: 0px;background: #2d3750;outline: none;padding: 8px 10px;border-radius: 1px;color: #fff;width: 97%;float: right;cursor: pointer;}
+.send-button:hover {border: 0px;background: #242c41;}
+.send-button:focus {outline: none;}
+.back-button {border: 0px;background: #eaf1f1;outline: none;padding: 8px 10px;border-radius: 1px;width: 97%;cursor: pointer;}
+.back-button:hover {border: 0px;background: #e1ebeb;}
+.back-button:focus {outline: none;}
+.modal-footer .col {padding: 0px;}
+.send-coin {width: 100%;}
+
+.copy-outline-button {border: 1px solid #ccdeec;background: #fff;outline: none;padding: 8px 10px;border-radius: 1px;color: #bbc9d4;}
+.copy-outline-button:hover {border: 1px solid #2d3750;color: #fff;background: #2d3750;cursor: pointer;}
+.copy-outline-button:focus {outline: none;}
+
+.qrcodeblock {display:block;width: 100%;text-align: center;margin: 15px 0px;}
+.checkbox-block {margin-bottom: 10px;}
+
+.trans-balance {display: block;background: #f4fafa;text-align: center;padding: 30px 0px;margin: 10px 0px 10px 0px;border-radius: 1px;font-size: 14px;}
+.trans-balance div {font-size: 30px;font-weight: bold;color: #8DC451;}
+.trans-balance-minus {display: block;background: #f4fafa;text-align: center;padding: 30px 0px;margin: 10px 0px 10px 0px;border-radius: 1px;font-size: 14px;}
+.trans-balance-minus div {font-size: 30px;font-weight: bold;color: #c45151;}
+.trans-status {float: right;font-size: 12px;text-transform: uppercase;color: #8DC451;background-color: rgba(141, 196, 81, 0.1);padding: 8px 10px;border-radius: 1px;border: 0px;cursor: pointer;}
+.trans-status:hover {background-color: rgba(141, 196, 81, 0.2);}
+.trans-status:focus {outline: none;}
+.trans-status-wait {float: right;font-size: 12px;text-transform: uppercase;color: #5f6a6e;background: #f5f7f7;padding: 8px 10px;border-radius: 1px;border: 0px;cursor: pointer;}
+.trans-status-wait:hover {background-color: #ebf1f1;}
+.trans-status-wait:focus {outline: none;}
+
+.footer {margin-top: 20px;background: #fff;padding: 27px 0px;border-top: 1px solid #e4eff5;}
+.lang-dropdown {padding: 5px 10px;width: 160px;border: 1px solid #ccdeec;color: #bfcfdc;cursor: pointer;margin-top: 7px;border-radius: 1px;}
+.lang-dropdown:hover {border: 1px solid #adbdcb;}
+.lang-dropdown div {float: right;}
+.copyright {margin-top: 27px;padding-top: 28px;text-align: center;border-top: 1px solid #e4eff5;color: #c6cacd;}
+
+.dropdown-menu {border: 1px solid #ccdeec;border-radius: 1px;margin-bottom: 10px;}
+.dropdown-item {font-size: 14px;cursor: pointer;padding: 0.25rem 0.7rem;color: #bfcfdc;}
+.dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover {outline: none;background-color:#f8f9fa;color: #adbdcb;}
+
+.settingblock {display: block;background: #fff;border: 1px solid #e4eff5;border-radius: 1px;margin-top: 20px;}
+.settingtitle {padding: 15px 20px;font-size: 16px;color: #5f6a6e;}
+.settingtitle2 {padding: 15px 20px;font-size: 16px;color: #5f6a6e;border-bottom: 1px solid #e4eff5;}
+.settinglist {padding: 15px 20px;border-top: 1px solid #e4eff5;font-size: 15px;color: #5f6a6e;}
+.settinglist:first-child {border: 0px;}
+.settingvalue {color: #c6cacd;}
+.editicon {color: #bfcfdc;cursor: pointer;}
+.editicon:hover {color: #adbdcb;}
+.editdel {color: #bfcfdc;cursor: pointer;transform: rotate(45deg);margin-top: 5px;}
+.editdel:hover {color: #adbdcb;}
+.addsetbutton {display: block;text-align: center;margin: 20px;padding: 15px;border: 2px dashed #c6cacd;border-radius: 1px;color: #c6cacd;text-transform: uppercase;cursor: pointer;}
+.addsetbutton:hover {border: 2px dashed #b0b4b6;border-radius: 1px;color: #b0b4b6;}
+.custom-select {padding: 5px;border-radius: 1px;height: auto;border: 1px solid #ccdeec;color:#868e96;}
+.custom-select:focus {box-shadow: none;border-color: #adbdcb;}
+.icon-arrow-lang {transform: rotate(180deg);margin-top: 3px;}
+
+.accountsoclink {display: block;text-align: center;border: 2px dashed #c6cacd;border-radius: 1px;color: #c6cacd;margin: 15px 5px;padding: 10px 0px;font-size: 50px;}
+.accountsoclink:hover {border: 2px dashed #b0b4b6;border-radius: 1px;color: #b0b4b6;text-decoration: none;}
+.accountsoclinkvk {display: block;text-align: center;border: 2px solid #4a76a8;border-radius: 1px;color: #fff;margin: 15px 5px;padding: 10px 0px;font-size: 50px;background: #4a76a8;}
+.accountsoclinkvk:hover {background: #3f6590;color: #fff;border: 2px solid #3f6590;text-decoration: none;}
+.google-auth-block {display:block;border: 1px solid #ccdeec;margin-top: 15px;padding: 10px;border-radius: 1px;}
+.sec2FAtitle {font-size: 16px;margin: 7px 0px;}
+
+.delseccod {border: 1px solid #e92424;background: #e92424;outline: none;padding: 8px 10px;border-radius: 1px;color: #fff;}
+.delseccod:hover {border: 1px solid #d12020;color: #fff;background: #d12020;cursor: pointer;}
+.delseccod:focus {outline: none;}
+
+.addseccod {border: 1px solid #68b641;background: #68b641;outline: none;padding: 8px 10px;border-radius: 1px;color: #fff;}
+.addseccod:hover {border: 1px solid #5ca438;color: #fff;background: #5ca438;cursor: pointer;}
+.addseccod:focus {outline: none;}
+
+.onglcode {width: 200px;}
+.onglcodetitle {margin-bottom: 15px;margin-top: 10px;}
+
+.add-button {border: 0px;background: #68b641;outline: none;padding: 8px 10px;border-radius: 1px;color: #fff;width: 97%;float: right;cursor: pointer;}
+.add-button:hover {border: 0px;background: #5ba237;}
+.add-button:focus {outline: none;}
+
+.google-auth1 {font-size: 30px;float: left;margin-left: 15px;margin-top: 5px;color: #e92424;}
+.google-auth2 {font-size: 30px;float: left;margin-left: 15px;margin-top: 5px;color: #68b641;}
+.close-seans {float: right;font-size: 14px;}
+.table-seans {margin-bottom: 0px;}
+
+.helpblock {display: block;background: #fff;border: 1px solid #e4eff5;border-radius: 1px;margin-top: 20px;}
+.helptitle {padding: 15px 10px;font-size: 16px;color: #5f6a6e;border-bottom: 1px solid #e4eff5;}
+.helptitle span {border-bottom: 2px solid #2d3750;padding: 15px;color: #2d3750;}
+.helptitle a {padding: 15px 10px;}
+.helptitle a:hover {text-decoration: none;}
+
+.NewQuestion {float: right;margin-top: -15px;}
+.loadimgicon {cursor: pointer;cursor: pointer;}
+.loadimgiconnow {font-size: 64px;color: #000;}
+.loadimgiconnow:hover {color: #ff0000;cursor: pointer;}
+.custom-file-input {width: 0px;cursor: pointer;}
+.custom-file {height: inherit;cursor: pointer;}
+
+
+@media (min-width: 576px) {
+.col-walletlist {padding-right: 0px;}
+.col-walletnow {padding-left: 0px;}
+.trans-name {font-size: 14px;margin-top: 2px;}
+.trans-name div {font-size: 10px;}
+.col-walletlist {border-right: 1px solid #e4eff5;}
+}
+@media (max-width: 576px) {
+.walletlist {border-right: 0px;}
+.walletadd {border-bottom: 1px solid #e4eff5;}
+.wallet-outline-button {padding: 6px 8px;}
+.search-trans-block input[type="search"] {width: 100px!important;}
+.wallet-outline-button {margin-left: 0px;}
+.lang-dropdown {width: 115px;}
+.col-logo-footer {padding-right: 0px;}
+.col-lang-footer {padding-left: 0px;}
+}
+
+
+
+@media (max-width: 768px) {
+.search-trans-block input[type="search"] {width: 120px;}
+.wallet-balance-block {padding: 14px 0px!important;}
+.coinbalancenow {font-size: 14px!important;}
+.coinbalancenow span {display: block;font-size: 10px!important;}
+.wallet-button-block {margin-top: -36px!important;}
+.trans-name {font-size: 11px;margin-top: 7px;}
+.trans-name div {font-size: 8px;}
+.wallet-trans-balance {font-size: 10px;margin-top: 7px;}
+.wallet-trans-balance div {font-size: 8px;}
+.sendcoincheklist {text-align: left;}
+}
+
+
+@media (max-width: 992px) {
+.wallet-outline-button span {display: none;}
+.trans-ico {display: none;}
+}
+
+
+@media (min-width: 1200px) {
+.col-walletlist {width: 270px;}
+
+}
+
+@media (max-width: 1200px) {
+  .wallet-balance-block {padding: 18.5px 0px;}
+  .coinbalancenow {font-size: 18px;}
+  .coinbalancenow span {font-size: 14px;}
+  .wallet-button-block {margin-top: -6px;}
+  .course-container {padding: 0px;}
+}

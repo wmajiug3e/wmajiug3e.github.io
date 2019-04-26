@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import "bootstrap.css";
+@import "carousel.css";
+
+body {font-family: 'Open Sans', sans-serif;font-size: 1rem;}
+.navbar-white {background: #fff;font-size: 0.85rem;box-shadow: 0px 1px 35px -10px #000000;}
+.navbar-white a {color: #38adea;}
+.navbar-white a:hover {color: #2986b6;}
+#logo {float: left;background: url(../img/logo.svg) no-repeat;width: 249px;height: 49px;margin-right: 20px;background-size: 249px 49px;}
+.phone-ico {background: #38adea;border-radius: 50px;margin-right: 5px;padding: 15px;color: #fff;font-size: 0.9rem;margin-left: 10px;}
+.phone {font-size: 1rem;}
+.phone a {text-decoration: none;color: #000;}
+.phone a:hover {color: #000;}
+.phone a:hover .phone-ico {background: #3096cb;}
+.phone span {font-size: 0.55rem;float: right;margin-top: -13px;color: #d4d4d4;}
+.nav-item-red a {color: #f53e56;}
+.nav-item-red a:hover {color: #d13146;}
+.navbar-toggler span {color: #38adea;}
+.navbar-toggler span:hover {color: #2986b6;}
+.navbar-toggler:focus, .navbar-toggler:hover {outline: none;}
+
+.fa-red {background: #f53e56;border-radius: 50px;width: 40px;height: 40px;text-align: center;padding-top: 11px;margin-right: 5px;}
+.carousel-indicators li {width: 5px;height: 5px;border-radius: 50px;}
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 546px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 738px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 962px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

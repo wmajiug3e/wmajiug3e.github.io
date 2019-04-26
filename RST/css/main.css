@@ -1,0 +1,72 @@
+@import "bootstrap.css";
+@import "select2.min.css";
+@import "select2-bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+body {background: #fff;font-family: 'Roboto', sans-serif;color: #414042;}
+.logo {height: 25px;margin-right: 1em;}
+
+@media (max-width: 768px){
+.logo {display: none;}
+}
+.navbar-nav .nav-link {padding-right: .5rem;padding-left: .5rem;}
+.bg-light {background: #f0f2fa!important;}
+.rst-form {background: #db5c4c;color: #fff;padding-top: 15px;}
+.col-left {padding-right: 7.5px;}
+.col-right {padding-left: 7.5px;}
+.margin-top-15 {margin-top: 15px;}
+.margin-bottom-15 {margin-bottom: 15px;}
+.margin-bottom-30 {margin-bottom: 30px;}
+.center {text-align: center;clear: both;}
+.navbar-nav {flex-direction: inherit;}
+.form-control {padding: 4px 20px 4px 12px;}
+
+@media (min-width: 768px){
+  .col-sm-left {padding-right: 0px;}
+  .col-sm-right {padding-left: 15px;}
+}
+
+@media (max-width: 768px){
+  .alert_conter {margin-right: 20px!important;}
+  .car_title a {font-size: 1.5em!important;}
+}
+
+
+
+
+.car_list {border-bottom: 1px solid #ebe8e8;padding-bottom: 15px;margin: 15px 0;}
+.car_list:last-child {border: 0px;}
+.car_list_img {width: 100%;}
+.car_title a {font-size: 1.3em;color: #256799;}
+.car_price span {font-size: 1.2em;color: #7b9925;}
+.car_data {color: #adadad;}
+.car_exchange {color: #db5c4c;}
+.alert_buy {position: absolute;background: #7b9925;padding: 3px 5px;color: #fff;margin-top: 5px;margin-left: 5px;}
+.alert_premium {position: absolute;background: #ffc107;padding: 3px 5px;color: #fff;margin-top: 5px;margin-left: 5px;}
+.alert_green {position: absolute;background: #7b9925;padding: 3px 5px;color: #fff;margin-top: 5px;margin-left: 5px;}
+.alert_conter {position: absolute;background: rgba(0, 0, 0, 0.5);padding: 3px 5px;color: #fff;margin-top: 5px;right: 0px;margin-right: 5px;}
+
+@media (max-width: 1200px){
+.container {max-width: 100%;}
+}
+
+.car_now {margin-top: 15px;}
+.car_title_now {font-size: 1.5em;}
+.car_text_now {margin-top: 15px;}
+.car_contact {margin-top: 15px;border-bottom: 1px solid #ebe8e8;padding-bottom: 15px;}
+.car_exchange_now {margin-top: 15px;}
+.car_exchange_text {background: #ededed;padding: 15px;border-radius: 5px;margin-top: 15px;}
+.car_exchange_block {margin-top: 15px;text-align: center;}
+.car_exchange_button {text-align: center;margin-top: 15px;}
+.addblock {margin-top: 15px;}
+.addphoto {margin-bottom: 30px;}
+.custom-file-button {background: #ffc107;padding: 0.5rem 1rem;font-size: 1.25rem;line-height: 1.5;border-radius: 0.3rem;cursor: pointer;}
+.custom-file-button:hover {background: #e0a800;}
+.custom-file-button:focus, .custom-file-button.focus {box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);}
+.title_photo {font-size: 1.3em;}
+.alert_del {position: absolute;background: #db5c4c;padding: 2px 5px;margin-top: 5px;margin-left: 5px;font-size: 0.5em;border-radius: 50px;right: 0px;margin-right: 20px;}
+.alert_del:hover {background: #c95242;}
+.alert_del a {color: #fff;}
+.progress-photo {height: 100%;border-radius: 0px;}
+.car_title_menu {float: right;}

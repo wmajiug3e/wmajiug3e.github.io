@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Настройки</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="title"><i class="fas fa-cog"></i> Настройки</div>
+<div class="container">
+<div class="wrapper-block">
+<form action="" method="POST">
+<div class="row row-hr2">
+<div class="col"><div class="with-placeholder placeholderlog"><input name="antigate" type="text" required=""><span>Ключ антикапчи</span></div></div>
+<div class="col-3">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Сервис антикапчи</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="commercial">AntiGate</li>
+<li class="option" data-value="residential">Rucapcha</li>
+</ul>
+</div>
+</label>
+</div>
+</div>
+<div class="row row-hr">
+<div class="col">Сворачивать программу в трей</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id1" name="availability"><label for="switch-id1"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row row-hr">
+<div class="col">Сохранять куки аккаунтов <span class="question-circle" data-container="body" data-toggle="popover"  data-placement="top" data-content="Хранить данные аккаунтов, что бы при следующем открытии программы все аккаунты были авторизованы"><i class="fas fa-question-circle"></i></span></div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="availability"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row row-hr">
+<div class="col">Сохранять аккаунты и прокси <span class="question-circle" data-container="body" data-toggle="popover"  data-placement="top" data-content="Аккаунты и прокси после авторизации будут сохраняться в файл accounts.txt"><i class="fas fa-question-circle"></i></span></div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id3" name="availability"><label for="switch-id3"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row row-hr">
+<div class="col">Использовать уведомления Windows</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id4" name="availability"><label for="switch-id4"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+</form>
+<button class="bigbutton2">Выйти из аккаунта</button>
+</div>
+</div>
+</div>
+<div class="copyright">© SocHelper.Pro</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>

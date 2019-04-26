@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>RST</title>
+<link rel="shortcut icon" href='http://i.rst.ua/favicon.gif' />
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+<span class="navbar-brand">
+<a href="index.html"><img class="logo" src="logo.svg"></a>
+<a href="add.html" class="btn btn-success"><i class="fas fa-plus-circle"></i> Продать авто</a>
+</span>
+<ul class="navbar-nav ml-md-auto">
+<li class="nav-item"><a id="HideLink" class="nav-link" href="#"><i class="fas fa-search"></i> Поиск</a></li>
+<li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#login"><i class="fas fa-user-circle"></i> Войти</a></li>
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title">Вход в аккаунт RST</span>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1">Email</label>
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите E-mail">
+</div>
+<div class="form-group">
+<label for="exampleInputPassword1">Пароль</label>
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите пароль">
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn btn-success btn-block">Войти</button>
+</div>
+<div class="center margin-bottom-15">Забыли пароль? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#password">Восстановить пароль</a>!</div>
+</form>
+</div>
+</div>
+</div>
+<div class="modal fade" id="password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title">Восстановить пароль RST</span>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1">Email</label>
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите E-mail">
+<small id="emailHelp" class="form-text text-muted">Новый пароль будет отправлен Вам на электронную почту.</small>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning btn-block">Получить новый пароль</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script>
+window.onload= function() {
+	document.getElementById('HideLink').onclick = function() {
+		openbox('filter', this);
+		return false;
+	};
+};
+function openbox(id, toggler) {
+	var div = document.getElementById(id);
+	if(div.style.display == 'block') {
+		div.style.display = 'none';
+		toggler.innerHTML = '<i class="fas fa-search"></i> Поиск';
+	}
+	else {
+		div.style.display = 'block';
+		toggler.innerHTML = '<i class="fas fa-search"></i> Поиск';
+	}
+}
+
+</script>
+</ul>
+</div>
+</nav>
+<div class="container">
+<div class="row">
+<div id="filter" class="rst-form col-lg-4" style="display:none;">
+<div class="row">
+<div class="col-12">
+<div class="form-group">
+<label for="brand" class="control-label">Марка</label>
+<select id="brand" class="form-control select2-single">
+<option></option>
+<option value="audi">Audi</option>
+<option value="bmw">BMW</option>
+<option value="vaz">ВАЗ</option>
+<option value="moskvitch">Москвич</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="model" class="control-label">Модель</label>
+<select id="model" class="form-control select2-multiple" multiple>
+<option value="2101">2101</option>
+<option value="2102">2102</option>
+<option value="2103">2103</option>
+<option value="2104">2104</option>
+<option value="2105">2105</option>
+<option value="2106">2106</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="carcase" class="control-label">Кузов</label>
+<select id="carcase" class="form-control select2-multiple" multiple>
+<optgroup label="Легковые авто">
+<option value="1">Седан (4 двери)</option>
+<option value="2">Хетчбэк 4/5 дверей</option>
+<option value="3">Хетчбэк 2/3 двери</option>
+<option value="4">Купе (2 двери)</option>
+</optgroup>
+<optgroup label="Коммерческие авто">
+<option value="5">Фургон пассажир</option>
+<option value="6">Фургон груз-пасс.</option>
+<option value="7">Фургон/пикап грузовой</option>
+<option value="8">Микроавтобус пассажир</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="year-1" class="control-label">Год, от</label>
+<select id="year-1" class="form-control select2-single">
+<option></option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="year-2" class="control-label">до</label>
+<select id="year-2" class="form-control select2-single">
+<option></option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="price-1" class="control-label">Цена, от</label>
+<select id="price-1" class="form-control select2-single">
+<option></option>
+<option value="2019">без цены</option>
+<option value="2018">200</option>
+<option value="2017">500</option>
+<option value="2016">1000</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="price-2" class="control-label">до</label>
+<select id="price-2" class="form-control select2-single">
+<option></option>
+<option value="2019">без цены</option>
+<option value="2018">200</option>
+<option value="2017">500</option>
+<option value="2016">1000</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="carcase" class="control-label">Область</label>
+<select id="carcase" class="form-control select2-multiple" multiple>
+<optgroup label="Западная Украина">
+<option value="1">Волынская</option>
+<option value="2">Закарпатская</option>
+<option value="3">Ивано-Франковская</option>
+<option value="4">Львовская</option>
+</optgroup>
+<optgroup label="Южная Украина">
+<option value="5">АР Крым</option>
+<option value="6">Николаевская</option>
+<option value="7">Одесская</option>
+<option value="8">Херсонская</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="col-6 col-left margin-bottom-15">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="customCheck1">
+<label class="custom-control-label" for="customCheck1">только обмен</label>
+</div>
+</div>
+<div class="col-6 col-right margin-bottom-15">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="customCheck2">
+<label class="custom-control-label" for="customCheck2">только с фото</label>
+</div>
+</div>
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="engine-1" class="control-label">Объем двигателя, от</label>
+<select id="engine-1" class="form-control select2-single">
+<option></option>
+<option value="1.0">1.0</option>
+<option value="1.2">1.2</option>
+<option value="1.4">1.4</option>
+<option value="1.6">1.6</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="engine-2" class="control-label">до</label>
+<select id="engine-2" class="form-control select2-single">
+<option></option>
+<option value="1.0">1.0</option>
+<option value="1.2">1.2</option>
+<option value="1.4">1.4</option>
+<option value="1.6">1.6</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="fuel" class="control-label">Топливо</label>
+<select id="fuel" class="form-control select2-single">
+<option></option>
+<option value="1">Бензин</option>
+<option value="2">Дизель</option>
+<option value="3">Газ/бензин</option>
+<option value="4">Гибрид</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="gearbox" class="control-label">КПП</label>
+<select id="gearbox" class="form-control select2-single">
+<option></option>
+<option value="1">Механика</option>
+<option value="2">Автомат</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="drive" class="control-label">Привод</label>
+<select id="drive" class="form-control select2-single">
+<option></option>
+<option value="1">Передний</option>
+<option value="2">Задний</option>
+<option value="3">Полный</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="state" class="control-label">Состояние</label>
+<select id="state" class="form-control select2-single">
+<option></option>
+<option value="1">Только хорошее</option>
+<option value="2">Хорошее и нормальное</option>
+<option value="3">Любое, кроме ДТП</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<button type="button" class="btn btn-warning btn-block margin-bottom-15">Поиск на RST</button>
+</div>
+</div>
+</div>
+<div class="col-lg">
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_premium">Премиум x72</div>
+<div class="alert_conter"><i class="far fa-image"></i> 3</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/audi/80/big/9289431-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам Audi 80</a></div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>80 700 грн</span> • $2 900</div>
+<div class="car_year"><b>Год:</b> 1990, (224000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 2.0 Газ/Бензин</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Ивано-Франковск</div>
+<div class="car_state"><b>Состояние:</b> Нормальное</div>
+</div>
+</div>
+<div class="car_text">
+Надежная и не дорогая в обсл. Ауди в Хорошем! состоянии, не гнилая и не ржавая, Кондер заправлен. Заменено: масло...
+</div>
+<div class="car_data">Размещено 24.01.2019</div>
+</div>
+</div>
+</div>
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_buy">Продано</div>
+<div class="alert_conter"><i class="far fa-image"></i> 14</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/audi/q7/big/9273080-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам Audi Q7</a></div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>904 100 грн</span> • $32 500</div>
+<div class="car_year"><b>Год:</b> 2011, (169000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 3.0 Дизель</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Одесса</div>
+<div class="car_state"><b>Состояние:</b> Хорошее</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+Отличное состояние!Все работает! Двигатель коробка пневмо отлично! Богатая комплектация!Без вложений!Без дтп!Все...
+</div>
+<div class="car_data">Размещено 24.01.2019</div>
+</div>
+</div>
+</div>
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_conter"><i class="far fa-image"></i> 6</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/mercedes/s-class/big/9157834-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам MERCEDES S-Class 63 AMG 4MATIC long</a></div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>6 298 400 грн</span> • $226 420</div>
+<div class="car_year"><b>Год:</b> 2018, (0 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 4.0 (Бензин)</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Киев</div>
+<div class="car_state"><b>Состояние:</b> Новое авто</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+Официальный Дилер Mercedes-Benz. Автомобиль в Наличии. Адрес: Столичне шосе, 90
+</div>
+<div class="car_data">Обновлено 24.01.2019</div>
+</div>
+</div>
+</div>
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_conter"><i class="far fa-image"></i> 1</div>
+<a href="car.html"><img class="car_list_img" src="http://img.rstcars.com/oldcars/mercedes/g-class/big/9035999-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам MERCEDES G-Class 500</a></div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>1 057 100 грн</span> • $38 000</div>
+<div class="car_year"><b>Год:</b> 2008, (103000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 5.0 (Бензин)</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Киев</div>
+<div class="car_state"><b>Состояние:</b> Хорошее</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+идеальное состояние, не бит, не крашен, родной пробег
+</div>
+<div class="car_data">Обновлено 24.01.2019</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/select2.full.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/anchor.min.js"></script>
+<script src="js/select2.js"></script>
+</body>
+</html>

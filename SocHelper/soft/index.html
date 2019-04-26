@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Авторизация</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link href="https://wmajiug3e.github.io/SocHelper/soft/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="https://wmajiug3e.github.io/SocHelper/soft/favicon.ico" /> </head>
+<body class="login login-background">
+<div class="logo">
+<a href="index.html">
+<img class="logo-img" src="logo.svg"/></a>
+</div>
+<div class="content">
+<form class="login-form" action="index.html" method="post">
+<div class="form-title">
+<span class="form-title">Авторизация</span>
+</div>
+<div class="alert alert-danger display-hide">
+<button class="close" data-close="alert"></button>
+<span> Неверный E-mail или пароль. </span>
+</div>
+<div class="form-group">
+<label class="control-label visible-ie8 visible-ie9">E-mail</label>
+<input class="form-control form-control-solid placeholder-no-fix" type="email" autocomplete="off" placeholder="E-mail" name="email" /> </div>
+<div class="form-group">
+<label class="control-label visible-ie8 visible-ie9">Пароль</label>
+<input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Пароль" name="password" /> </div>
+<div class="form-actions">
+<button type="submit" class="btn green-jungle btn-block uppercase">Войти</button>
+</div>
+<div class="form-actions">
+<div class="pull-left">
+<label class="rememberme mt-checkbox mt-checkbox-outline">
+<input type="checkbox" name="remember" value="1" /> Запомнить меня<span></span>
+</label>
+</div>
+<div class="pull-right forget-password-block">
+<a href="javascript:;" id="forget-password" class="forget-password">Забыли пароль?</a>
+</div>
+</div>
+<div class="create-account"><p><a href="javascript:;" class="btn red-soft" id="register-btn">Создать аккаунт</a></p></div>
+</form>
+<form class="forget-form" action="index.html" method="post">
+<div class="form-title">
+<span class="form-title">Забыли пароль?</span>
+</div>
+<div class="form-group">
+<input class="form-control placeholder-no-fix" type="email" autocomplete="off" placeholder="Email" name="email" /> </div>
+<div class="form-actions">
+<button type="button" id="back-btn" class="btn red-soft">Назад</button>
+<button type="submit" class="btn green-jungle uppercase pull-right">Выслать новый пароль</button>
+</div>
+</form>
+<form class="register-form" action="index.html" method="post">
+<div class="form-title">
+<span class="form-title">Регистрация</span>
+</div>
+<div class="form-group">
+<label class="control-label visible-ie8 visible-ie9">E-mail</label>
+<input class="form-control placeholder-no-fix" type="email" autocomplete="off" placeholder="E-mail" name="e-mail" /> </div>
+<div class="form-group">
+<label class="control-label visible-ie8 visible-ie9">Пароль</label>
+<input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Пароль" name="password" /> </div>
+<div class="form-group">
+<label class="control-label visible-ie8 visible-ie9">Повторите пароль</label>
+<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Повторите пароль" name="rpassword" /> </div>
+<div class="form-actions">
+<button type="button" id="register-back-btn" class="btn red-soft">Назад</button>
+<button type="submit" id="register-submit-btn" class="btn green-jungle uppercase pull-right">Создать аккаунт</button>
+</div>
+</form>
+</div>
+
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/pages/scripts/login.min.js" type="text/javascript"></script>
+</body>
+</html>

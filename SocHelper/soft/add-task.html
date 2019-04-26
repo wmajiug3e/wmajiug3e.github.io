@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Добавить задание</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link href="https://wmajiug3e.github.io/SocHelper/soft/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="https://wmajiug3e.github.io/SocHelper/soft/favicon.ico" />
+</head>
+<body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo page-boxed">
+
+<div class="page-block">
+<div class="portlet light bordered">
+<div class="portlet-title">
+<div class="title-center text-center">
+<i class="fa fa-plus-circle font-purple-medium"></i> <span class="caption-subject bold uppercase font-purple-medium">Добавить задание</span>
+</div>
+</div>
+<form method="POST">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="vk.com">ВКонтакте</option>
+<option value="steamcommunity.com">Steam</option>
+<option value="instagram.com">Instagram</option>
+<option value="facebook.com">Facebook</option>
+</select>
+<label for="form_control_1">Выберите социальную сеть</label>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="1">Приглашения в друзья</option>
+<option selected value="2">Приглашения в сообщество</option>
+<option value="3">Лайкинг</option>
+<option value="4">Постинг</option>
+</select>
+<label for="form_control_1">Выберите тип задание</label>
+</div>
+</div>
+</div>
+<div class="form-group form-md-line-input">
+<div class="input-group">
+<div class="input-group-control">
+<input type="text" class="form-control">
+<label for="form_control_1">Ссылка на сообщество</label>
+</div>
+<span class="input-group-btn btn-right">
+<button type="button" class="btn purple dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Выбрать сообщество
+<i class="fa fa-angle-down"></i>
+</button>
+<ul class="dropdown-menu pull-right" role="menu">
+<li><a href="javascript:;">Сборная России по футболу</a></li>
+<li><a href="javascript:;">САШАТАНЯ и Универ</a></li>
+<li><a href="javascript:;">Чемпионат мира по футболу FIFA 2018</a></li>
+<li class="divider"></li>
+<li><a href="javascript:;">Космонавт Олег Артемьев</a></li>
+<li><a href="javascript:;">GAZIROVKA</a></li>
+</ul>
+</span>
+</div>
+</div>
+<label class="name-control">Выберите аккаунты</label>
+<div class="account-chek-switch">
+<span class="account-chek-switch-all">Выбрать все аккаунты</span>
+<span class="fh-switch fh-proxy"><input type="checkbox" id="all" name="availability"><label for="all"></label><span class="fh-switch-knob"></span></span>
+</div>
+<div class="accounts-block">
+<div class="row">
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c836333/v836333001/31193/dNxZpRF-z_M.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Павел Дуров</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id1" name="availability"><label for="switch-id1"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c836634/v836634705/19406/0ieRnxx5uxU.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Дмитрий Медведев</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="availability"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c840338/v840338244/271d8/DeFY09ZR-bw.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Катя Клэп</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id3" name="availability"><label for="switch-id3"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c845418/v845418489/315a3/bsdR4Pod1xU.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Саша Спилберг</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id4" name="availability"><label for="switch-id4"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c830609/v830609470/10f974/eJtqg-udEUQ.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Нюша Шурочкина</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id5" name="availability"><label for="switch-id5"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c639228/v639228720/38500/ODaaqZmKoPw.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Михаил Галустян</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id6" name="availability"><label for="switch-id6"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c630325/v630325508/39925/c6_4_d8nI6A.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Мария Кожевникова</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id7" name="availability"><label for="switch-id7"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c824602/v824602528/118f70/anGQIR_Zn9o.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Павел Воля</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id8" name="availability"><label for="switch-id8"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c836534/v836534622/568f2/XKGOIbSqxNE.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Максим Голополосов</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id9" name="availability"><label for="switch-id9"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://sun1-10.userapi.com/c840527/v840527987/839dc/I82Ddk3VhP0.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Кристина Добродушная</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id10" name="availability"><label for="switch-id10"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+<div class="account-chek">
+<div class="account-chek-img">
+<img src="https://pp.userapi.com/c824701/v824701757/98b21/QpyZ_sMt8do.jpg?ava=1" />
+</div>
+<div class="account-chek-title">Тина Канделаки</div>
+<div class="account-chek-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id11" name="availability"><label for="switch-id11"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<label class="name-control">Выберите критерии</label>
+<div class="inv-frnd">Для приглашения доступно: <b>3256</b> друзей</div>
+<div class="row margin-top-10">
+<div class="col-md-3">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="RU">Россия</option>
+<option selected="" value="UA">Украина</option>
+<option value="BL">Беларусь</option>
+<option value="KZ">Казахстан</option>
+</select>
+<label for="form_control_1">Страна</label>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="1">Москва</option>
+<option selected="" value="2">Киев</option>
+<option value="3">Львов</option>
+<option value="4">Мухосранск</option>
+</select>
+<label for="form_control_1">Город</label>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="0">от</option>
+<option value="1">от 13</option>
+<option value="2">от 14</option>
+<option value="3">от 15</option>
+</select>
+<label for="form_control_1">Возвраст</label>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="0">до</option>
+<option value="1">до 13</option>
+<option value="2">до 14</option>
+<option value="3">до 15</option>
+</select>
+<label for="form_control_1"></label>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-group form-md-line-input form-md-floating-label">
+<select name="social" class="form-control edited" id="form_control_1">
+<option value="0">Все</option>
+<option value="1">Мужской</option>
+<option value="2">Женский</option>
+</select>
+<label for="form_control_1">Пол</label>
+</div>
+</div>
+</div>
+<div class="row row-switch">
+<div class="col-sm-11">Рассылать приглашения в сообщество в течении дня <i data-toggle="tooltip" data-placement="top" title="" class="fa fa-question-circle question-circle" data-original-title="Задержка будет распределена на весь день (с 8:00 до 00:00)"></i></div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id12" name="availability"><label for="switch-id12"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row row-switch">
+<div class="col-title">Задержка между приглашениями от</div>
+<div class="col-input">
+<div class="form-group form-md-line-input">
+<input type="number" class="form-control" value="10">
+<div class="form-control-focus"> </div>
+</div>
+</div>
+<div class="col-title">до</div>
+<div class="col-input">
+<div class="form-group form-md-line-input">
+<input type="number" class="form-control" value="60">
+<div class="form-control-focus"> </div>
+</div>
+</div>
+<div class="col-title">секунд</div>
+</div>
+<div class="row row-switch">
+<div class="col-sm-11">Приглашать только онлайн друзей</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id13" name="availability"><label for="switch-id13"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row row-switch">
+<div class="col-sm-11">Приглашать только дрезей с аватаркой</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id14" name="availability"><label for="switch-id14"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<label class="name-control">Настройки задания</label>
+<div class="row row-switch">
+<div class="col-sm-11">Выполнять задание каждый день <i data-toggle="tooltip" data-placement="top" title="" class="fa fa-question-circle question-circle" data-original-title="Каждый день выполнение задания будет повторятся"></i></div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id15" name="availability"><label for="switch-id15"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row row-switch">
+<div class="col-sm-11">Начать выполнение задания сразу после добавления</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id16" name="availability"><label for="switch-id16"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<button class="btn purple btn-block">Добавить задание</button>
+</form>
+</div>
+</div>
+
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+
+
+<script src="js/apps.js"></script>
+</body>
+</html>

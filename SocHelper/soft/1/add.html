@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Добавить аккаунт</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper-login">
+<div class="title"><i class="fas fa-plus"></i> Добавить аккаунт</div>
+<div class="login-block">
+<form method="POST">
+<div class="soclogblock">
+<label>Выберите социальную сеть</label>
+<select name="social">
+<option value="vk.com" selected="">ВКонтакте</option>
+<option value="steamcommunity.com">Steam</option>
+<option value="instagram.com">Instagram</option>
+<option value="facebook.com">FaceBook</option>
+</select>
+</div>
+<div class="proxytitle">Спарсить имя с аккаунта <span class="question-circle" data-container="body" data-toggle="popover"  data-placement="top" data-content="Использовать имя и фамилию с авторизованного аккаунта">
+<i class="fas fa-question-circle"></i></span></div>
+<div class="proxyswitch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id1" name="auto-parse"><label for="switch-id1"></label><span class="fh-switch-knob"></span></span>
+</div>
+<div class="nameaddaccount">
+<div class="with-placeholder placeholderlog">
+<input name="name" type="text" required=""><span>Имя аккаунта</span>
+</div>
+</div>
+<div class="proxytitle">Вложенные вкладки</div>
+<div class="proxyswitch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id5" name="multi-tabs"><label for="switch-id5"></label><span class="fh-switch-knob"></span></span>
+</div>
+<div style="clear: both;">
+<div class="proxytitle">Использовать прокси</div>
+<div class="proxyswitch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="proxy-enabled"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="proxytype">
+<label style="font-size: 12px;margin-bottom: 0px;margin-top: 8px;">Тип прокси</label>
+<select name="proxy-type" style="width: 138px;">
+<option value="http">HTTP</option>
+<option value="https">HTTPS</option>
+<option value="socks5">SOCKS5</option>
+</select>
+</div>
+<div class="proxynow"><div class="with-placeholder placeholderlog"><input name="proxy-server" type="text" required=""><span>Прокси</span></div></div>
+<div class="proxyport"><div class="with-placeholder placeholderlog"><input name="proxy-port" type="text" required=""><span>Порт</span></div></div>
+<div class="proxytitle">Необходима аутентификация прокси</div>
+<div class="proxyswitch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id3" name="proxy-need-auth"><label for="switch-id3"></label><span class="fh-switch-knob"></span></span>
+</div>
+<div class="proxylog"><div class="with-placeholder placeholderlog"><input name="proxy-login" type="text" required=""><span>Логин</span></div></div>
+<div style="padding-bottom:25px;" class="proxypas"><div class="with-placeholder placeholderlog"><input name="proxy-password" type="text" required=""><span>Пароль</span></div></div>
+<button type="submit" class="bigbutton">Перейти к авторизации</button>
+</form>
+</div>
+<div class="copyright">© SocHelper.Pro</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>

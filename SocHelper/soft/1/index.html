@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Авторизация</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="preloader" class="preloader">
+<div class="loader">
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>
+<div class="bar4"></div>
+<div class="bar5"></div>
+<div class="bar6"></div>
+</div>
+</div>
+<div class="wrapper-login">
+<div class="logo-title"><img src="logo.png" /></div>
+<div class="login-block">
+<div class="soclogblock">
+Для работы с программой авторизуйтесь
+<div class="btn-group btn-group-lg soclogbutton" role="group" aria-label="Basic example">
+<button type="button" class="buttontable">Авторизация</button>
+<button onclick="location.href='regpage.html'" type="button" class="socbutton">Регистрация</button>
+</div>
+</div>
+<form action="" method="POST">
+<div class="with-placeholder placeholderlog">
+<input name="email" type="email" required=""><span>E-mail</span>
+</div>
+<div class="with-placeholder placeholderlog">
+<input name="password" type="password" required=""><span>Пароль</span>
+</div>
+<div style="margin-bottom:30px;" class="proxytitle">Запомнить аккаунт</div>
+<div class="proxyswitch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="availability"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span>
+</div>
+</form>
+<button class="bigbutton">Войти</button>
+<div class="forgotblock">
+<a href="forgotpass.html">Забыли пароль?</a>
+</div>
+
+</div>
+<div class="copyright">© SocHelper.Pro</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>

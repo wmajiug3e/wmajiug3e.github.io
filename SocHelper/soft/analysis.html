@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>SocHelper</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="js/amcharts.js"></script>
+<script type="text/javascript" src="js/pie.js"></script>
+</head>
+<body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo page-boxed">
+  <script type="text/javascript">
+  			AmCharts.makeChart("chartdiv",
+  				{
+  					"type": "pie",
+  					"angle": 50.4,
+  					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+  					"depth3D": 15,
+  					"innerRadius": 0,
+  					"labelText": "",
+  					"baseColor": "#2A8300",
+  					"marginBottom": 0,
+  					"marginTop": 0,
+  					"titleField": "category",
+  					"valueField": "column-1",
+  					"accessibleTitle": "",
+  					"allLabels": [],
+  					"balloon": {},
+  					"titles": [],
+  					"dataProvider": [
+  						{
+  							"category": "Живые страницы",
+  							"column-1": "14368"
+  						},
+  						{
+  							"category": "Временно замороженые",
+  							"column-1": "2356"
+  						},
+  						{
+  							"category": "Заблокированые навсегда",
+  							"column-1": "458"
+  						},
+  						{
+  							"category": "Удаленные",
+  							"column-1": "275"
+  						},
+  						{
+  							"category": "Неактивные",
+  							"column-1": "98"
+  						}
+  					]
+  				}
+  			);
+  		</script>
+<div class="container">
+<div class="block-container">
+<div class="page-sidebar-wrapper">
+<div class="page-sidebar navbar-collapse collapse">
+<ul class="page-sidebar-menu  page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+<li class="nav-item start ">
+<a href="javascript:;" class="nav-link nav-toggle">
+<i class="icon-user"></i> <span class="title">Друзья/Подписчики</span><span class="arrow"></span></a>
+<ul class="sub-menu">
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Анализ страницы</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Удаление друзей</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Удаление подписчиков</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Исходящие заявки</span></a></li>
+</ul>
+</li>
+<li class="nav-item start ">
+<a href="javascript:;" class="nav-link nav-toggle">
+<i class="icon-envelope"></i> <span class="title">Сообщения</span><span class="arrow"></span></a>
+<ul class="sub-menu">
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Прочитать все диалоги</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Удалить диалог</span></a></li>
+</ul>
+</li>
+<li class="nav-item start ">
+<a href="javascript:;" class="nav-link nav-toggle">
+<i class="icon-users"></i> <span class="title">Сообщества</span><span class="arrow"></span></a>
+<ul class="sub-menu">
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Анализ сообщества</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Удаление подписчиков</span></a></li>
+<li class="nav-item start "><a href="#" class="nav-link"><span class="title">Очистка сообщества</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="page-content-wrapper">
+<div class="page-content">
+<div class="page-head">
+<div class="portlet light bordered">
+<div class="portlet-title">
+<div class="title-center text-center">
+<span class="caption-subject bold uppercase font-purple-medium">Анализ сообщества</span>
+</div>
+</div>
+<form method="POST">
+<div class="form-group form-md-line-input">
+<div class="input-group">
+<div class="input-group-control">
+<input type="text" class="form-control">
+<label for="form_control_1">Ссылка на сообщество</label>
+</div>
+<span class="input-group-btn btn-right">
+<button type="button" class="btn purple dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Выбрать сообщество
+<i class="fa fa-angle-down"></i>
+</button>
+<ul class="dropdown-menu pull-right" role="menu">
+<li><a href="javascript:;">Сборная России по футболу</a></li>
+<li><a href="javascript:;">САШАТАНЯ и Универ</a></li>
+<li><a href="javascript:;">Чемпионат мира по футболу FIFA 2018</a></li>
+<li class="divider"></li>
+<li><a href="javascript:;">Космонавт Олег Артемьев</a></li>
+<li><a href="javascript:;">GAZIROVKA</a></li>
+</ul>
+</span>
+</div>
+</div>
+<p class="text-center">Выберите тип страниц участников сообщества:</p>
+<div class="row">
+<div class="col-sm-11">Заблокированые навсегда</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id1" name="availability"><label for="switch-id1"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-11">Временно замороженые</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="availability"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-11">Удаленные страницы</div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id3" name="availability"><label for="switch-id3"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-11">Неактивные страницы <span class="question-circle" data-toggle="tooltip" data-placement="top" title="Страницы, на которые не заходили более 90 дней"><i class="fa fa-question-circle"></i></span></div>
+<div class="col-sm-1 col-switch">
+<span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id4" name="availability"><label for="switch-id4"></label><span class="fh-switch-knob"></span></span>
+</div>
+</div>
+<button class="btn purple btn-block">Начать анализ</button>
+</div>
+</form>
+<div class="portlet light bordered">
+<div class="portlet-title">
+<div class="title-center text-center">
+<span class="caption-subject bold uppercase font-purple-medium">Результаты анализа сообщества</span>
+</div>
+</div>
+По результатам анализа в сообщесте <b><a href="#" target="_blank">Christina Aguilera</a></b> из <b>17529</b> подписчиков найдено <b>3258</b> "мертвых" страниц, что составляет <b>36.55%</b> от общего числа подписчиков.
+<br>Из них <b>2536</b> замороженые, <b>536</b> заблокированы навсегда, <b>336</b> удаленные и <b>98</b> неактивные.
+<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+<button class="btn btn-block purple">Очистить сообщество</button>
+</div>
+<div class="portlet light bordered">
+<div class="portlet-title">
+<div class="title-center text-center">
+<span class="caption-subject bold uppercase font-purple-medium">Список "мертвых" подписчиков</span>
+</div>
+</div>
+<div class="btn-group">
+<a class="btn purple" href="javascript:;" data-toggle="dropdown" aria-expanded="false">
+<i class="fa fa-save"></i> Сохранить <i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="javascript:;">Сохранить ID</a></li>
+<li><a href="javascript:;">Сохранить ссылки</a></li>
+</ul>
+</div>
+<div class="table-scrollable table-scrollable-borderless">
+<table class="table table-hover table-light">
+<thead>
+<tr class="uppercase">
+<th>ID</th>
+<th>Имя</th>
+<th>Тип</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#" target="_blank">id1</a></td>
+<td>Павел Дуров</td>
+<td><span class="label label-sm label-danger">Заблокирован</span></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">id5458674568</a></td>
+<td>Надюша Ларина</td>
+<td><span class="label label-sm label-warning">Заморожен</span></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">id490736639</a></td>
+<td>Edik Cheh</td>
+<td><span class="label label-sm label-info">Удален</span></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">id490736466</a></td>
+<td>Анастасия Лукьяненка</td>
+<td><span class="label label-sm label-success">Неактивный</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<button type="button" class="btn default btn-block">Показать все</button>
+</div>
+<div class="portlet light bordered">
+<div class="portlet-title">
+<div class="title-center text-center">
+<span class="caption-subject bold uppercase font-purple-medium">Последние анализы сообществ</span>
+</div>
+</div>
+<div class="table-scrollable table-scrollable-borderless">
+<table class="table table-hover table-light">
+<thead>
+<tr class="uppercase">
+<th>Сообщество</th>
+<th>Подписчиков</th>
+<th>Мертвых</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#" target="_blank">public148235461</a></td>
+<td>47549</td>
+<td>3586 (12%)</td>
+<td><button type="button" class="btn purple btn-block btn-xs">Результат</button></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">public148235461</a></td>
+<td>47549</td>
+<td>3586 (12%)</td>
+<td><button type="button" class="btn purple btn-block btn-xs">Результат</button></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">public148235461</a></td>
+<td>47549</td>
+<td>3586 (12%)</td>
+<td><button type="button" class="btn purple btn-block btn-xs">Результат</button></td>
+</tr>
+<tr>
+<td><a href="#" target="_blank">public148235461</a></td>
+<td>47549</td>
+<td>3586 (12%)</td>
+<td><button type="button" class="btn purple btn-block btn-xs">Результат</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+
+
+<script src="js/apps.js"></script>
+</body>
+</html>

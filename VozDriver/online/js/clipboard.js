@@ -1,0 +1,1 @@
+var ClipboardDemo={init:function(){new Clipboard("[data-clipboard=true]").on("success",function(e){e.clearSelection(),alert("Промокод скопирован!")})}};jQuery(document).ready(function(){ClipboardDemo.init()});

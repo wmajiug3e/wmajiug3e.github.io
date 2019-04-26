@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Список заданий</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="header-tasks">
+<div class="container">
+Список заданий
+<a class="addtaskbutton" href="#add" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus-circle"></i> Добавить задание</a>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-task" role="document">
+<div class="modal-content modal-addtask">
+<div class="modal-body modal-body-task">
+<button type="button" class="close close-tasks" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<div class="soclogblock">
+<div>Выберите социальную сеть</div>
+<div class="btn-group btn-group-lg soclogbutton" role="group" aria-label="Basic example">
+<button type="button" class="socbuttonvk"><i class="fab fa-vk"></i></button>
+<button type="button" class="socbutton"><i class="fab fa-instagram"></i></button>
+<button type="button" class="socbutton"><i class="fab fa-facebook"></i></button>
+<button type="button" class="socbutton"><i class="fab fa-twitter"></i></button>
+</div>
+</div>
+<div class="modal-task-title">Выберите аккаунты</div>
+<div class="row">
+<div class="col">Выбрать все аккаунты</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id1" name="availability"><label for="switch-id1"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row">
+<div class="col">
+<div class="task-account-list">
+<div class="row">
+<div style="padding-right:0px;" class="col-auto"><img src="https://pp.userapi.com/c836333/v836333001/31193/dNxZpRF-z_M.jpg" /></div>
+<div class="col">Павел Дуров</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id2" name="availability"><label for="switch-id2"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="task-account-list">
+<div class="row">
+<div style="padding-right:0px;" class="col-auto"><img src="https://pp.userapi.com/c836634/v836634705/19407/MvdMwQP6N0k.jpg" /></div>
+<div class="col">Дмитрий Медведев</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id3" name="availability"><label for="switch-id3"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="task-account-list">
+<div class="row">
+<div style="padding-right:0px;" class="col-auto"><img src="https://pp.userapi.com/c836626/v836626643/5e06a/Qv2NK15Ohi0.jpg" /></div>
+<div class="col">Николай Соболев</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id4" name="availability"><label for="switch-id4"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="task-account-list">
+<div class="row">
+<div style="padding-right:0px;" class="col-auto"><img src="https://sun9-6.userapi.com/c830109/v830109122/a8135/b7bToEQW-ZA.jpg" /></div>
+<div class="col">Юрий Хованский</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id5" name="availability"><label for="switch-id5"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-task-title">Выберите задание</div>
+<div class="row" style="margin-top: -15px;">
+<div class="col">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Выбрать задание</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">Приглашения в друзья</li>
+<li class="option" data-value="community">Приглашения друзей в сообщество</li>
+<li class="option" data-value="friendly">Автолайкинг</li>
+<li class="option" data-value="community">Постинг в сообщество</li>
+</ul>
+</div>
+</label>
+</div>
+</div>
+<div class="modal-task-title">Настройки задания</div>
+<div class="row" style="margin-top: -15px;">
+<div class="col" style="padding-right:0px;">
+<div class="with-placeholder"><input type="text" required=""><span>Ссылка на Ваше сообщество</span></div>
+</div>
+<div class="btn-group group-comm">
+<button type="button" class="btn btn-comm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="sr-only">Toggle Dropdown</span>
+</button>
+<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; transform: translate3d(31px, 26px, 0px); top: 0px; left: 0px; will-change: transform;">
+<h6 class="dropdown-header">Ваши сообщества</h6>
+<a class="dropdown-item" href="#">КХЛ</a>
+<a class="dropdown-item" href="#">MANIZHA</a>
+<h6 class="dropdown-header">Остальные сообщества</h6>
+<a class="dropdown-item" href="#">BitJournal</a>
+<a class="dropdown-item" href="#">JASKIER</a>
+</div>
+</div>
+</div>
+<div class="row" style="margin-top: 25px;">
+<div class="col">Использовать критерии</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id7" name="availability"><label for="switch-id7"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row">
+<div class="col-1" style="margin-top: 25px;">Пол</div>
+<div class="col-3">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Пол</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">Мужской</li>
+<li class="option" data-value="community">Женский</li>
+</ul>
+</div>
+</label>
+</div>
+<div class="col-1" style="margin-top: 25px;">Возвраст</div>
+<div class="col-2">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>от</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">18</li>
+<li class="option" data-value="community">32</li>
+</ul>
+</div>
+</label>
+</div>
+<div class="col-2">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>до</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">18</li>
+<li class="option" data-value="community">32</li>
+</ul>
+</div>
+</label>
+</div>
+</div>
+<div class="row">
+<div class="col-auto" style="margin-top: 25px;">Страна</div>
+<div class="col-3">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Выбрать</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">Россия</li>
+<li class="option" data-value="community">Украина</li>
+</ul>
+</div>
+</label>
+</div>
+<div class="col-auto" style="margin-top: 25px;">Город</div>
+<div class="col-5">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Выбрать</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="friendly">Залупанцево</li>
+<li class="option" data-value="community">Мухосранск</li>
+</ul>
+</div>
+</label>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="with-placeholder"><input type="text" required="" value="https://vk.com/search?c[section]=people"><span>Ссылка критериев</span></div>
+</div>
+</div>
+<div class="row">
+<div class="col-auto" style="margin-top: 25px;">Лимит для каждого аккаунта</div>
+<div class="col-7">
+<div class="with-placeholder"><input type="text" required="" value="40"><span>Количество приглашений</span></div>
+</div>
+</div>
+<div class="row" style="margin-top: 25px;">
+<div class="col">Выполнять задание в течении дня <span class="question-circle" data-container="body" data-toggle="popover" data-placement="top" data-content="Задание будет выполняться в течении дня, задержка всех действий будет распределена на весь день" data-original-title="" title="">
+<i class="fas fa-question-circle"></i></span></div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id11" name="availability"><label for="switch-id11"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row">
+<div class="col-auto" style="margin-top: 25px;">Задержка между приглашениями</div>
+<div class="col-2">
+<div class="with-placeholder"><input type="text" required="" value="20"><span>от</span></div>
+</div>
+<div class="col-2">
+<div class="with-placeholder"><input type="text" required="" value="60"><span>до</span></div>
+</div>
+<div class="col-auto" style="margin-top: 25px;">Секунд</div>
+</div>
+<div class="row" style="margin-top: 25px;">
+<div class="col">Приглашать только онлайн пользователей</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id8" name="availability"><label for="switch-id8"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<div class="row" style="margin-top: 25px;">
+<div class="col">Выполнять задание каждый день</div>
+<div class="col-auto"><span class="fh-switch fh-proxy"><input type="checkbox" id="switch-id9" name="availability"><label for="switch-id9"></label><span class="fh-switch-knob"></span></span></div>
+</div>
+<button style="margin-top:25px;" class="bigbuttontask" data-dismiss="modal">Добавить задание</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="wrapper-block">
+<!-- <div class="notasks">У вас еще нету заданий</div> -->
+<div class="tasks-list">
+<div class="row">
+<div class="col-4"><i class="fab fa-vk"></i> Приглашения в сообщество <i data-toggle="tooltip" data-placement="top" title="Задание выполняется каждый день автоматически" class="far fa-calendar-alt"></i></div>
+<div class="col">
+<div class="progress" style="height:20px;">
+<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="col-auto">
+<button data-toggle="tooltip" data-placement="top" title="Приостановить" class="tasks-list-button" href="#pause"><i class="fas fa-pause"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Редактировать" class="tasks-list-button" href="#edit"><i class="fas fa-cog"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Удалить" class="tasks-list-button" href="#delete"><i class="fas fa-times"></i></button>
+</div>
+</div>
+</div>
+<div class="tasks-list">
+<div class="row">
+<div class="col-4"><i class="fab fa-vk"></i> Приглашения в друзья</div>
+<div class="col">
+<div class="progress" style="height:20px;">
+<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="col-auto">
+<button data-toggle="tooltip" data-placement="top" title="Приостановить" class="tasks-list-button" href="#pause"><i class="fas fa-pause"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Редактировать" class="tasks-list-button" href="#edit"><i class="fas fa-cog"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Удалить" class="tasks-list-button" href="#delete"><i class="fas fa-times"></i></button>
+</div>
+</div>
+</div>
+<div class="tasks-list">
+<div class="row">
+<div class="col-4"><i class="fab fa-vk"></i> Автолайкинг <i data-toggle="tooltip" data-placement="top" title="Задание выполняется до тех пор пока его не остановите" class="fas fa-sync"></i></div>
+<div class="col">
+<div class="progress" style="height:20px;">
+<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Выполняется</div>
+</div>
+</div>
+<div class="col-auto">
+<button data-toggle="tooltip" data-placement="top" title="Приостановить" class="tasks-list-button" href="#pause"><i class="fas fa-pause"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Редактировать" class="tasks-list-button" href="#edit"><i class="fas fa-cog"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Удалить" class="tasks-list-button" href="#delete"><i class="fas fa-times"></i></button>
+</div>
+</div>
+</div>
+<div class="tasks-list">
+<div class="row">
+<div class="col-4"><i class="fab fa-vk"></i> Постинг в сообщество</div>
+<div class="col">
+<div class="progress" style="height:20px;">
+<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="col-auto">
+<button data-toggle="tooltip" data-placement="top" title="Приостановить" class="tasks-list-button" href="#pause"><i class="fas fa-pause"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Редактировать" class="tasks-list-button" href="#edit"><i class="fas fa-cog"></i></button>
+<button data-toggle="tooltip" data-placement="top" title="Удалить" class="tasks-list-button" href="#delete"><i class="fas fa-times"></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright">© SocHelper.Pro</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>

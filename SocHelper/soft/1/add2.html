@@ -1,0 +1,67 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Настройки аккаунта</title>
+    <style>
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <div>
+            <label>Социальная сеть</label>
+            <select name="social">
+                <option value="vk.com" selected="">VK</option>
+                <option value="steamcommunity.com">Steam</option>
+            </select>
+        </div>
+        <div>
+            <label>Автоматически спарсить имя аккаунта и аватарку</label>
+            <input type="checkbox" name="auto-parse">
+        </div>
+        <div>
+            <label>Имя аккаунта</label>
+            <input type="text" name="name" required="">
+        </div>
+        <div>
+            <label>Вложенные вкладки</label>
+            <input type="checkbox" name="multi-tabs">
+        </div>
+        <div>
+            <label>Использовать прокси</label>
+            <input type="checkbox" name="proxy-enabled">
+        </div>
+        <div>
+            <label>Тип прокси</label>
+            <select name="proxy-type">
+                <option value="http">HTTP</option>
+                <option value="https">HTTPS</option>
+                <option value="socks5">SOCKS5</option>
+            </select>
+        </div>
+        <div>
+            <label>Прокси сервер</label>
+            <input type="text" name="proxy-server">
+        </div>
+        <div>
+            <label>Прокси Порт</label>
+            <input type="text" name="proxy-port">
+        </div>
+        <div>
+            <label>Необходима аутентификация прокси</label>
+            <input type="checkbox" name="proxy-need-auth">
+        </div>
+        <div>
+            <label>Прокси логин</label>
+            <input type="text" name="proxy-login">
+        </div>
+        <div>
+            <label>Прокси пароль</label>
+            <input type="text" name="proxy-password">
+        </div>
+        <button type="submit">Сохранить</button>
+    </form>
+
+
+</body></html>

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400i');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import "bootstrap.css";
+
+body {font-size: 1.25rem;background: #cdcdcd;font-family: 'Roboto', sans-serif;}
+
+.featurette {margin-bottom: 2rem;}
+.imgopacily {opacity: 0.3;}
+.aboutblock {background: url(../img/slider3.jpg) no-repeat center top fixed;background-size: 100% 100%;padding-top: 15px;font-size: 1.5rem;font-weight: inherit;}
+.taxinumber {font-size: 2rem;padding-bottom: 15px;}
+.taxinumber a {color: #212529;text-decoration: none;}
+.taxi-number {padding-bottom: 15px;}
+.otzvblock {text-align: center;}
+.otzvtitle {text-align: center;font-size: 2rem;margin-top: 15px;margin-bottom: 1rem;}
+.featurette {font-size: 2rem;}

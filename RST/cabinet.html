@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Мои машины</title>
+<link rel="shortcut icon" href='http://i.rst.ua/favicon.gif' />
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+<span class="navbar-brand">
+<a href="index.html"><img class="logo" src="logo.svg"></a>
+<a href="add.html" class="btn btn-success"><i class="fas fa-plus-circle"></i> Продать авто</a>
+</span>
+<ul class="navbar-nav ml-md-auto">
+<li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> На главную</a></li>
+</ul>
+</div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col-lg">
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_green">Предложений обмена: 4</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/audi/80/big/9289431-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам Audi 80</a>
+</div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>80 700 грн</span> • $2 900</div>
+<div class="car_year"><b>Год:</b> 1990, (224000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 2.0 Газ/Бензин</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Ивано-Франковск</div>
+<div class="car_state"><b>Состояние:</b> Нормальное</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+Надежная и не дорогая в обсл. Ауди в Хорошем! состоянии, не гнилая и не ржавая, Кондер заправлен. Заменено: масло...
+</div>
+<div class="car_data">Размещено 24.01.2019</div>
+<div class="row" style="margin-top: 4px;">
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-success btn-block"><i class="fas fa-sync-alt"></i> Обновить дату</button>
+</div>
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#edit"><i class="far fa-edit"></i> Редактировать</button>
+</div>
+<div class="col-md-4 col-sm-right margin-bottom-15">
+<a href="addphoto.html" class="btn btn-primary btn-block"><i class="far fa-images"></i> Фотографии</a>
+</div>
+<div class="col-md-6 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#exchange"><i class="fas fa-retweet"></i> Настройки обмена</button>
+</div>
+<div class="col-md-6 col-sm-right margin-bottom-15">
+<button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#del"><i class="far fa-trash-alt"></i> Удалить объявление</button>
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title">Редактирование объявления</span>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1">Марка/Модель:</label>
+<input class="form-control" type="text" placeholder="Audi 80" readonly>
+</div>
+<div class="form-group">
+<label for="exampleFormControlTextarea1">Описание:</label>
+<textarea class="form-control" rows="2"></textarea>
+</div>
+<div class="form-group">
+<label for="exampleInputEmail1">Пробег:</label>
+<input type="number" class="form-control" value="200000">
+</div>
+<div class="form-group">
+<label for="exampleInputEmail1">Цена $:</label>
+<input type="number" class="form-control" value="2900">
+</div>
+<div><b>Дата:</b> 29.01.2019 в 12:35</div>
+<div><b>Просмотров:</b> 370, за сегодня 59 <button type="button" class="btn btn-light btn-sm">Обнулить</button></div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn btn-success btn-block">Сохранить</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="modal fade" id="exchange" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title">Настройка условий обмена</span>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<b>Обязательные параметры:</b>
+<div class="form-group">
+<label for="carcase" class="control-label">Тип кузова</label>
+<select id="carcase" class="form-control select2-single">
+<optgroup label="Легковые авто">
+<option value="1">Седан (4 двери)</option>
+<option value="2">Хетчбэк 4/5 дверей</option>
+<option value="3">Хетчбэк 2/3 двери</option>
+<option value="4">Купе (2 двери)</option>
+</optgroup>
+<optgroup label="Коммерческие авто">
+<option value="5">Фургон пассажир</option>
+<option value="6">Фургон груз-пасс.</option>
+<option value="7">Фургон/пикап грузовой</option>
+<option value="8">Микроавтобус пассажир</option>
+</optgroup>
+</select>
+</div>
+<div class="row">
+<div class="col-8 col-left">
+<div class="form-group">
+<label for="price-1" class="control-label">Рыночная цена $</label>
+<select id="price-1" class="form-control select2-single">
+<option></option>
+<option value="2018">200</option>
+<option value="2017">500</option>
+<option value="2016">1000</option>
+</select>
+</div>
+</div>
+<div class="col-4 col-right">
+<div class="form-group">
+<label for="price-2" class="control-label">±</label>
+<select id="price-2" class="form-control select2-single">
+<option></option>
+<option value="5">5%</option>
+<option value="10">10%</option>
+<option value="15">15%</option>
+<option value="20">20%</option>
+</select>
+</div>
+</div>
+</div>
+<b>Дополнительные параметры:</b>
+<div class="row">
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="engine-1" class="control-label">Объем двигателя, от</label>
+<select id="engine-1" class="form-control select2-single">
+<option></option>
+<option value="1.0">1.0</option>
+<option value="1.2">1.2</option>
+<option value="1.4">1.4</option>
+<option value="1.6">1.6</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="engine-2" class="control-label">до</label>
+<select id="engine-2" class="form-control select2-single">
+<option></option>
+<option value="1.0">1.0</option>
+<option value="1.2">1.2</option>
+<option value="1.4">1.4</option>
+<option value="1.6">1.6</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="fuel" class="control-label">Топливо</label>
+<select id="fuel" class="form-control select2-single">
+<option></option>
+<option value="1">Бензин</option>
+<option value="2">Дизель</option>
+<option value="3">Газ/бензин</option>
+<option value="4">Гибрид</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-left">
+<div class="form-group">
+<label for="year-1" class="control-label">Год, от</label>
+<select id="year-1" class="form-control select2-single">
+<option></option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+</select>
+</div>
+</div>
+<div class="col-6 col-right">
+<div class="form-group">
+<label for="year-2" class="control-label">до</label>
+<select id="year-2" class="form-control select2-single">
+<option></option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="state" class="control-label">Состояние</label>
+<select id="state" class="form-control select2-single">
+<option></option>
+<option value="1">Только хорошее</option>
+<option value="2">Хорошее и нормальное</option>
+<option value="3">Любое, кроме ДТП</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="gearbox" class="control-label">КПП</label>
+<select id="gearbox" class="form-control select2-single">
+<option></option>
+<option value="1">Механика</option>
+<option value="2">Автомат</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="brand" class="control-label">Марка</label>
+<select id="brand" class="form-control select2-single">
+<option></option>
+<option value="audi">Audi</option>
+<option value="bmw">BMW</option>
+<option value="vaz">ВАЗ</option>
+<option value="moskvitch">Москвич</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="model" class="control-label">Модель</label>
+<select id="model" class="form-control select2-single">
+<option value="2101">2101</option>
+<option value="2102">2102</option>
+<option value="2103">2103</option>
+<option value="2104">2104</option>
+<option value="2105">2105</option>
+<option value="2106">2106</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn btn-success btn-block">Добавить</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="modal fade" id="del" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<span class="modal-title">Удаление объявления</span>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="center margin-bottom-15 margin-top-15">Выберите причину удаления объявления</div>
+<button type="button" class="btn btn-success btn-block">Авто уже продано</button>
+<div class="center margin-bottom-15 margin-top-15">или</div>
+<button type="button" class="btn btn-warning btn-block margin-bottom-15">Неправильно заполнено</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_green">Предложений обмена: 4</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/audi/80/big/9289431-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам Audi 80</a>
+</div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>80 700 грн</span> • $2 900</div>
+<div class="car_year"><b>Год:</b> 1990, (224000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 2.0 Газ/Бензин</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Ивано-Франковск</div>
+<div class="car_state"><b>Состояние:</b> Нормальное</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+Надежная и не дорогая в обсл. Ауди в Хорошем! состоянии, не гнилая и не ржавая, Кондер заправлен. Заменено: масло...
+</div>
+<div class="car_data">Размещено 24.01.2019</div>
+<div class="row" style="margin-top: 4px;">
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-success btn-block"><i class="fas fa-sync-alt"></i> Обновить дату</button>
+</div>
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#edit"><i class="far fa-edit"></i> Редактировать</button>
+</div>
+<div class="col-md-4 col-sm-right margin-bottom-15">
+<a href="addphoto.html" class="btn btn-primary btn-block"><i class="far fa-images"></i> Фотографии</a>
+</div>
+<div class="col-md-6 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#exchange"><i class="fas fa-retweet"></i> Настройки обмена</button>
+</div>
+<div class="col-md-6 col-sm-right margin-bottom-15">
+<button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#del"><i class="far fa-trash-alt"></i> Удалить объявление</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="car_list">
+<div class="row">
+<div class="col-md-4 col-sm-left">
+<div class="alert_green">Предложений обмена: 4</div>
+<a href="car.html"><img class="car_list_img" src="http://img1.rstcars.com/oldcars/audi/80/big/9289431-1.jpg"></a>
+</div>
+<div class="col-md-8 col-sm-right">
+<div class="car_title"><a href="car.html">Продам Audi 80</a>
+</div>
+<div class="row">
+<div class="col-sm">
+<div class="car_price"><b>Цена:</b> <span>80 700 грн</span> • $2 900</div>
+<div class="car_year"><b>Год:</b> 1990, (224000 - пробег)</div>
+<div class="car_engine"><b>Двигатель:</b> 2.0 Газ/Бензин</div>
+</div>
+<div class="col-sm-auto">
+<div class="car_region"><b>Область:</b> Ивано-Франковск</div>
+<div class="car_state"><b>Состояние:</b> Нормальное</div>
+<div class="car_exchange"><i class="fas fa-sync-alt"></i> Возможен обмен</div>
+</div>
+</div>
+<div class="car_text">
+Надежная и не дорогая в обсл. Ауди в Хорошем! состоянии, не гнилая и не ржавая, Кондер заправлен. Заменено: масло...
+</div>
+<div class="car_data">Размещено 24.01.2019</div>
+<div class="row" style="margin-top: 4px;">
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-success btn-block"><i class="fas fa-sync-alt"></i> Обновить дату</button>
+</div>
+<div class="col-md-4 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#edit"><i class="far fa-edit"></i> Редактировать</button>
+</div>
+<div class="col-md-4 col-sm-right margin-bottom-15">
+<a href="addphoto.html" class="btn btn-primary btn-block"><i class="far fa-images"></i> Фотографии</a>
+</div>
+<div class="col-md-6 col-sm-left margin-bottom-15">
+<button type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#exchange"><i class="fas fa-retweet"></i> Настройки обмена</button>
+</div>
+<div class="col-md-6 col-sm-right margin-bottom-15">
+<button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#del"><i class="far fa-trash-alt"></i> Удалить объявление</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/select2.full.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/anchor.min.js"></script>
+<script src="js/select2.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/font-awesome/css/font-awesome.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/simple-line-icons/simple-line-icons.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap/css/bootstrap.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/select2/css/select2.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/plugins/select2/css/select2-bootstrap.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/css/components-md.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/global/css/plugins-md.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/pages/css/login-2.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/css/layout.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/css/themes/light.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/assets/layouts/layout4/css/custom.min.css');
+@import url('https://wmajiug3e.github.io/SocHelper/soft/profile.min.css');
+@import "inputs.css";
+
+body {background: #e9ecf3;}
+
+.logo-img {height: 90px;}
+@media (max-width: 768px) { .logo img {height: 60px;} }
+.login-background {background: -webkit-linear-gradient(180deg, #6e51ec, #bc54cb, #fe76af)!important;}
+.login .content .form-title {text-align: center;}
+.login .content .form-control {background-color: rgba(0, 0, 0, 0.2);border: 0px;color: #fff;}
+.login .content .form-control:focus {border: 0px;}
+.add-account-block {max-width: 450px;margin: auto;margin-top: 100px;}
+.setting-block {width: 680px;margin: auto;margin-top: 100px;}
+.page-block {width: 800px;margin: auto;margin-top: 15px;}
+.margin-botton {margin-bottom: 20px;}
+.form-group.form-md-line-input {margin: 0 0 20px;}
+.form-group.form-md-line-input .form-control~label {font-size: 13px;}
+.title-center {font-size: 18px;line-height: 18px;padding: 10px 0;}
+.all-account-block {margin-top: 20px;}
+.profile-list {display: block;height: 80px;background-color: #fff;box-shadow: 0 2px 3px 2px rgba(0,0,0,.03);padding: 15px;margin: 20px 0px;}
+.acc-ava {float: left;margin-right: 15px;}
+.acc-ava img {width: 50px;}
+.acc-name {float: left;margin-top: 5px;}
+.profile-list a {color: #93a3b5;}
+.profile-list a:hover {color: #8392a3;text-decoration: none;}
+.col-switch {margin-bottom: 15px;}
+.page-header.navbar .page-logo .logo-default {margin: 20px 10px 0;}
+.page-header.navbar {background: linear-gradient(45deg, #6e51ec, #bc54cb, #fe76af);background: -webkit-linear-gradient(45deg, #6e51ec, #bc54cb, #fe76af);}
+.page-header.navbar .menu-toggler {background-image: url(assets/layouts/layout4/img/menu.png);opacity: 0.3;}
+.page-header.navbar .menu-toggler:hover {opacity: 0.5;}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle>i {color: #fff;}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover {background-color: rgba(0, 0, 0, 0.1);}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:focus {background-color: rgba(0, 0, 0, 0.1);}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:active {background-color: rgba(0, 0, 0, 0.1);}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle {background-color: rgba(0, 0, 0, 0.1);}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {color: #fff;}
+@media (max-width: 768px) { .page-header.navbar .page-top {padding: 0;display: grid;width: none;} }
+@media (min-width: 992px) {.page-content-wrapper .page-content {padding: 0px 0 0 20px;}}
+@media (min-width: 1260px) {.container {width: 1000px;}}
+.question-circle {color: #a7bdcd;cursor: pointer;}
+.question-circle:hover {color: #5b9bd1;cursor: pointer;}
+.task-list {color: #5f6a6e;margin-top: 20px;}
+.task-button {margin-left: 3px;color: #5f6a6e;}
+.task-button:hover {color: #4b5558;}
+.name-control {font-size: 13px;color: #888;}
+.accounts-block {display: block;min-height: 35px;margin-top: 15px;margin-bottom: 15px;}
+.account-chek {margin-bottom: 15px;height: 35px;}
+.account-chek-img {float: left;}
+.account-chek-img img {width: 35px;border-radius: 50px;}
+.account-chek-title {float: left;margin-top: 8px;margin-left: 5px;}
+.account-chek-switch {float: right;padding-right: 26px;margin-top: 7px;}
+.account-chek-switch-all {margin-right: 20px;}
+.accounts-block::-webkit-scrollbar {width: 5px;height: 5px;}
+.accounts-block::-webkit-scrollbar-track {background-color: #fff;border-radius: 5px;}
+.accounts-block::-webkit-scrollbar-thumb {background-color: #8E44AD;border-radius: 5px;}
+.inv-frnd {float: right;font-size: 13px;}
+.margin-top-10 {margin-top: 10px;}
+.row-switch {margin-right: -30px;}
+.col-left {padding-left: 0px;}
+.col-right {padding-right: 0px;}
+.col-title {float: left;padding-left: 15px;margin-right: 10px;padding-top: 6px;}
+.col-input {float: left;padding-top: 0px;width: 50px;}
+.col-input .form-md-line-input {padding-top: 0px;margin-bottom: 10px;}
+.block-container {margin-top: 15px;}

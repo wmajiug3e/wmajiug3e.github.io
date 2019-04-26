@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Покупка программы</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="logo-title"><img src="logo.png" /></div>
+<div class="container">
+<div class="wrapper-login">
+<div class="login-block">
+<div class="soclogblock">
+Выберите тариф
+<div class="btn-group btn-group-lg soclogbutton" role="group" aria-label="Basic example">
+<button type="button" class="buttontable">SocHelper Lite</button>
+<button onclick="location.href='#'" type="button" class="socbutton">SocHelper Pro</button>
+</div>
+</div>
+<form action="" method="POST">
+<div class="row">
+<div class="col">
+<div class="with-placeholder"><input name="email" type="text" required=""><span>Ваш E-mail</span></div>
+</div>
+<div class="col-4">
+<label id="img_category_label" class="field" for="img_category" data-value="" style="opacity: 1;">
+<span>Срок покупки</span>
+<div id="img_category" class="psuedo_select" name="img_category">
+<span class="selected"></span>
+<ul id="img_category_options" class="options">
+<li class="option" data-value="commercial">1 месяц</li>
+<li class="option" data-value="residential">3 месяца</li>
+<li class="option" data-value="commercial">6 месяцев</li>
+<li class="option" data-value="residential">12 месяцев</li>
+</ul>
+</div>
+</label>
+</div>
+</div>
+</form>
+<div style="margin-bottom:20px;" class="modal-task-title">Выберите способ оплаты</div>
+<div style="margin-bottom:20px;" class="row justify-content-md-center">
+<div class="col-5">
+<button class="paylist"><img class="iconpay" src="img/webmoney.svg" /> Webmoney</button>
+</div>
+<div class="col-5">
+<button class="paylist"><img class="iconpay" src="img/qiwi.svg" /> Qiwi</button>
+</div>
+<div class="w-100" style="margin-bottom:25px;"></div>
+<div class="col-5">
+<button class="paylist"><img class="iconpay" src="img/ya-money.svg" /> Яндекс.Деньги</button>
+</div>
+<div class="col-5">
+<button class="paylist"><img class="iconpay" src="img/over.svg" /> Другой способ</button>
+</div>
+</div>
+<div style="margin-bottom:20px;" class="modal-task-title">Итого к оплате: <b>250 рублей</b></div>
+<button class="bigbutton">Оплатить</button>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright">© SocHelper v.1.4</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/apps.js"></script>
+</body>
+</html>
