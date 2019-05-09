@@ -182,7 +182,7 @@
       .catalog-main.is-active {
         width: 100%; } }
     .catalog-main.is-active .catalog-col {
-      width: 25%; }
+      width: 50%; }
       @media (max-width: 1020px) {
         .catalog-main.is-active .catalog-col {
           width: 33.3333%; } }
@@ -943,3 +943,11 @@
     opacity: 0;
   }
 }
+
+.catalog-col-dlc {width: 50%;}
+
+.vk-login {border-radius: 99px;padding: 0px 8px;background: #4a76a8;margin-left: 5px;color: #fff;}
+.vk-steam {border-radius: 99px;padding: 0px 9px;background: #171a21;margin-left: 5px;color: #fff;}
+
+.comment-text {width: 100%;margin-top: 20px;border: 1px solid #ececec;height: 52px;padding: 9px 13px;border-radius: 20px;}
+.comment-text-re {width: 100%;margin-top: 5px;border: 1px solid #ececec;height: 50px;padding: 9px 13px;border-radius: 20px;}
