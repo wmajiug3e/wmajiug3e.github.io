@@ -1980,6 +1980,18 @@
 
 .game-warning-pink a {color: #efe4f3;text-decoration: underline;}
 
+.game-warning-green {
+    border: 1px solid #3ba460;
+    background-color: #42ba6c;
+}
+
+.game-warning-green .game-warning__note,
+.game-warning-green .game-warning__text {
+    color: #fff;
+}
+
+.game-warning-green a {color: #fff;text-decoration: underline;}
+
 .game-warning__note {
     width: 100%;
     font-size: 15px;

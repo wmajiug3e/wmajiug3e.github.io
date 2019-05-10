@@ -951,3 +951,5 @@
 
 .comment-text {width: 100%;margin-top: 20px;border: 1px solid #ececec;height: 52px;padding: 9px 13px;border-radius: 20px;}
 .comment-text-re {width: 100%;margin-top: 5px;border: 1px solid #ececec;height: 50px;padding: 9px 13px;border-radius: 20px;}
+.btn-comment {background-color: #ffc608;color: #000;padding: 10px 25px;border-radius: 20px;margin-top: 10px;float: right;margin-bottom: 20px;}
+.btn-comment:hover {background-color: #e8b300;} 
