@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import "bootstrap.css";
+
+
+body {background: #fff;font-family: 'Roboto', sans-serif;font-size: 14px;}
+
+.logo {height: 47px;}
+/* Шапка №1 */
+.header_1 {background-color: #fff;}
+.header_1-scroller {background-color: #3a3f45;text-transform: uppercase;margin-bottom: 30px;height: 2.75rem;}
+.header_1-scroller .container {padding: 0px;}
+.search-header_1 {padding: 0px;}
+.search-header_1 .form-control {border: 2px solid #727272;font-size: 14px;}
+.search-header_1 .form-control:focus {border: 2px solid #636363;}
+.search-btn_1 {position: absolute;top: 11;right: 10;background: none;border: none;color: #727272;}
+.search-btn_1:hover {color: #636363;cursor: pointer;}
+.search-btn_1:focus {outline: none;}
+.cur-ico {height: 14px;width: 21px;margin-top: -2px;}
+.header_1 .nav-link {color: #727272;}
+.header_1 .nav-link:hover {color: #636363;}
+.header_1-scroller .badge-cart {color: #3a3f45;background-color: #a9abaf;font-size: 12px;padding: 2px 5px;border-radius: 50%;}
+.header_1-scroller .nav-link {color: #fff;padding-top: .75rem;padding-bottom: .75rem;}
+.header_1-scroller .nav-link:hover {color: #fff;background: #2c3136;}
+@media (max-width: 991.98px) {
+  .header_1-scroller .cart-block {position: absolute;right: 0;background: #3a3f45;}
+  .search-header_1 {margin: 10px 0px;}
+  .header_1-scroller .nav-underline {margin-right: 70px;}
+}
+/* Шапка №2 */
+.header_2-scroller {background: #f5f5f5;height: 33px;border-bottom: 1px solid #e5e5e7;}
+.header_2-scroller .nav-link {color: #434343;font-size: 13px;}
+.header_2-scroller .nav-link:hover {text-decoration: underline;}
+.header_2-scroller .container {padding: 0px;}
+.header_2-scroller .cart-link:hover {text-decoration: none;color: #272a2e;}
+.header_2-scroller .badge-cart {color: #3a3f45;background-color: #dadbdd;font-size: 10px;padding: 1px 4px;border-radius: 50%;}
+.header_2 {background: #f5f5f5;}
+.search-header_2 {padding: 0px;}
+.search-header_2 .form-control {border: 2px solid #727272;font-size: 14px;}
+.search-header_2 .form-control:focus {border: 2px solid #636363;}
+.header_2-menu {background: #3a3f45;text-transform: uppercase;padding: 0px;margin-bottom: 30px;}
+.header_2-menu .nav-link {color: #fff;padding-top: 15px;padding-bottom: 15px;padding-left: 10px;padding-right: 10px;}
+.header_2-menu .nav-link:hover {background: #2c3136;}
+
+@media (max-width: 991.98px) {
+  .header_2-scroller .cart-block {position: absolute;right: 0;background: #f2f3f5;}
+  .header_2-scroller .nav-underline {margin-right: 58px;}
+  .search-header_2 {margin: 10px 0px;}
+  .header_2-menu {background: #f5f5f5;}
+  .header_2-menu .nav-link {color: #434343;padding-top: 10px;padding-bottom: 10px;padding-left: 15px;padding-right: 15px;}
+  .header_2-menu .nav-link:hover {color: #434343;background: #e4e3e3;}
+}
+
+/* Шапка №3 */
+.header_3_menu {background: #3a3f45;text-transform: uppercase;padding: 0px;margin-bottom: 30px;}
+.search-header_3 {padding: 0px;}
+.search-header_3 .form-control {border: 0px;font-size: 14px;}
+.search-header_3 .form-control:focus {}
+.search-btn_3 {position: absolute;top: 9;right: 10;background: none;border: none;color: #727272;}
+.search-btn_3:hover {color: #636363;cursor: pointer;}
+.search-btn_3:focus {outline: none;}
+.header_3_menu .nav-link {color: #fff;padding-top: 15px;padding-bottom: 15px;padding-left: 10px;padding-right: 10px;}
+.header_3_menu .nav-link:hover {background: #2c3136;}
+.header_3_menu .navbar-nav {padding-left: 30px;}
+.header_3 .nav-link {color: #727272;}
+.header_3 .nav-link:hover {color: #272a2e;}
+.header_3 .badge-cart {color: #3a3f45;background-color: #dadbdd;font-size: 10px;padding: 1px 4px;border-radius: 50%;}
+
+@media (max-width: 991.98px) {
+  .search-header_3 {padding-left: 15px;padding-right: 15px;margin-top: 15px;}
+  .header_3_menu .nav-link {padding-left: 15px;padding-right: 15px;}
+  .search-btn_3 {right: 21px;}
+  .header_3_menu .navbar-nav {padding-left: 0px;}
+
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:hover {box-shadow: none;outline: none;}
+.dropdown-item.active, .dropdown-item:active {background-color: #f8f9fa;color: #16181b;}
+.dropdown-menu {border-radius: 5px;box-shadow: 0 0 16px 0 rgba(0, 0, 0, .2);border: none;font-size: 14px;min-width: auto;}
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 56px;
+      bottom: 0;
+      left: 100%;
+      width: 100%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+      transition-property: left, visibility;
+    }
+    .offcanvas-collapse.open {
+      left: 0;
+      visibility: visible;
+    }
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+ 
+  .nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+  }
+  
+  .text-white-50 { color: rgba(255, 255, 255, .5); }
+  
+  .text-white {font-size: 1.475rem;}
+  
+  .bg-purple { background-color: #6f42c1; }
+  
+  .lh-100 { line-height: 1; }
+  .lh-125 { line-height: 1.25; }
+  .lh-150 { line-height: 1.5; }
+
+  .form-control:focus {box-shadow: none;}
