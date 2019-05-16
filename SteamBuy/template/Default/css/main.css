@@ -173,7 +173,7 @@ a:hover {color: #414141;}
 .reviews {background: #fff;padding: 35px;margin-bottom: 30px;}
 .reviews .avatar {width: 50px;height: 50px;}
 .reviews-now span {font-size: 12px;color: #909090;}
-.reviews-now {margin-top: 15px;}
+.reviews-now {margin-top: 30px;}
 .reply {float: right;opacity: 0;transition: 200ms;}
 .reply:hover {text-decoration: none;}
 .reviews-now:hover .reply {opacity: 1;}
@@ -182,10 +182,13 @@ a:hover {color: #414141;}
 .vk-login:hover {background: #3d618b;color: #fff;}
 .steam-login {background: #171a21;padding: 8px 10px;color: #b8b6b4;;border-radius: 50px;margin-left: 5px;}
 .steam-login:hover {background: #0f1116;color: #fff;}
-.fb-login {background: #4a76a8;padding: 8px 13px;color: #fff;border-radius: 50px;margin-left: 5px;}
-.fb-login:hover {background: #3d618b;color: #fff;}
-.google-login {background: #4a76a8;padding: 8px 9px;color: #fff;border-radius: 50px;margin-left: 5px;}
-.google-login:hover {background: #3d618b;color: #fff;}
+.fb-login {background: #3b5998;padding: 8px 13px;color: #fff;border-radius: 50px;margin-left: 5px;}
+.fb-login:hover {background: #344d85;color: #fff;}
+.google-login {background: #d34836;padding: 8px 9px;color: #fff;border-radius: 50px;margin-left: 5px;}
+.google-login:hover {background: #b94030;color: #fff;}
+.tab-content li {list-style-type:square;color: #636363;}
+.tab-content ul {padding-left: 15px;margin-bottom: 0px;}
+
 @media (max-width: 991.98px) {
   .game-tabs {margin-bottom: 15px;padding: 15px;}
   .game-preorder h5, .game-bonus h5 {margin-bottom: 15px;}
@@ -195,4 +198,5 @@ a:hover {color: #414141;}
   .reviews {padding: 15px;margin-bottom: 15px;}
   .reply {opacity: 1;}
   .alert-login span {display: none;}
+  .reviews-now {margin-top: 15px;}
 }
