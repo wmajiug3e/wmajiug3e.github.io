@@ -188,7 +188,10 @@ a:hover {color: #414141;}
 .google-login:hover {background: #b94030;color: #fff;}
 .tab-content li {list-style-type:square;color: #636363;}
 .tab-content ul {padding-left: 15px;margin-bottom: 0px;}
-
+.btn-reviews {text-align: right;}
+.btn-reviews .btn {font-size: 14px;background: #636363;color: #fff;}
+.btn-reviews .btn:hover {background: #414141;}
+.btn:focus, .btn.focus {outline: 0;box-shadow: none;}
 @media (max-width: 991.98px) {
   .game-tabs {margin-bottom: 15px;padding: 15px;}
   .game-preorder h5, .game-bonus h5 {margin-bottom: 15px;}
