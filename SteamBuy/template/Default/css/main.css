@@ -225,3 +225,18 @@ a:hover {color: #414141;}
   .alert-login {margin-top: 15px;}
   .reviews-reply .form-group {margin-top: 0px;}
 }
+
+/*Нижняя часть сайта*/
+.footer {background-color: #282828;color: #999;padding: 35px 0px;}
+.footer .logo {height: 46px;filter: grayscale(100%);}
+.footer .social-link {margin-top: 30px;}
+.footer .social-link a {background: #3d4043;border-radius: 50px;margin-right: 5px;color: #fff;}
+.footer .social-link a:hover {background: #fff;color: #3d4043;}
+.footer .social-link .vk {padding: 15px;}
+.footer .social-link .fb {padding: 15px 19px;}
+.footer .social-link .ig {padding: 15px 17px;}
+.footer .social-link .tw {padding: 15px 16px;}
+
+@media (max-width: 991.98px) {
+  .footer .col-lg-3 {text-align: center;margin-bottom: 35px;}
+}
