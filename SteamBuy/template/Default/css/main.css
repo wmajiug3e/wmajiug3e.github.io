@@ -248,7 +248,7 @@ a:hover {color: #414141;}
 .search-catalog .btn {position: absolute;top: 5;right: 0;background: none;border: none;color: #727272;}
 .search-catalog .btn:hover {color: #636363;cursor: pointer;}
 .search-catalog .btn:focus {outline: none;}
-.filter {background: #fff;padding: 35px;margin: 15px 0px;border-radius: 5px;}
+.filter {background: #fff;padding: 35px;margin: 15px 0px;border-radius: 5px;margin-bottom: 30px;}
 .filter .amount {float: right;font-size: 12px;border-radius: 10px;background-color: #727272;padding: 2px 8px;color: #fff;margin-top: 1px;}
 .filter .custom-control {margin-bottom: 5px;}
 .filter h6 {margin: 15px 0px;}
@@ -258,7 +258,7 @@ a:hover {color: #414141;}
 .filter .custom-control-input:focus ~ .custom-control-label::before {box-shadow: none;}
 .filter .custom-control-input:active ~ .custom-control-label::before {color: #fff;background-color: #f8f8f8;}
 
-.catalog {margin-bottom: 30px;margin-top: 15px;}
+.catalog {margin-top: 15px;}
 .catalog .sorting {font-weight: bold;cursor: pointer;}
 .catalog .sorting:hover {color: #4b4b4b;}
 .filter-now {font-size: 12px;border-radius: 10px;background-color: #727272;padding: 5px 10px;color: #fff;margin-bottom: 15px;float: left;margin-right: 5px;}
@@ -288,6 +288,10 @@ a:hover {color: #414141;}
 .catalog-block-link:hover .icon {opacity: 1;}
 .catalog-block .game .icon i {margin-right: 10px;}
 
+.filter-link {text-align: center;margin-top: 30px;display: none;}
+.filter-link a {color: #636363;border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.filter-link  a:hover {color: #414141;text-decoration: none;border-bottom: none;}
+
 
 @media (max-width: 991.98px) {
   .catalog {margin-bottom: 15px;}
@@ -297,4 +301,8 @@ a:hover {color: #414141;}
   .catalog-list .game .value {margin-top: 15px;text-align: center;}
   .catalog-list .game {margin-bottom: 15px;}
   .catalog-block .col-xl-6 {margin-bottom: 15px;}
+  .catalog-block .col-xl-6:last-child {margin-bottom: 0px;}
+  .filter {margin-bottom: 15px;}
+  .filter-link {margin-top: 15px;display: block;}
+  .filter {padding: 15px;}
 }
