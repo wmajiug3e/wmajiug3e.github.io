@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import "bootstrap.css";
+
+
+body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color: #252525;}
+
+.header {background: #1c1d29;box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1);}
+.header .navbar-brand {color: #a2a3b7;font-size: 16px;}
+.header .store-link {}
+.header .nav-link {color: #a2a3b7;}
+.header .nav-link:hover {color: #fff;}
+.menu-block {background: #252633;min-width: 265px;position: fixed; height: 100%;padding-left: 0px;padding-right: 0px;}
+.menu-block a {color: #a2a3b7;}
+.menu-block a:hover {color: #fff;}
+.menu-block .navbar-nav {flex-direction: column!important;width: 100%;}
+.menu-block .nav-link {padding-left: 30px!important;padding-right: 30px!important;}
+.menu-block .nav-link:hover {background: #292b3a;}
+.menu-block .navbar {padding: 0px;}
+.navbar-toggler {color: #a2a3b7;}
+.navbar-toggler:focus {outline: none;}
+
+.header .dropdown-item-active {background-color: #1c1d29;color: #fff;display: block;width: 100%;padding: 0.25rem 1.5rem;}
+.header .dropdown-menu {border-radius: 5px;box-shadow: 0 0 16px 0 rgba(0, 0, 0, .2);border: none;font-size: 14px;min-width: auto;}
+.header .dropdown-item:hover {background-color: #f8f9fa;color: #16181b;}
+
+.menu-block .navbar-nav .dropdown-menu {position: static;}
+.menu-block .dropdown-item.active, .dropdown-item:active, .menu-block .dropdown-item.active, .dropdown-item:hover, .menu-block .dropdown-item.active, .dropdown-item:focus {background-color: #292b3a;color: #fff;}
+.menu-block .dropdown-menu {background: #1c1d29;border-radius: 0px;box-shadow: none;border: none;font-size: 14px;min-width: auto;}
+.menu-block .dropdown-item {padding: 5px 30px;}
+
+@media (max-width: 991.98px) {
+    .navbar-brand {display: none;}
+    .menu-block {position: relative;}
+    .header .navbar-nav .dropdown-menu {position: absolute;right: 0px;left: auto;}
+  }
