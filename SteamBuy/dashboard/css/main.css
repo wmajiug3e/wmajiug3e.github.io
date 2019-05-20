@@ -10,7 +10,7 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 .header .store-link {}
 .header .nav-link {color: #a2a3b7;}
 .header .nav-link:hover {color: #fff;}
-.menu-block {background: #252633;min-width: 265px;position: fixed; height: 100%;padding-left: 0px;padding-right: 0px;padding: 15px 0px;}
+.menu-block {background: #252633;width: 265px;position: fixed; height: 100%;padding-left: 0px;padding-right: 0px;padding: 15px 0px;}
 .menu-block a {color: #a2a3b7;}
 .menu-block a:hover {color: #fff;}
 .menu-block .navbar-nav {flex-direction: column!important;width: 100%;}
@@ -33,14 +33,11 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 
 @media (max-width: 991.98px) {
     .navbar-brand {display: none;}
+    .menu-block {position: relative;padding: 0px;width: 100%;}
     .header .navbar-nav .dropdown-menu {position: absolute;right: 0px;left: auto;}
     .content {margin-left: 0px;margin-top: 15px;margin-right: 0px;}
     .help-block {margin-top: 15px;}
   }
-
-  @media (max-width: 1200px) { 
-    .menu-block {position: relative;padding: 0px;}  
-   }
 
 .content .page {background: #fff;padding: 30px;border-radius: 5px;}
 .content .page h5 {border-bottom: 1px solid #f5f5f5;padding-bottom: 15px;margin-bottom: 15px;}
