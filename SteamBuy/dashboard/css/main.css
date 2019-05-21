@@ -23,6 +23,7 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 .header .dropdown-item-active {background-color: #1c1d29;color: #fff;display: block;width: 100%;padding: 0.25rem 1.5rem;}
 .header .dropdown-menu {border-radius: 5px;box-shadow: 0 0 16px 0 rgba(0, 0, 0, .2);border: none;font-size: 14px;min-width: auto;}
 .header .dropdown-item:hover {background-color: #f8f9fa;color: #16181b;}
+.icon-store {width: 14px;height: 14px;}
 
 .menu-block .navbar-nav .dropdown-menu {position: static;}
 .menu-block .dropdown-item.active, .dropdown-item:active, .menu-block .dropdown-item.active, .dropdown-item:hover, .menu-block .dropdown-item.active, .dropdown-item:focus {background-color: #292b3a;color: #fff;}
