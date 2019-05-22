@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'icon';
-  src:  url('../fonts/icon.eot?ge0l5b');
-  src:  url('../fonts/icon.eot?ge0l5b#iefix') format('embedded-opentype'),
-    url('../fonts/icon.ttf?ge0l5b') format('truetype'),
-    url('../fonts/icon.woff?ge0l5b') format('woff'),
-    url('../fonts/icon.svg?ge0l5b#icon') format('svg');
+  src:  url('../fonts/icon.eot?9pwxfs');
+  src:  url('../fonts/icon.eot?9pwxfs#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?9pwxfs') format('truetype'),
+    url('../fonts/icon.woff?9pwxfs') format('woff'),
+    url('../fonts/icon.svg?9pwxfs#icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change ../fonts */
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icon' !important;
   speak: none;
   font-style: normal;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-youtube:before {
+  content: "\e92a";
+}
 .icon-delivery:before {
   content: "\e922";
 }
