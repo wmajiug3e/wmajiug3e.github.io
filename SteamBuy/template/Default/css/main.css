@@ -274,7 +274,7 @@ a:hover {color: #414141;}
 .catalog-list .game .game-info {font-size: 12px;margin-right: 3px;padding-right: 3px;border-right: 1px solid rgba(0, 0, 0, 0.1);border-radius: 0px;}
 .catalog-list .game .game-info:last-child {margin-right: 0px;padding-right: 0px;border-right: 0px;}
 
-.catalog-block .col-xl-6 {margin-bottom: 30px;}
+.catalog-block .col-xl-6, .catalog-block .col-xl-4 {margin-bottom: 30px;}
 .catalog-block .game img {width: 100%;}
 .catalog-block-link:hover img {filter: brightness(20%);}
 .catalog-block-link:hover {text-decoration: none;}
@@ -311,7 +311,7 @@ a:hover {color: #414141;}
   .catalog-list .game {padding: 15px;}
   .catalog-list .game .value, .catalog-list-block .game .value {margin-top: 15px;text-align: center;}
   .catalog-list .game, .catalog-list-block .game {margin-bottom: 15px;}
-  .catalog-block .col-xl-6 {margin-bottom: 15px;}
+  .catalog-block .col-xl-6, .catalog-block .col-xl-4 {margin-bottom: 15px;}
   .filter {margin-bottom: 15px;}
   .filter-link {margin-top: 15px;display: block;}
   .filter {padding: 15px;}
@@ -343,8 +343,36 @@ a:hover {color: #414141;}
 .slider {margin-top: -30px;margin-bottom: 30px;}
 .slider .carousel-indicators li {width: 8px;height: 8px;border-radius: 50px;}
 .slider .carousel-indicators .active {background-color: #3a3f45;}
+.slider-game {margin-bottom: 30px;}
+.slider-game .carousel-indicators li {height: 7px;background-color: #999;}
+.slider-game .carousel-indicators .active {background-color: #3a3f45;}
+.slider-game .carousel-indicators {bottom: -20px;}
 
 @media (max-width: 991.98px) {
   .slider {margin-top: -15px;margin-bottom: 15px;}
   .slider .carousel-indicators {bottom: 0px;}
+  .slider-game {margin-bottom: 15px;}
+  .slider-game .carousel-indicators {bottom: -20px;}
+}
+
+.main-tabs .nav-tabs .nav-link {border: 0px;}
+.main-tabs .nav-tabs {border: 0px;margin-bottom: 30px;}
+
+@media (max-width: 991.98px) {
+  .main-tabs .nav-tabs {margin-bottom: 15px;}
+  .main-tabs .nav-item {width: 100%;}
+}
+
+.slider-reviews {margin-bottom: 30px;}
+.slider-reviews .carousel-indicators li {height: 7px;background-color: #999;}
+.slider-reviews .carousel-indicators .active {background-color: #3a3f45;}
+.slider-reviews .carousel-indicators {bottom: -20px;}
+
+.slider-reviews .reviews-now {margin-top: 0px;}
+.slider-reviews .reviews {border-radius: 5px;}
+
+.reviews-title {text-align: center;margin-bottom: 30px;}
+
+@media (max-width: 991.98px) {
+  .reviews-title {margin-bottom: 15px;}
 }
