@@ -345,7 +345,7 @@ a:hover {color: #414141;}
 .slider .carousel-indicators li {width: 8px;height: 8px;border-radius: 50px;}
 .slider .carousel-indicators .active {background-color: #3a3f45;}
 .slider-game {margin-bottom: 30px;}
-.slider-game .carousel-indicators li {height: 7px;background-color: #999;}
+.slider-game .carousel-indicators li {height: 7px;background-color: #999;cursor: pointer;}
 .slider-game .carousel-indicators .active {background-color: #3a3f45;}
 .slider-game .carousel-indicators {bottom: -20px;}
 
@@ -365,7 +365,7 @@ a:hover {color: #414141;}
 }
 
 .slider-reviews {margin-bottom: 30px;}
-.slider-reviews .carousel-indicators li {height: 7px;background-color: #999;}
+.slider-reviews .carousel-indicators li {height: 7px;background-color: #999;cursor: pointer;}
 .slider-reviews .carousel-indicators .active {background-color: #3a3f45;}
 .slider-reviews .carousel-indicators {bottom: -20px;}
 

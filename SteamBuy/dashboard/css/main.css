@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 @import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 @import "bootstrap.css";
+@import "icon.css";
 
 
 body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color: #252525;}
@@ -31,7 +32,7 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 .menu-block .dropdown-item {padding: 5px 30px;}
 .col-menu {padding-left: 0px;padding-right: 0px;margin-top: 53px;}
 
-.content {margin-left: 280px;margin-top: 83px;margin-right: 15px;margin-bottom: 30px;}
+.content {margin-left: 280px;margin-top: 83px;margin-right: 15px;}
 
 @media (max-width: 991.98px) {
     .navbar-brand {display: none;}
@@ -59,3 +60,46 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 @media (max-width: 991.98px) {
     .content .page {padding: 15px;}
   }
+
+.white-block {background: #fff;padding: 30px;margin-bottom: 30px;border-radius: 5px;}
+.date-selector {margin-bottom: 30px;}
+.btn-date {background: #fff;border: 1px solid #dcdcdc;}
+.btn:focus, .btn.focus {outline: 0;box-shadow: none;}
+.date-selector .active {background: #f5f4f4;}
+.stat-block .value {font-size: 32px;}
+.stat-block .title {color: #909090;}
+.stat-block i {font-size: 72px;color: #a2a3b7;}
+
+@media (max-width: 991.98px) {
+  .white-block {margin-bottom: 15px;padding: 15px;}
+}
+
+.reviews {background: #fff;margin-bottom: 0px;}
+.reviews .avatar {width: 50px;height: 50px;}
+.reviews-now span {font-size: 12px;color: #909090;}
+.reviews-now {margin-top: 30px;}
+.reviews-now a {color: #252525;}
+.reviews-now a:hover {color: #1d1d1d;text-decoration: none;}
+h5 a {float: right;font-size: 14px;color: #909090;}
+h5 a:hover {color: #858585;}
+
+@media (max-width: 991.98px) {
+  .reviews {margin-bottom: 15px;}
+}
+
+.catalog-list-block a {color: #636363;}
+.catalog-list-block a:hover {color: #414141;text-decoration: none;}
+.catalog-list-block .game {border-radius: 5px;margin-top: 30px;}
+.catalog-list-link:hover {text-decoration: none;}
+.catalog-list-block .game img {width: 120px;}
+.catalog-list-block .game .value {font-size: 20px;}
+.catalog-list-block .game .value span {background: #5eb761;border-radius: 20px;padding: 4px 12px;color: #fff;margin-top: 5px;font-size: 14px;}
+.catalog-list-block .game .game-info {font-size: 12px;margin-right: 3px;padding-right: 3px;border-right: 1px solid rgba(0, 0, 0, 0.1);border-radius: 0px;}
+.catalog-list-block .game .game-info:last-child {margin-right: 0px;padding-right: 0px;border-right: 0px;}
+
+@media (max-width: 991.98px) {
+  .catalog-list-block .game img {width: 100%;margin-bottom: 15px;}
+  .catalog-list-block .game .game-info {margin-bottom: 15px;}
+  .catalog-list-block .game .value {margin-top: 15px;text-align: center;}
+  .catalog-list-block {margin-bottom: 15px;}
+}
