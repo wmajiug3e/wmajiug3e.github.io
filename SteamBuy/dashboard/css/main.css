@@ -42,7 +42,7 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
     .help-block {margin-top: 15px;}
   }
 
-.content .page {background: #fff;padding: 30px;border-radius: 5px;}
+.content .page {background: #fff;padding: 30px;border-radius: 5px;margin-bottom: 30px;}
 .content .page h5 {border-bottom: 1px solid #f5f5f5;padding-bottom: 15px;margin-bottom: 15px;}
 
 .content .page .form-control {border: 1px solid #f5f5f5;font-size: 14px;}
@@ -58,7 +58,7 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
 .content .page .btn:focus {box-shadow: none;}
 
 @media (max-width: 991.98px) {
-    .content .page {padding: 15px;}
+    .content .page {padding: 15px;margin-bottom: 15px;}
   }
 
 .white-block {background: #fff;padding: 30px;margin-bottom: 30px;border-radius: 5px;}
@@ -74,14 +74,15 @@ body {background: #f5f5f5;font-family: 'Play', sans-serif;font-size: 14px;color:
   .white-block {margin-bottom: 15px;padding: 15px;}
 }
 
+h5 a {float: right;font-size: 14px;color: #909090;}
+h5 a:hover {color: #858585;text-decoration: none;}
 .reviews {background: #fff;margin-bottom: 0px;}
-.reviews .avatar {width: 50px;height: 50px;}
+.reviews .avatar, .page .avatar {width: 50px;height: 50px;}
 .reviews-now span {font-size: 12px;color: #909090;}
 .reviews-now {margin-top: 30px;}
 .reviews-now a {color: #252525;}
 .reviews-now a:hover {color: #1d1d1d;text-decoration: none;}
-h5 a {float: right;font-size: 14px;color: #909090;}
-h5 a:hover {color: #858585;}
+
 
 @media (max-width: 991.98px) {
   .reviews {margin-bottom: 15px;}
@@ -103,3 +104,12 @@ h5 a:hover {color: #858585;}
   .catalog-list-block .game .value {margin-top: 15px;text-align: center;}
   .catalog-list-block {margin-bottom: 15px;}
 }
+
+.custom-control {margin-bottom: 10px;}
+.form-group {margin-bottom: 0px;}
+.custom-control i {font-size: 12px;color: #909090;}
+.custom-control i:hover {color: #2f3338;cursor: pointer;}
+
+.btn-moder {float: right;}
+.btn-moder a {color: #909090;}
+.btn-moder a:hover {color: #2f3338;}
