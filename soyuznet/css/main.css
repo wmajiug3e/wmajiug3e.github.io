@@ -55,22 +55,24 @@ a:hover {color: #082bdb;text-decoration: none;}
 .form-group:last-child {margin-bottom: 0px;}
 form {margin-bottom: 0px;}
 
-.footer {background: url(../img/footer.jpg) no-repeat;width: 100%;color: #aaaaaa;padding: 60px 0px;height: 500px;}
+.footer {background: url(../img/footer.jpg) #2a3740 no-repeat;background-size: cover;width: 100%;color: #aaaaaa;padding: 60px 0px;}
+.logo-footer {filter: grayscale(.75);}
+.watermark {opacity: 0.7;}
+.watermark:hover {opacity: 1;}
+.footer-link h6 {color: #fff;}
+.footer-link li {list-style-type: none;}
+.footer-link a {color: #aaaaaa;font-weight: normal;}
+.footer-link a:hover {color: #e2e2e2;}
+.copyright {text-align: center;margin-top: 80px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1200px) {
+    .office-bg {height: 544px;}
+    .footer {text-align: center;}
+    .logo-footer {margin-bottom: 15px;}
+    .copyright {margin-top: 30px;}
+    .footer-link h6 {margin-top: 25px;}
+    .footer .col-lg-auto {margin-top: 30px;}
+}
 
 @media (min-width: 576px) {
     .container {
@@ -97,7 +99,5 @@ form {margin-bottom: 0px;}
     }
 }
 
-@media (max-width: 1200px) {
-    .office-bg {height: 544px;}
-}
+
 
