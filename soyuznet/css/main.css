@@ -30,16 +30,22 @@ a:hover {color: #082bdb;text-decoration: none;}
 .marketing {text-align: center;}
 .nav-tabs {border: 0px;}
 
-.tariff {background: #fff;color: #092EED;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
-.tariff-bg {background: url(../img/tariff.jpg) no-repeat center top fixed;background-size: cover;background-size: 100% 100%;color: #fff;padding-bottom: 1rem;padding-top: 2rem;}
+.tariff {background: #c0c0c0;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-2 {background: #717171;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-3 {background: #38adea;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-4 {background: #f53e56;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+
+.tariff-bg {background: url(../img/tariff.jpg) no-repeat;background-size: cover;background-size: 100% 100%;color: #130f40;padding-bottom: 1rem;padding-top: 2rem;}
+.tariff-bg h2 {color: #130f40;}
 .tariff-icon {width: 219px;}
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {background: #fff;color: #092EED;border: 0px;}
-.nav-tabs .nav-link {border: 0px;color: #fff;}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {background: #092EED;color: #fff;border: 0px;}
+.nav-tabs .nav-link {border: 0px;color: #092EED;}
 
 .btn-primary {background-color: #092EED;border: 0;color: #fff;font-weight: 500;padding: 15px 30px;border-radius: 4px;}
 .btn-primary:hover {background-color: #0354cd;}
 .form-control {background-color: #f5f5ff;font-size: 15px;border: 0px;height: 40px;}
 .office-bg {background: url(../img/officebg.jpg) no-repeat center top fixed;background-size: cover;background-size: 100% 100%;height: 320px;color: #fff;padding: 60px 0px;}
+.tariff-icon-fire {position: absolute;right: -49px;top: 36px;width: 86px;}
 
 .map-responsive{
     overflow:hidden;
