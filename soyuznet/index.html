@@ -98,7 +98,7 @@
 
 <!--Конец новостей-->
 
-
+<!--Тарифы на интернет-->
 
 <div id="tariffs" class="tariff-bg">
 <div class="container marketing">
@@ -167,6 +167,10 @@
 </div>
 </div>
 
+<!--Конец тарифов на интернет-->
+
+<!--Тарифы на ТВ-->
+
 <div class="tariff-2-bg">
 <div class="container">
 <center><h2 class="mb-5">Тарифы для телевидения</h2></center>
@@ -219,6 +223,8 @@
 </div>
 </div>
 
+<!--Наш офис-->
+
 <div id="office" class="office-bg">
 <div class="container">
 <div class="row">
@@ -244,24 +250,31 @@
 </div>
 </div>
 
+<!--Конец нашего офис-->
+
+<!--Личный кабинет-->
+
 <div id="login" class="login mb-2">
 <div class="container">
 <center><h2 class="mb-4">Войти в личный кабинет</h2></center>
 <div class="row justify-content-md-center">
 <div class="col-lg-5">
-<form>
+<form action="login.php" method="post">
 <div class="form-group">
-<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Номер договора">
+<input type="text" autofocus name="login" id="login" maxlength="50" class="form-control" placeholder="Номер договора">
 </div>
 <div class="form-group">
-<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+<input type="password" name="pass" id="pass" maxlength="50" class="form-control" placeholder="Пароль">
 </div>
-<button type="button" class="btn btn-primary btn-block">Войти</button>
+<button type="button" class="btn btn-primary btn-block mb-3">Войти</button>
 </form>
+<center><a href="forgot.php">Забыли пароль?</a></center>
 </div>
 </div>
 </div>
 </div>
+
+<!--Конец личного кабинет-->
 
 <div class="footer">
 <div class="container">
@@ -271,7 +284,7 @@
 </div>
 <div class="col-lg footer-link">
 <h6>НАВИГАЦИЯ ПО САЙТУ</h6>
-<li><a href="#connection">Подключиться</a></li>
+<li><a href="#news">Новости</a></li>
 <li><a href="#tariffs">Тарифы</a></li>
 <li><a href="#office">Наш офис</a></li>
 <li><a href="https://city24.ua/Internet/SoyuzNet-">Мгновенная оплата</a></li>
