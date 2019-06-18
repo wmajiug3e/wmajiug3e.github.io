@@ -18,7 +18,7 @@
 <li class="nav-item"><a class="nav-link" href="#tariffs">Тарифы</a></li>
 <li class="nav-item"><a class="nav-link" href="#office">Наш офис</a></li>
 <li class="nav-item"><a class="nav-link" href="https://city24.ua/Internet/SoyuzNet-">Мгновенная оплата</a></li>
-<li class="nav-item nav-item-red"><a class="nav-link" href="#login"><i class="fas fa-user-tie"></i> Личный кабинет</a></li>
+<li class="nav-item nav-item-red"><a class="nav-link" href="#" data-toggle="modal" data-target="#login"><i class="fas fa-user-tie"></i> Личный кабинет</a></li>
 </ul>
 <span class="navbar-text">
 <div class="phone">
@@ -26,6 +26,33 @@
 </div>
 </div>
 </nav>
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Войти в кабинет</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Номер договора">
+</div>
+<div class="form-group">
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+</div>
+
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary btn-block">Войти</button>
+</form>
+</div>
+</div>
+</div>
+</div>
 
 <div id="slider" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -102,8 +129,8 @@
 
 <div id="tariffs" class="tariff-bg">
 <div class="container marketing">
-<h2 class="mb-4">Тарифы для интернета</h2>
-<ul class="nav nav-tabs nav-pills justify-content-center mb-4" id="myTab" role="tablist">
+<h2 class="mb-5">Тарифы для интернета</h2>
+<ul class="nav nav-tabs nav-pills justify-content-center mb-5" id="myTab" role="tablist">
 <li class="nav-item">
 <a class="nav-link active" id="voz-tab" data-toggle="tab" href="#voz" role="tab" aria-controls="voz" aria-selected="true">Вознесенск</a>
 </li>
@@ -113,57 +140,118 @@
 </ul>
 <div class="tab-content" id="myTabContent">
 <div class="tab-pane fade show active" id="voz" role="tabpanel" aria-labelledby="voz-tab">
-<div class="row justify-content-md-center">
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-1.png">
-<div class="tariff">2 mbit/сек</div>
-<p>50 грн/месяц</p>
+<div class="row">
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">50
+<span class="month">грн/месяц</span>
 </div>
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-2.png">
-<div class="tariff-2">3 mbit/сек</div>
-<p>80 грн/месяц</p>
+<h3 class="title">2 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 2 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
 </div>
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-3.png">
-<div class="tariff-3">5 mbit/сек</div>
-<p>100 грн/месяц</p>
 </div>
-<div class="col-lg-3">
-<img class="tariff-icon-fire" src="img/tariff-4_fire.png">
-<img class="mb-4 tariff-icon" src="img/tariff-4.png">
-<div class="tariff-4">10 mbit/сек</div>
-<p>160 грн/месяц</p>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">80
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">3 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 3 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">100
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">5 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 5 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">160
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">10 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 10 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
 <div class="tab-pane fade" id="scherbany" role="tabpanel" aria-labelledby="scherbany-tab">
 <div class="row justify-content-md-center">
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-1.png">
-<div class="tariff">2 mbit/сек</div>
-<p>100 грн/месяц</p>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">100
+<span class="month">грн/месяц</span>
 </div>
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-2.png">
-<div class="tariff-2">3 mbit/сек</div>
-<p>150 грн/месяц</p>
-</div>
-<div class="col-lg-3">
-<img class="mb-4 tariff-icon" src="img/tariff-3.png">
-<div class="tariff-3">4 mbit/сек</div>
-<p>200 грн/месяц</p>
-</div>
-<div class="col-lg-3">
-<img class="tariff-icon-fire" src="img/tariff-4_fire.png">
-<img class="mb-4 tariff-icon" src="img/tariff-4.png">
-<div class="tariff-4">5 mbit/сек</div>
-<p>250 грн/месяц</p>
+<h3 class="title">2 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 2 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
 </div>
 </div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">150
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">3 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 3 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
 </div>
 </div>
-<p>UPLOAD во всех тарифах составляет 1 MBit/сек</p>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">200
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">4 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 4 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="price-value">250
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">5 mb/сек</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 5 mb/сек</b></li>
+<li>Выгрузка <b>до 1 mb/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -181,7 +269,7 @@
 <h4 class="my-0 font-weight-normal">Тариф "S+"</h4>
 </div>
 <div class="card-body">
-<h1 class="card-title pricing-card-title">47грн<small class="text-muted">/месяц</small></h1>
+<h2 class="card-title pricing-card-title">47грн<small class="text-muted">/месяц</small></h2>
 <ul class="list-unstyled mt-3 mb-4">
 <li>147 каналов</li>
 <li>Фильмов - 3 000</li>
@@ -195,7 +283,7 @@
 <h4 class="my-0 font-weight-normal">Тариф "M+"</h4>
 </div>
 <div class="card-body">
-<h1 class="card-title pricing-card-title">97 грн<small class="text-muted">/месяц</small></h1>
+<h2 class="card-title pricing-card-title">97 грн<small class="text-muted">/месяц</small></h2>
 <ul class="list-unstyled mt-3 mb-4">
 <li>Каналов - 209</li>
 <li>Каналов HD - 33</li>
@@ -209,7 +297,21 @@
 <h4 class="my-0 font-weight-normal">Тариф "L+"</h4>
 </div>
 <div class="card-body">
-<h1 class="card-title pricing-card-title">197 грн<small class="text-muted">/месяц</small></h1>
+<h2 class="card-title pricing-card-title">197 грн<small class="text-muted">/месяц</small></h2>
+<ul class="list-unstyled mt-3 mb-4">
+<li>Каналов - 225</li>
+<li>Каналов HD - 42</li>
+<li>Фильмов - 5 000</li>
+</ul>
+<a href="https://trinity-tv.net/tv_list_all.html" class="btn btn-lg btn-block btn-primary">Подробнее</a>
+</div>
+</div>
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+<h4 class="my-0 font-weight-normal">Тариф "L+"</h4>
+</div>
+<div class="card-body">
+<h2 class="card-title pricing-card-title">197 грн<small class="text-muted">/месяц</small></h2>
 <ul class="list-unstyled mt-3 mb-4">
 <li>Каналов - 225</li>
 <li>Каналов HD - 42</li>
@@ -251,30 +353,6 @@
 </div>
 
 <!--Конец нашего офис-->
-
-<!--Личный кабинет-->
-
-<div id="login" class="login mb-2">
-<div class="container">
-<center><h2 class="mb-4">Войти в личный кабинет</h2></center>
-<div class="row justify-content-md-center">
-<div class="col-lg-5">
-<form action="login.php" method="post">
-<div class="form-group">
-<input type="text" autofocus name="login" id="login" maxlength="50" class="form-control" placeholder="Номер договора">
-</div>
-<div class="form-group">
-<input type="password" name="pass" id="pass" maxlength="50" class="form-control" placeholder="Пароль">
-</div>
-<button type="button" class="btn btn-primary btn-block mb-3">Войти</button>
-</form>
-<center><a href="forgot.php">Забыли пароль?</a></center>
-</div>
-</div>
-</div>
-</div>
-
-<!--Конец личного кабинет-->
 
 <div class="footer">
 <div class="container">
