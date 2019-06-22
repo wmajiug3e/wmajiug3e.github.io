@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,800');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import "bootstrap.css";
+@import "carousel.css";
+
+body {font-family: 'Roboto', sans-serif;font-size: 1rem;color: #130f40;}
+a {color: #092EED;font-weight: 500;}
+a:hover {color: #082bdb;text-decoration: none;}
+
+#logo {width: 236px;}
+
+.navbar-white {background: #fff;font-size: 0.85rem;}
+.navbar-white a {color: #092EED;font-weight: 500;}
+.navbar-white a:hover {color: #082bdb;}
+.phone-ico {background: #092EED;border-radius: 50px;margin-right: 5px;padding: 15px;color: #fff;font-size: 0.9rem;margin-left: 10px;}
+.phone {font-size: 1rem;}
+.phone a {text-decoration: none;color: #000;}
+.phone a:hover {color: #000;}
+.phone a:hover .phone-ico {background: #082bdb;}
+.phone span {font-size: 0.55rem;float: right;margin-top: -13px;color: #d4d4d4;}
+.nav-item-red a {color: #f53e56;}
+.nav-item-red a:hover {color: #d13146;}
+.navbar-toggler span {color: #092EED;}
+.navbar-toggler span:hover {color: #082bdb;}
+.navbar-toggler:focus, .navbar-toggler:hover {outline: none;}
+.carousel-indicators li {width: 5px;height: 5px;border-radius: 50px;}
+.carousel-item {background: #000;}
+.banner {filter: opacity(25%);}
+.con-icon {width: 150px;}
+.marketing {text-align: center;}
+.nav-tabs {border: 0px;}
+
+.tariff {background: #c0c0c0;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-2 {background: #717171;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-3 {background: #38adea;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+.tariff-4 {background: #f53e56;color: #fff;width: 110px;margin: auto;padding: 5px;border-radius: 5px;text-transform: uppercase;margin-top: -48px;margin-bottom: 15px;}
+
+.tariff-bg {background: url(../img/tariff.jpg) no-repeat;background-size: cover;color: #130f40;padding-bottom: 3rem;padding-top: 2rem;box-shadow: 0px -30px 47px 0px hsla(0, 0%, 0%, 0.1) inset;}
+.tariff-bg h2 {color: #130f40;}
+.tariff-icon {width: 219px;}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {background: #092EED;color: #fff;border: 0px;}
+.nav-tabs .nav-link {border: 0px;color: #092EED;}
+
+.btn-primary {background-color: #092EED;border: 0;color: #fff;font-weight: 500;padding: 15px 30px;border-radius: 4px;}
+.btn-primary:hover {background-color: #0354cd;}
+.form-control {background-color: #f5f5ff;font-size: 15px;border: 0px;height: 40px;}
+.office-bg {background: url(../img/officebg.jpg) no-repeat center top fixed;background-size: cover;height: 320px;color: #fff;padding: 60px 0px;overflow: hidden;}
+.tariff-icon-fire {position: absolute;right: -16%;}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:200px;
+    width:100%;
+    position:absolute;
+}
+
+.form-group:last-child {margin-bottom: 0px;}
+form {margin-bottom: 0px;}
+
+.card {border: 0px;box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);border-radius: 0px;}
+.card-img-top {border-radius: 0px;}
+
+.login {padding: 60px;}
+
+.tariff-2-bg {background: url(../img/tariff-2.jpg) #092EED no-repeat;background-size: cover;padding: 60px 0px;}
+
+.tariff-2-bg .card {border-radius: 5px;color: #6d70a6;border: 2px solid #e4e5f7;}
+.tariff-2-bg .card-header {background-color: #fff;color: #092EED;}
+
+
+.speed, .speed-2 {width: 140px;margin: auto;}
+.speed img, .speed-2 img {width: 140px;}
+.speed span {position: absolute;color: #fff;font-size: 42px;left:50%; margin-left:-12px;top: 82px;font-weight: bold;}
+.speed-2 span {position: absolute;color: #fff;font-size: 42px;left:50%; margin-left:-25px;top: 82px;font-weight: bold;}
+@media (max-width: 1200px) {
+    .office-bg {height: 544px;}
+    .footer {text-align: center;}
+    .logo-footer {margin-bottom: 15px;}
+    .copyright {margin-top: 30px;}
+    .footer-link h6 {margin-top: 25px;}
+    .footer .col-lg-auto {margin-top: 30px;}
+    .tariff-icon-fire {position: absolute;right: -32%;}
+}
+@media (max-width: 992px) {
+    .tariff-icon-fire {position: absolute;right: 24%;}
+}
+
+@media (max-width: 768px) {
+    .tariff-icon-fire {display: none;}
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 546px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 738px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 962px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+
+
+.pricingTable{
+    padding: 25px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #e4e5f7;
+   }
+
+   .pricingTable:hover {border: 2px solid #092EED;transition: all 0.3s ease 0s;}
+   
+   .pricingTable .price-value{
+    font-size: 60px;
+    font-weight: 800;
+    color: #092EED;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+   }
+   
+   .pricingTable .month{
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    color: #6d70a6;
+    letter-spacing: 2px;
+    line-height: 10px;
+    text-transform: uppercase;
+   }
+   
+   .pricingTable .title{
+    display: inline-block;
+    padding: 16px 40px;
+    margin: 0 0 20px 0;
+    background: #ebecfd;
+    font-size: 17px;
+    color: #092EED;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+   }
+   
+   .pricingTable:hover .title{
+    background: #092EED;
+    color: #fff;
+   }
+   
+   .pricingTable .title:before,
+   .pricingTable .title:after{
+    content: "";
+    border-right: 26px solid #ebecfd;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -26px;
+    transition: all 0.3s ease 0s;
+   }
+   
+   .pricingTable .title:after{
+    border-right: none;
+    border-left: 26px solid #ebecfd;
+    left: auto;
+    right: -26px;
+   }
+   
+   .pricingTable:hover .title:before{ border-right-color: #092EED; }
+   
+   .pricingTable:hover .title:after{ border-left-color: #092EED; }
+   
+   .pricingTable .pricing-content{
+    padding: 0;
+    margin: 0 0 25px 0;
+    list-style: none;
+   }
+   
+   .pricingTable .pricing-content li{
+    font-size: 17px;
+    color: #6d70a6;
+    line-height: 40px;
+   }
+   
+   .pricingTable .pricingTable-signup{
+    display: inline-block;
+    padding: 7px 30px;
+    background: #eee;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fe5f55;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+   }
+   
+   .pricingTable:hover .pricingTable-signup{
+    background: #f4c724;
+    color: #fff;
+   }
+   
+   .pricingTable .pricingTable-signup:before,
+   .pricingTable .pricingTable-signup:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+   }
+   
+   .pricingTable .pricingTable-signup:hover:before{
+    background: rgba(255, 255, 255, 0.7);
+    left: 60%;
+    right: 60%;
+    z-index: 1;
+   }
+   
+   .pricingTable .pricingTable-signup:hover:after{
+    background: rgba(255, 255, 255, 0.7);
+    top: 60%;
+    bottom: 60%;
+   }
+   
+   @media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 30px; }
+   }

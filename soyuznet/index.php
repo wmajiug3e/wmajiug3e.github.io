@@ -1,0 +1,355 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>СоюзНет - Интернет и телевидение в Вознесенске!</title>
+<meta name="description" content="Мы обеспечиваем связь между компьютерами абонентов и всемирной сетью, что позволяет обмениваться файлами, информацией, общаться , играть в сетевые игры смотреть кинофильмы on line в HD качестве,слушать музыку ,общаться в Skype и использовать многие другие сервисы.">
+<meta name="keywords" content="Провайдер, интернет, телевидение, Вознесенск, Прибужаны, Щербани">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="site/css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-white">
+<div class="container">
+<a class="navbar-brand" href="#"><img id="logo" src="site/img/logo.png"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<span class="fas fa-bars"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarText">
+<ul class="navbar-nav ml-md-auto">
+<li class="nav-item"><a class="nav-link" href="#tariffs">Тарифы</a></li>
+<li class="nav-item"><a class="nav-link" href="#office">Наш офис</a></li>
+<li class="nav-item"><a class="nav-link" href="https://city24.ua/Internet/SoyuzNet-">Мгновенная оплата</a></li>
+<li class="nav-item nav-item-red"><a class="nav-link" href="http://soyuznet.com.ua:82"><i class="fas fa-user-tie"></i> Личный кабинет</a></li>
+</ul>
+<span class="navbar-text">
+<div class="phone">
+<a href="tel:+380956635553"><i class="fas fa-phone phone-ico"></i> +38 (095) 663-55-53<br><span>с 9:00 до 19:00, суббота выходной</span></a>
+</div>
+</div>
+</nav>
+
+<div id="slider" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#slider" data-slide-to="0" class="active"></li>
+<li data-target="#slider" data-slide-to="1"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="site/img/banner.jpg" class="d-block banner" alt="...">
+<div class="carousel-caption text-left">
+<h2>Безлимитный скоростной интернет в каждый дом!</h2>
+<p>Мы обеспечиваем связь между компьютерами абонентов и всемирной сетью, что позволяет обмениваться файлами, информацией, общаться , играть в сетевые игры смотреть кинофильмы on line в HD качестве,слушать музыку ,общаться в Skype и использовать многие другие сервисы.</p>
+</div>
+</div>
+<div class="carousel-item">
+<img src="site/img/banner2.jpg" class="d-block banner" alt="...">
+<div class="carousel-caption text-left">
+<h2>Интерактивное Телевидение!</h2>
+<p>С 1 Июня Мы запускаем Интерактивное Телевидения, а это более 200 телеканалов в высокой четкости с функцией паузы и перемотки эфира,а так же 5000 фильмов онлайн и все это можно подключить на вашем Smart TV телевизоре или с помощью IPTV приставки для обычных телевизоров которую можно преобрести у нас.</p>
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+
+<!--Новости-->
+
+<div id="news" class="container mt-4">
+<center><h2 class="mb-4">Новости</h2></center>
+<div class="card-deck mb-5">
+<!--Новость 1-->
+<div class="card">
+<img src="https://tech.liga.net/images/general/2019/05/27/thumbnail-tw-20190527105602-8078.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Акция</h5>
+<p class="card-text">Всем новым клиентам при подключении месяц интернета бесплатно!</p>
+<p class="card-text"><small class="text-muted">17.06.2019</small></p>
+</div>
+</div>
+
+<!--Новость 2-->
+<div class="card">
+<img src="https://s.hi-news.ru/wp-content/uploads/2019/06/starlink_spacex_russia-750x432.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Новость</h5>
+<p class="card-text">Описание новости</p>
+<p class="card-text"><small class="text-muted">16.06.2019</small></p>
+</div>
+</div>
+
+<!--Новость 3-->
+<div class="card">
+<img src="https://la1ere.francetvinfo.fr/wallisfutuna/sites/regions_outremer/files/styles/top_big/public/assets/images/2018/04/24/internet-http-big-742941.jpg?itok=SV1lka-_" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Новость</h5>
+<p class="card-text">Описание новости</p>
+<p class="card-text"><small class="text-muted">15.06.2019</small></p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--Конец новостей-->
+
+<!--Тарифы на интернет-->
+
+<div id="tariffs" class="tariff-bg">
+<div class="container marketing">
+<h2 class="mb-5">Тарифы для интернета</h2>
+<ul class="nav nav-tabs nav-pills justify-content-center mb-5" id="myTab" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="voz-tab" data-toggle="tab" href="#voz" role="tab" aria-controls="voz" aria-selected="true">Вознесенск</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="scherbany-tab" data-toggle="tab" href="#scherbany" role="tab" aria-controls="scherbany" aria-selected="false">Щербани</a>
+</li>
+</ul>
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="voz" role="tabpanel" aria-labelledby="voz-tab">
+<div class="row justify-content-md-center">
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>2</span>
+<img src="site/img/tariff-1.png">
+</div>
+<div class="price-value">50
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 2</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 2 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>3</span>
+<img src="site/img/tariff-2.png">
+</div>
+<div class="price-value">80
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 3</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 3 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>5</span>
+<img src="site/img/tariff-3.png">
+</div>
+<div class="price-value">100
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 5</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 5 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed-2">
+<span>10</span>
+<img src="site/img/tariff-4.png">
+</div>
+<div class="price-value">160
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 10</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 10 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="scherbany" role="tabpanel" aria-labelledby="scherbany-tab">
+<div class="row justify-content-md-center">
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>2</span>
+<img src="site/img/tariff-1.png">
+</div>
+<div class="price-value">100
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 2</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 2 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>3</span>
+<img src="site/img/tariff-2.png">
+</div>
+<div class="price-value">150
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 3</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 3 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>5</span>
+<img src="site/img/tariff-3.png">
+</div>
+<div class="price-value">200
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Безлимит 4</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 5 MB/сек</b></li>
+<li>Выгрузка <b>до 1 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4">
+<div class="pricingTable">
+<div class="speed">
+<span>5</span>
+<img src="site/img/tariff-4.png">
+</div>
+<div class="price-value">250
+<span class="month">грн/месяц</span>
+</div>
+<h3 class="title">Бизнес</h3>
+<ul class="pricing-content">
+<li>Загрузка <b>до 5 MB/сек</b></li>
+<li>Выгрузка <b>до 5 MB/сек</b></li>
+<li><b>Безлимитный</b> трафик</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Конец тарифов на интернет-->
+
+<!--Тарифы на ТВ-->
+
+<div class="tariff-2-bg">
+<div class="container">
+<center><h2 class="mb-5">Тарифы для телевидения</h2></center>
+<div class="container">
+<div class="card-deck mb-3 text-center">
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+<h4 class="my-0 font-weight-normal">TV - Minimalnyy</h4>
+</div>
+<div class="card-body">
+<h2 class="card-title pricing-card-title">49грн<small class="text-muted">/месяц</small></h2>
+<ul class="list-unstyled mt-3 mb-4">
+<li>147 каналов</li>
+<li>Без фильмов</li>
+<br>
+</ul>
+<a href="https://trinity-tv.net/channels/minimalnyy" class="btn btn-lg btn-block btn-primary">Подробнее</a>
+</div>
+</div>
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+<h4 class="my-0 font-weight-normal">TV - Premium</h4>
+</div>
+<div class="card-body">
+<h2 class="card-title pricing-card-title">79 грн<small class="text-muted">/месяц</small></h2>
+<ul class="list-unstyled mt-3 mb-4">
+<li>Каналов - 209</li>
+<li>Каналов HD - 33</li>
+<li>Фильмов - 5 000</li>
+</ul>
+<a href="https://trinity-tv.net/channels/sredniy-premium" class="btn btn-lg btn-block btn-primary">Подробнее</a>
+</div>
+</div>
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+<h4 class="my-0 font-weight-normal">TV - Premium+HD</h4>
+</div>
+<div class="card-body">
+<h2 class="card-title pricing-card-title">197 грн<small class="text-muted">/месяц</small></h2>
+<ul class="list-unstyled mt-3 mb-4">
+<li>Каналов - 225</li>
+<li>Каналов HD - 42</li>
+<li>Фильмов - 5 000</li>
+</ul>
+<a href="https://trinity-tv.net/channels/maksimalnyy-premium" class="btn btn-lg btn-block btn-primary">Подробнее</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Наш офис-->
+
+<div id="office" class="office-bg">
+<div class="container">
+<div class="row">
+<div class="col-xl-4 mb-4">
+<p>
+Наш офис находится по адресу:<br>
+г. Вознесенск, ул. Короленко 10/3<br>
++38 (051) 344-10-70<br>
+С 9:00 до 17:00, суббота выходной
+</p>
+<p>
+Поддержка:<br>
++38 (095) 663-55-53<br>
+С 9:00 до 19:00, суббота выходной
+</p>
+</div>
+<div class="col-xl-8">
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1346.0960949199982!2d31.33614798646452!3d47.564048935829604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xece90e4415785d59!2z0KHQvtGO0LfQndC10YI!5e0!3m2!1sru!2sua!4v1560696093675!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Конец нашего офис-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="site/js/popper.js"></script>
+<script src="site/js/bootstrap.js"></script>
+<script src="site/js/apps.js"></script>
+</body>
+</html>
