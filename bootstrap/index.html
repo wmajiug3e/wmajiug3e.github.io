@@ -21,10 +21,10 @@
 </ul>
 </div>
 </div>
+</div>
 <div class="bsnav-mobile">
 <div class="bsnav-mobile-overlay"></div>
 <div class="navbar"></div>
-</div>
 </div>
 <div class="container">
 <div class="row">
@@ -76,10 +76,8 @@
 <option value="TTZ">The Twilight Zone</option>
 </select>
 </div>
-
 </div>
 </div>
-
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
@@ -87,38 +85,5 @@
 <script src="js/apps.js"></script>
 <script src="js/select2.js"></script>
 <script src="js/bsnav.js"></script>
-
-<script>
-
-$.fn.select2.defaults.set( "theme", "bootstrap" );
-
-var placeholder = "не выбрано";
-
-$( ".select2-single, .select2-multiple" ).select2( {
-placeholder: placeholder,
-width: null,
-containerCssClass: ':all:'
-} );
-
-$( ".select2-allow-clear" ).select2( {
-allowClear: true,
-placeholder: placeholder,
-width: null,
-containerCssClass: ':all:'
-} );
-
-$( ".select2-single, .select2-multiple, .select2-allow-clear, .js-data-example-ajax" ).on( "select2:open", function() {
-if ( $( this ).parents( "[class*='has-']" ).length ) {
-var classNames = $( this ).parents( "[class*='has-']" )[ 0 ].className.split( /\s+/ );
-
-for ( var i = 0; i < classNames.length; ++i ) {
-if ( classNames[ i ].match( "has-" ) ) {
-$( "body > .select2-container" ).addClass( classNames[ i ] );
-}
-}
-}
-});
-</script>
-
 </body>
 </html>
