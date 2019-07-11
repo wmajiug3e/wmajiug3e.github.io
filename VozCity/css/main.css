@@ -10,7 +10,6 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .navbar-toggler:focus {outline: none;}
 .logo {height: 50px;}
 .header {box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);font-weight: 500;}
-.nav-scroller .container {padding-right: 0px;padding-left: 0px;}
 .nav-scroller .nav-link:first-child {padding-left: 0px;} 
 .scroller-header {background: #527fda;color: #fff;margin-bottom: 30px;}
 .scroller-header .nav-link {color: #fff;}
@@ -26,3 +25,20 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {background-color: #527fda;}
 .carousel-item {background: #000;}
 .banner-news {filter: opacity(50%);}
+.carousel-caption .tag {background: rgba(0, 132, 255, 0.5);padding: 7px 15px;margin-right: 5px;font-size: 0.7rem;color: #fff;border-radius: 50px;}
+.carousel-caption .tag:hover {background: rgba(0, 132, 255, 0.7);}
+.carousel-caption h4, .carousel-caption h4:hover {margin-top: 10px;color: #fff;}
+.carousel-caption a {text-decoration: none;}
+.mt-6 {margin-top: 30px;}
+.card-img-top {border-radius: 0px;}
+.card {border-radius: 0px;border: 0px;box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);}
+
+@media (max-width: 992px) { 
+    .container {padding-right: 0px;padding-left: 0px;}
+    .scroller-header {margin-bottom: 0px;}
+    .carousel-caption h4 {font-size: 0.9rem;margin-top: 5px;}
+    .carousel-caption p {font-size: 0.5rem;margin-bottom: 0px;}
+    .carousel-caption {bottom: 0px;padding-bottom: 5px;}
+    .carousel-caption .tag {padding: 2px 8px;font-size: 0.4rem;}
+    .mt-6 {margin-top: 15px;}
+ }
