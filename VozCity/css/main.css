@@ -34,9 +34,10 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .card {border-radius: 0px;border: 0px;box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);}
 .card a {color: #485258;}
 .card a:hover {color: #3a4146;text-decoration: none;}
-.card .taglist {position: absolute;margin-left: 10px;margin-top: 10px;}
-.card .tag {background: rgba(0, 0, 0, 0.5);padding: 5px 15px;margin-right: 5px;font-size: 0.6rem;color: #fff;border-radius: 50px;}
+.card .taglist {position: absolute;margin-left: 10px;margin-top: 15px;}
+.card .tag {background: rgba(0, 0, 0, 0.5);padding: 7px 15px;margin-right: 5px;font-size: 0.6rem;color: #fff;border-radius: 50px;}
 .card .tag:hover {background: rgba(0, 0, 0, 0.7);color: #fff;}
+.title {text-align: center;}
 
 @media (max-width: 992px) { 
     .container {padding-right: 0px;padding-left: 0px;}
