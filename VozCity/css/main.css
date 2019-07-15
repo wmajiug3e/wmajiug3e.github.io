@@ -5,6 +5,7 @@
 @import "select-bootstrap.css";
 @import "bsnav.css";
 @import "offcanvas.css";
+@import "starability-all.css";
 
 body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;background: #e7f4f8;}
 .navbar-toggler:focus {outline: none;}
@@ -38,12 +39,17 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .card .tag {background: rgba(0, 0, 0, 0.5);padding: 7px 15px;margin-right: 5px;font-size: 0.6rem;color: #fff;border-radius: 50px;}
 .card .tag:hover {background: rgba(0, 0, 0, 0.7);color: #fff;}
 .title {text-align: center;}
+.place-block img {filter: opacity(25%);}
+.bg-dark {background: #000!important;}
+.place-block .card-overlay {position: absolute;right: 0;bottom: 0;left: 0;padding: 1.25rem;}
+.place-block .card-overlay a {color: #fff;}
+.card-news img {filter: opacity(50%);}
 
 @media (max-width: 992px) { 
     .container {padding-right: 0px;padding-left: 0px;}
     .scroller-header {margin-bottom: 0px;}
     .carousel-caption h4 {font-size: 0.9rem;margin-top: 5px;}
-    .carousel-caption p {font-size: 0.5rem;margin-bottom: 0px;}
+    .carousel-caption p {font-size: 0.5rem;}
     .carousel-caption {bottom: 0px;padding-bottom: 5px;}
     .carousel-caption .tag {padding: 2px 8px;font-size: 0.4rem;}
     .mt-6 {margin-top: 15px;}
