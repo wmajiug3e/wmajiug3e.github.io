@@ -161,7 +161,7 @@ a:hover {color: #414141;}
 .game-preorder, .game-bonus {background: #fff;border-radius: 5px;padding: 35px;margin-bottom: 30px;}
 .game-preorder h5, .game-bonus h5 {margin-bottom: 30px;}
 .game-preorder img, .game-bonus img {width: 100%;}
-.game-preorder li, .game-bonus li {list-style-type:square;color: #636363;}
+.game-preorder li, .game-bonus li {list-style-type:square;}
 .game-preorder ul, .game-bonus ul {padding-left: 15px;margin-top: 35px;margin-bottom: 0px;}
 .request {padding-left: 0px;list-style-type: none;}
 .request span {font-weight: bold;}
@@ -379,3 +379,17 @@ a:hover {color: #414141;}
 
 .reviews-now a {color: #252525;}
 .reviews-now a:hover {color: #1d1d1d;text-decoration: none;}
+
+
+.admin-header {background: #1c1d29;box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1);padding: 0rem 1rem;}
+.admin-header .navbar-brand {color: #a2a3b7;font-size: 16px;}
+.admin-header .nav-link {color: #a2a3b7;}
+.admin-header .nav-link:hover {color: #fff;}
+.admin-header .dropdown-item-active {background-color: #1c1d29;color: #fff;display: block;width: 100%;padding: 0.25rem 1.5rem;}
+.design-dropdown {background: #252633;color: #a2a3b7;width: 250px;padding: 10px 15px;}
+
+@media (max-width: 991.98px) {
+  .dropdown-store .dropdown-menu {position: absolute;right: 0px;left: auto;}
+  .design-dropdown {width: 100%;}
+}
+

@@ -1,4 +1,4 @@
-/* Основной цвет */
+/* Фон */
 
 .header_1-scroller, .catalog-block-link:hover .price, .slider-game .carousel-indicators .active, .header_1-scroller .cart-block, .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
 .slider-reviews .carousel-indicators .active, .header_3_menu, .btn-buy button, .game-screenshot::-webkit-scrollbar-thumb, .btn-reviews .btn, .header_2-menu,
@@ -10,12 +10,13 @@
 .filter-now a {color: rgba(255, 255, 255, 0.8)!important;}
 .filter-now a:hover {color: rgba(255, 255, 255, 0.5)!important;}
 
+/* Обводка */
+
+.search-header_1 .form-control, .catalog-block-link:hover .price, .img-delivery, .game-screenshot::-webkit-scrollbar-thumb, .search-header_2 .form-control, .search-catalog .form-control 
+{border-color: #e2004b!important;}
+.search-header_1 .form-control:focus, .search-header_2 .form-control:focus, .search-catalog .form-control:focus {border-color: #be0140!important;}
+
+/* Цвет */
+
 .search-btn_1, .navbar-toggler, .search-btn_3, .search-catalog .btn {color: #e2004b!important;}
 .search-btn_1:hover, .search-btn_3:hover, .game-screenshot::-webkit-scrollbar-thumb:hover, .search-catalog .btn {color: #be0140!important;}
-
-.catalog-block-link:hover .price, .img-delivery, .game-screenshot::-webkit-scrollbar-thumb {border-color: #e2004b!important;}
-
-/* Дополнительный цвет */
-
-.search-header_1 .form-control, .search-header_2 .form-control, .search-catalog .form-control {border-color: #39bee7!important;}
-.search-header_1 .form-control:focus, .search-header_2 .form-control:focus, .search-catalog .form-control:focus {border-color: #34aed3!important;}
