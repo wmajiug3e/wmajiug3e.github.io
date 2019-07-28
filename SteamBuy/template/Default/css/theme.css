@@ -2,7 +2,7 @@
 
 .header_1-scroller, .catalog-block-link:hover .price, .slider-game .carousel-indicators .active, .header_1-scroller .cart-block, .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
 .slider-reviews .carousel-indicators .active, .header_3_menu, .btn-buy button, .game-screenshot::-webkit-scrollbar-thumb, .btn-reviews .btn, .header_2-menu,
-.filter .amount, .filter-now {background: #e2004b!important;} 
+.filter .amount, .filter-now, .filter .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {background: #e2004b!important;} 
 .header_1-scroller .nav-link:hover, .header_3_menu .nav-link:hover, .btn-buy button:hover, .game-screenshot::-webkit-scrollbar-thumb:hover, .btn-reviews .btn:hover,
 .header_2-menu .nav-link:hover {background: #be0140!important;}
 .header_1-scroller .badge-cart {background: #ff276f!important;color: #fff!important;}
