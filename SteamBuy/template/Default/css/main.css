@@ -263,7 +263,7 @@ a:hover {color: #414141;}
 .catalog .sorting {font-weight: bold;cursor: pointer;}
 .catalog .sorting:hover {color: #4b4b4b;}
 .filter-now {font-size: 12px;border-radius: 10px;background-color: #727272;padding: 5px 10px;color: #fff;margin-bottom: 15px;float: left;margin-right: 5px;}
-.filter-now a {color: #9e9e9e;margin-left: 3px;}
+.filter-now a {color: #9e9e9e;margin-left: 5px;}
 .filter-now a:hover {color: #414141;margin-left: 3px;text-decoration: none;}
 .catalog-list {margin-top: 15px;}
 .catalog-list .game {background: #fff;padding: 35px;margin-bottom: 30px;border-radius: 5px;}
