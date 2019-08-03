@@ -69,5 +69,5 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #434349;backgro
 .tag-footer a {color: #a2a3b7;}
 .tag-footer a:hover {color: #fff;text-decoration: none;}
 
-.soc-footer {color: #a2a3b7;background: #fff;padding: 10px;}
-.soc-footer:hover {color: #fff;}
+.soc-footer {color: #a2a3b7;background: #1b1b28;padding: 12px;border-radius: 4px;margin-left: 10px;float: left;}
+.soc-footer:hover {color: #fff;background: #33334b;}
