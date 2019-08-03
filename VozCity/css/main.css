@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,800');
-@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import url('icon.css');
 @import "bootstrap.css";
 @import "select.css";
 @import "select-bootstrap.css";
@@ -7,15 +7,13 @@
 @import "offcanvas.css";
 @import "starability-all.css";
 
-body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;background: #e7f4f8;}
+body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #434349;background: #e7f4f8;}
 .navbar-toggler:focus {outline: none;}
 .logo {height: 50px;}
 .header {box-shadow: 0px 5px 15px 0 rgba(0,0,0,.07);font-weight: 500;}
-.nav-scroller .nav-link:first-child {padding-left: 0px;} 
-.scroller-header {background: #527fda;color: #fff;margin-bottom: 30px;}
-.scroller-header .nav-link {color: #fff;}
-.scroller-header .nav-link:hover {color: #fff;}
-.nav-login {color: #e2004b!important;font-weight: 600;}
+.nav-link {color: #6c7293!important;}
+.nav-link:hover {color: #591df1!important;}
+.nav-link-login {background-color: #f5f6fc;padding: .5rem 1.1rem!important;border-radius: 4px;margin-top: 12px;}
 .btn-vk {background: #4a76a8;color: #fff;font-size: 0.9rem;}
 .btn-vk:hover {background: #416894;color: #fff;}
 .btn-fb {background: #4267b2;color: #fff;font-size: 0.9rem;}
@@ -23,7 +21,7 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .btn-google {background: #ea4335;color: #fff;font-size: 0.9rem;}
 .btn-google:hover {background: #da3f31;color: #fff;}
 .login-dropdown {padding: 15px;}
-.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {background-color: #527fda;}
+.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {background-color: #591df1;}
 .carousel-item {background: #000;}
 .banner-news {filter: opacity(50%);}
 .carousel-caption .tag {background: rgba(0, 0, 0, 0.5);padding: 7px 15px;margin-right: 5px;font-size: 0.7rem;color: #fff;border-radius: 50px;}
@@ -44,7 +42,8 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
 .place-block .card-overlay {position: absolute;right: 0;bottom: 0;left: 0;padding: 1.25rem;}
 .place-block .card-overlay a {color: #fff;}
 .card-news img {filter: opacity(50%);}
-.list-group-item i {font-size: 1.2rem;color: #527fda;margin-right: 5px;}
+.list-group-item i {font-size: 1.2rem;color: #591df1;margin-right: 5px;}
+.carousel {margin-bottom: 30px;}
 
 @media (max-width: 992px) { 
     .container {padding-right: 0px;padding-left: 0px;}
@@ -56,4 +55,19 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #5e6d77;backgro
     .mt-6 {margin-top: 15px;}
     .city-slide {padding-top: 61px;}
     .title {margin-top: 0px;margin-bottom: 15px;font-size: 1.5rem;}
+    .carousel {margin-bottom: 0px;}
  }
+
+   
+::-webkit-scrollbar-track {background-color:#f5f6fc;}
+::-webkit-scrollbar-thumb {-webkit-border-radius: 4px;border-radius: 4px;background-color:#6c7293;}
+::-webkit-scrollbar-thumb:hover{background-color:#591df1;}
+::-webkit-scrollbar{width: 5px;}
+
+.footer {background: #1e1e2d;color: #a2a3b7;padding: 30px 0px;margin-top: 30px;}
+.tag-footer {background: #1b1b28;padding: .5rem 1.1rem;border-radius: 4px;margin-right: 10px;float: left;margin-bottom: 10px;}
+.tag-footer a {color: #a2a3b7;}
+.tag-footer a:hover {color: #fff;text-decoration: none;}
+
+.soc-footer {color: #a2a3b7;background: #fff;padding: 10px;}
+.soc-footer:hover {color: #fff;}
