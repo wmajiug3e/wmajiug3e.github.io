@@ -542,7 +542,7 @@
 
 .nav-item.dropdown>.navbar-nav {
     background: #fff;
-    width: 200px;
+    width: 212px;
     position: absolute;
     pointer-events: none;
     flex-direction: column;

@@ -1,15 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Play');
 @import "icon.css";
 @import "bootstrap.css";
 @import "select.css";
 @import "select-bootstrap.css";
 @import "bsnav.css";
 
-body {font-family: 'Roboto', sans-serif;font-size: 1rem;color: #130f40;background: #f5f5f5;}
+body {font-family: 'Play', sans-serif;font-size: 1rem;color: #130f40;background: #f5f5f5;}
+a {color: #3f4e5d;}
+a:hover {color: #364555;}
 .navbar-toggler:focus {outline: none;}
-.header {padding: 30px 0px;}
+.header {padding: 15px 0px;background: #fff;}
 .icon-header {font-size: 24px;margin-left: 15px;}
 .logo {height: 35px;}
-.header .col-searth, .header .col-logo {padding-right: 0px;}
+.header .col-logo {padding-right: 0px;}
 .header .col-icon {padding-left: 0px;margin-top: 6px;}
-.header .col-icon button {margin-right: 15px;}
+.header .col-icon button {margin-right: 15px;display: none;}
+.header-menu {background: #3f4e5d;}
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {padding: 15px 10px;}
+.mini-header {padding: 5px 0px;border-bottom: 1px solid #ebebeb;background: #fff;}
+.mini-header .language a:first-child, .mini-header .language span:first-child {border-right: 1px solid #ebebeb;padding-right: 5px;}
+.mini-header .language a:last-child, .mini-header .language span:last-child {padding-left: 5px;}
+.mini-header .link {margin-right: 10px;text-transform: uppercase;}
+.header-menu .profile {background: #364555;color: #fff!important;padding: 5px 15px!important;border-radius: 5px;}
+.catalog-link {background: #364555;color: #fff!important;width: 212px;}
+.header-menu-link {color: #fff!important;}
+
+
+@media (max-width: 1199px) { 
+    .header .col-logo {display: none;}
+    .header .col-icon button {display: initial;}
+ }
+
+ @media (max-width: 992px) { 
+    .header-menu {display: none;}
+    .mini-header .link, .mini-header .language {margin-right: 5px;font-size: 0.9rem;}
+ }
