@@ -113,3 +113,7 @@ blockquote p {margin-bottom: 0px;}
 .set img {width: 110px;}
 
 .form-control:focus {box-shadow: none;}
+
+.list-link a {color: #6c7293;}
+.list-link a:hover {text-decoration: none;color: #531cdf;}
+.list-icon {color: #531cdf;}
