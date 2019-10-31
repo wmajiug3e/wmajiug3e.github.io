@@ -26,38 +26,18 @@
 <div class="bsnav-mobile-overlay"></div>
 <div class="navbar"></div>
 </div>
-<div class="container">
+<div class="container" id="app">
     <div class="page">
         <div class="row">
         <div class="col-lg">
         <div class="form-group">
         <label for="single" class="control-label">Откуда</label>
-        <select id="single" class="form-control select2-single">
-        <optgroup label="Вознесенск">
-        <option value="01">Рынок</option>
-        <option value="02">3-й район</option>
-        <option value="03">Кожзавод</option>
-        <option value="04">Автобаза</option>
-        <option value="05">ул. Кутвицкого</option>
-        <option value="06">Прямое</option>
-        <option value="07">ул. Пещаная</option>
-        <option value="08">Сырзавод (через Зеленый гай)</option>
-        <option value="09">Сырзавод (через ул. Матросова)</option>
-        <option value="010">Больница</option>
-        <option value="011">ул. Пархоменка (Чорновола)</option>
-        <option value="012">Спорткомплекс</option>
-        <option value="013">Поселок (ул. Виноградная)</option>
-        </optgroup>
-        <optgroup label="Вознесенский район">
-        <option value="2">Александровка</option>
-        <option value="3">Прибужаны</option>
-        <option value="4">Раково</option>
-        <option value="5">Мартыновка</option>
-        <option value="6">Тимирязево</option>
-        <option value="7">Ястребиново</option>
-        <option value="8">Трыкраты</option>
-        <option value="9">Вороновка</option>
-        </optgroup>
+        <select id="single" class="form-control select2-single" v-model="form.from">
+            <template v-for="district in districts">
+                <optgroup :label="district.name">
+                    <option :value="street.id" v-for="street in streets.filter(street => street.district_id === district.id)">{{ street.name }}</option>
+                </optgroup>
+            </template>
         </select>
         </div>
         </div>
@@ -67,114 +47,38 @@
         <div class="col-lg">
         <div class="form-group">
         <label for="single" class="control-label">Куда</label>
-        <select id="single" class="form-control select2-single">
-        <optgroup label="Вознесенск">
-        <option value="02">3-й район</option>
-        <option value="01">Рынок</option>
-        <option value="03">Кожзавод</option>
-        <option value="04">Автобаза</option>
-        <option value="05">ул. Кутвицкого</option>
-        <option value="06">Прямое</option>
-        <option value="07">ул. Пещаная</option>
-        <option value="08">Сырзавод (через Зеленый гай)</option>
-        <option value="09">Сырзавод (через ул. Матросова)</option>
-        <option value="010">Больница</option>
-        <option value="011">ул. Пархоменка (Чорновола)</option>
-        <option value="012">Спорткомплекс</option>
-        <option value="013">Поселок (ул. Виноградная)</option>
-        </optgroup>
-        <optgroup label="Вознесенский район">
-        <option value="2">Александровка</option>
-        <option value="3">Прибужаны</option>
-        <option value="4">Раково</option>
-        <option value="5">Мартыновка</option>
-        <option value="6">Тимирязево</option>
-        <option value="7">Ястребиново</option>
-        <option value="8">Трыкраты</option>
-        <option value="9">Вороновка</option>
-        </optgroup>
+        <select id="single" class="form-control select2-single" v-model="form.to">
+            <template v-for="district in districts">
+                <optgroup :label="district.name">
+                    <option :value="street.id" v-for="street in streets.filter(street => street.district_id === district.id)">{{ street.name }}</option>
+                </optgroup>
+            </template>
         </select>
         </div>
         </div>
         </div>
         <div class="bus-table mt-2" from="Рынок" to="3-й район">
         <div class="mb-4" align="center"><h5>Рынок - 3-й район (Ежедневно)</h5></div>
-        <table class="table table-striped">
-        <thead>
-        <tr>
-        <th scope="col">Время</th>
-        <th scope="col">Номер маршрутки</th>
-        <th scope="col">Маршрут</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr class="table-info">
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        <tr>
-        <th scope="row">05:25</th>
-        <td><span class="badge badge-success">36</span></td>
-        <td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
-        </tr>
-        </tbody>
-        </table>
+
+            <div class="alert alert-danger" role="alert" v-if="items.length === 0">
+                сасай масалай
+            </div>
+            <table class="table table-striped" v-else>
+                <thead>
+                <tr>
+                    <th scope="col">Время</th>
+                    <th scope="col">Номер маршрутки</th>
+                    <th scope="col">Маршрут</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr v-for="item in items">
+                    <th scope="row">{{ item.time }}</th>
+                    <td><span class="badge badge-success">{{ item.number }}</span></td>
+                    <td>{{ item.name }}</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         </div>
 </div>
@@ -184,5 +88,66 @@
 <script src="js/apps.js"></script>
 <script src="js/select2.js"></script>
 <script src="js/bsnav.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+      el: '#app',
+      data: {
+        form: {
+          from: 1,
+          to: 2,
+        },
+        districts: [{
+          id: 1,
+          name: 'District #1',
+        }, {
+          id: 2,
+          name: 'District #2',
+        }],
+        streets: [{
+          id: 1,
+          district_id: 1,
+          name: 'Street #1',
+        }, {
+          id: 2,
+          district_id: 1,
+          name: 'Street #2',
+        }, {
+          id: 3,
+          district_id: 2,
+          name: 'Street #3',
+        }],
+        relations: [{
+          from: 1,
+          to: 2,
+          items: [{
+            number: 36,
+            time: '5:32',
+            name: 'по ул. Киевская (Октябрской революции) до Кожзавода',
+          }, {
+            number: 32,
+            time: '5:40',
+            name: 'по ул. Киевская (Октябрской революции) до Кожзавода',
+          }],
+        }, {
+          from: 1,
+          to: 3,
+          items: [{
+            number: 1,
+            time: '5:32',
+            name: 'по ул. Киевская (Октябрской революции) до Кожзавода',
+          }],
+        }],
+      },
+      computed: {
+        items() {
+          const relation = this.relations.find(relation => relation.from === this.form.from && relation.to === this.form.to);
+
+          return relation ? relation.items : [];
+        },
+      }
+    });
+</script>
 </body>
 </html>

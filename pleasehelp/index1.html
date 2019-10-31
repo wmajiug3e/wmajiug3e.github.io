@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="navbar navbar-expand-sm bsnav">
+<div class="container">
+<a class="navbar-brand" href="#">Navbar</a>
+<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse justify-content-sm-end">
+<ul class="navbar-nav navbar-mobile mr-0">
+<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="#">News</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bsnav-mobile">
+<div class="bsnav-mobile-overlay"></div>
+<div class="navbar"></div>
+</div>
+<div class="container">
+<div class="page">
+<div class="row">
+<div class="col-lg">
+<div class="form-group">
+<label for="single" class="control-label">Откуда</label>
+<select id="single" class="form-control select2-single">
+<optgroup label="Вознесенск">
+<option value="01">Рынок</option>
+<option value="02">3-й район</option>
+<option value="03">Кожзавод</option>
+<option value="04">Автобаза</option>
+<option value="05">ул. Кутвицкого</option>
+<option value="06">Прямое</option>
+<option value="07">ул. Пещаная</option>
+<option value="08">Сырзавод (через Зеленый гай)</option>
+<option value="09">Сырзавод (через ул. Матросова)</option>
+<option value="010">Больница</option>
+<option value="011">ул. Пархоменка (Чорновола)</option>
+<option value="012">Спорткомплекс</option>
+<option value="013">Поселок (ул. Виноградная)</option>
+</optgroup>
+<optgroup label="Вознесенский район">
+<option value="2">Александровка</option>
+<option value="3">Прибужаны</option>
+<option value="4">Раково</option>
+<option value="5">Мартыновка</option>
+<option value="6">Тимирязево</option>
+<option value="7">Ястребиново</option>
+<option value="8">Трыкраты</option>
+<option value="9">Вороновка</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="col-lg-auto align-self-center text-center">
+<button class="exchange-button" data-toggle="tooltip" data-placement="top" title="Поменять местами"><i class="fas fa-exchange-alt"></i></button>
+</div>
+<div class="col-lg">
+<div class="form-group">
+<label for="single" class="control-label">Куда</label>
+<select id="single" class="form-control select2-single">
+<optgroup label="Вознесенск">
+<option value="02">3-й район</option>
+<option value="01">Рынок</option>
+<option value="03">Кожзавод</option>
+<option value="04">Автобаза</option>
+<option value="05">ул. Кутвицкого</option>
+<option value="06">Прямое</option>
+<option value="07">ул. Пещаная</option>
+<option value="08">Сырзавод (через Зеленый гай)</option>
+<option value="09">Сырзавод (через ул. Матросова)</option>
+<option value="010">Больница</option>
+<option value="011">ул. Пархоменка (Чорновола)</option>
+<option value="012">Спорткомплекс</option>
+<option value="013">Поселок (ул. Виноградная)</option>
+</optgroup>
+<optgroup label="Вознесенский район">
+<option value="2">Александровка</option>
+<option value="3">Прибужаны</option>
+<option value="4">Раково</option>
+<option value="5">Мартыновка</option>
+<option value="6">Тимирязево</option>
+<option value="7">Ястребиново</option>
+<option value="8">Трыкраты</option>
+<option value="9">Вороновка</option>
+</optgroup>
+</select>
+</div>
+</div>
+</div>
+<div style="display: block;" class="bus-table mt-2" from="Рынок" to="3-й район">
+<div class="mb-4" align="center"><h5>Рынок - 3-й район (Ежедневно)</h5></div>
+<table class="table table-striped">
+<thead>
+<tr>
+<th scope="col">Время</th>
+<th scope="col">Номер маршрутки</th>
+<th scope="col">Маршрут</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">05:25</th>
+<td><span class="badge badge-success">36</span></td>
+<td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="display: none;" class="bus-table mt-2" from="Рынок" to="Больница">
+<div class="mb-4" align="center"><h5>Рынок - 3-й район (Ежедневно)</h5></div>
+<table class="table table-striped">
+<thead>
+<tr>
+<th scope="col">Время</th>
+<th scope="col">Номер маршрутки</th>
+<th scope="col">Маршрут</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">05:25</th>
+<td><span class="badge badge-success">36</span></td>
+<td>по ул. Киевская (Октябрской революции) до Кожзавода</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bsnav.js"></script>
+</body>
+</html>
