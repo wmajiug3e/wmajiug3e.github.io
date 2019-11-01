@@ -76,6 +76,11 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .game-discont-list .carousel-indicators {bottom: -30px;}
 .game-discont-list .carousel-indicators li {background-color: #959cb6;height: 7px;}
 .game-discont-list .carousel-indicators .active {background-color: #5867dd;}
+.series-discont .gradient {background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);width: calc(100% - 30px);height: 120px;position: absolute;bottom: 0;}
+.fortuna-banner {text-align: center;margin-top: 30px;background: #e2004b;color: #fff;font-size: 1.3rem;padding: 46px 0px;margin-bottom: 30px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
+.fortuna-banner:hover, .fortuna-link:hover {text-decoration: none;background: #c50042;}
+
+
 
 
 @media (min-width: 992px) {
@@ -112,7 +117,10 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .game-list .game .price {text-align: center;margin-top: 15px;}
     .game-list .catalog-link {padding-top: 0px;}
     .game-list .discont-title {text-align: center;margin-top: 15px;}
-    .game-list .game-discont-list {margin-top: 15px;}
+    .game-list .game-discont-list {margin-top: 15px;padding: 15px;padding-bottom: 22px;}
+    .series-discont .col-6 {margin-bottom: 15px;padding-right: 7.5px;padding-left: 7.5px;}
+    .game-discont-list .carousel-indicators {bottom: -33px;}
+    .fortuna-banner {margin-top: 15px;padding: 20px 0px;margin-bottom: 0px;}
 }
 @media (max-width: 576px) {
     .header {display: none;}
