@@ -6,7 +6,7 @@
 @import "bsnav.css";
 
 body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;background: #f9f9fc;}
-.navbar-toggler {margin-right: 15px;display: none;}
+.navbar-toggler {margin-right: 15px;display: none;margin-top: 7px;}
 .navbar-toggler:focus {outline: none;}
 
 .header {background: #181824;margin-bottom: 0px;}
@@ -17,7 +17,7 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .nav-login {background: #232337;color: #fff!important;padding: 7px 15px!important;margin-top: 14px;}
 .nav-login:hover {background: #e2004b;}
 .search-block {background: #fff;padding: 15px 0px;}
-.search-block .btn {padding: 10px;background: #f2f3f7;color: #c1bfd1;border-radius: 0px;}
+.search-block .btn {padding: 9px;background: #f2f3f7;color: #c1bfd1;border-radius: 0px;}
 .search-block .btn:focus, .search-block .btn:hover {background: #374afb;box-shadow: none;color: #fff;}
 .search-block .form-control {border-radius: 0px;background: #f2f3f7;color: #b7bfcc;border-color: #f2f3f7;font-size: 0.9rem;}
 .search-block .form-control:focus {box-shadow: none;}
@@ -40,6 +40,43 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .navbar {padding: 0px;}
 
 .banner-1264x300 {margin-top: 30px;}
+.slider-discont {margin-top: 30px;}
+.slider-discont .carousel-indicators {position: inherit;margin-top: -10px;}
+.slider-discont .carousel-indicators li {background-color: #959cb6;height: 7px;}
+.slider-discont .carousel-indicators .active {background-color: #5867dd;}
+.slider-discont .img-discont {width: 100%;}
+.col-game-discont {margin-bottom: 30px;}
+.col-game-discont .discont {z-index: 999;position: absolute;bottom: 15;left: 50%;transform: translate(-50%, 0%);border: 2px solid rgba(255,255,255,0.3);padding: 7px 15px;color: #fff;background: rgba(0, 0, 0, 0.3);}
+.col-game-discont a:hover .discont {background: #e2004b;border: 2px solid #e2004b;}
+.col-game-discont .discont span {text-decoration: line-through;color: #dedede;font-size: 10px;}
+.col-game-discont .gradient {background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);width: calc(100% - 30px);height: 100px;position: absolute;bottom: 0;}
+.game-list .nav-pills .nav-link.active, .nav-pills .show>.nav-link {background-color: rgba(88,103,221,.1);color: #5867dd;}
+.game-list .nav-pills .nav-link {border-radius: 0px;}
+.game-list .nav-link, .game-list .nav-link:hover {color: #959cb6;font-size: 1rem;}
+.game-list .tab-pane {background: #fff;width: 100%;padding: 30px;margin-top: 22px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
+.game-list .game img {width: 150px;}
+.game-list .game {border-bottom: 1px dashed #ebedf2;padding-bottom: 15px;margin-bottom: 15px;}
+.game-list .game:last-child {border: 0px;margin-bottom: 0px;padding-bottom: 0px;}
+.game-list .game a {color: #595d6e;}
+.game-list .game a:hover {text-decoration: none;color: #5d78ff;}
+.game-list .game .info {color: #74788d;margin-right: 3px;border-right: 1px solid #ebedf2;padding-right: 5px;}
+.game-list .game .info:last-child {border: 0px;}
+.game-list .game .price span {background-color: rgba(10,187,135,.1);color: #0abb87;font-weight: bold;padding: .5rem 1rem;font-size: 0.9rem;margin-right: 10px;}
+.game-list .game .price {font-size: 1.3rem;color: #595d6e;}
+.game-list .game a:hover .price span {background: #0abb87;color: #fff;}
+.game-list .catalog-link {padding-top: 15px;font-size: 1rem;text-align: center;}
+.game-list .catalog-link a {color: #93a2dd;}
+.game-list .catalog-link a:hover {text-decoration: none;background: #f0f3ff;padding: 7px 15px;}
+.game-list .discont-title {font-size: 1rem;color: #959cb6;margin-top: 8px;}
+.game-list .game-discont-list {background: #fff;width: 100%;padding: 30px;margin-top: 30px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
+.series-discont img {width: 100%;}
+.series-discont .col-6 {margin-bottom: 30px;}
+.series-discont .discont {z-index: 999;position: absolute;bottom: 15;left: 50%;transform: translate(-50%, 0%);border: 2px solid rgba(10, 187, 134, 0.5);padding: 7px 15px;color: #fff;background: rgba(0, 0, 0, 0.3);}
+.series-discont a:hover .discont {background: #0abb87;border: 2px solid #0abb87;}
+.game-discont-list .carousel-indicators {bottom: -30px;}
+.game-discont-list .carousel-indicators li {background-color: #959cb6;height: 7px;}
+.game-discont-list .carousel-indicators .active {background-color: #5867dd;}
+
 
 @media (min-width: 992px) {
 .container {max-width: 1264px;}
@@ -66,7 +103,18 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .nav-login {background: #e2004b;width: 200px;text-align: center;margin: 15px;}
     .nav-catalog {margin-top: 8px!important;}
     .banner-1264x300 {margin-top: 0px;margin-left: -15px;margin-right: -15px;}
+    .col-game-discont {margin-bottom: 0px;margin-top: 15px;padding-left: 7.5px;padding-right: 7.5px;}
+    .slider-discont {margin-top: 15px;}
+    .slider-discont .carousel-indicators {position: inherit;margin-top: 5px;}
+    .col-game-discont .gradient {width: calc(100% - 15px);}
+    .game-list .game img {width: 100%;margin-bottom: 15px;}
+    .game-list .tab-pane {padding: 15px;}
+    .game-list .game .price {text-align: center;margin-top: 15px;}
+    .game-list .catalog-link {padding-top: 0px;}
+    .game-list .discont-title {text-align: center;margin-top: 15px;}
+    .game-list .game-discont-list {margin-top: 15px;}
 }
 @media (max-width: 576px) {
     .header {display: none;}
+    .game-list .nav-item {min-width: fit-content;}
 }
