@@ -92,6 +92,13 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .mail .input-mail {max-width: 450px;margin: auto;}
 .mail .text-muted {color: #6c6e86!important;margin-top: 15px;}
 .mail h4 {margin-bottom: 30px;}
+.mail .form-control {background: #252338;color: #807da1;border-color: #252338;border-radius: 0px;border: 0px;}
+.mail .btn {background: #5867dd;color: #fff;border-radius: 0px;border: 0px;}
+.mail .btn:hover {background: #4855b6;}
+.mail .form-control::placeholder {color: #807da1;}
+.mail .form-control:focus, .mail .btn:focus {box-shadow: none;border: 0px;}
+.footer {background: #181824;padding: 30px 0px;}
+.footer .logo {height: 50px;}
 @media (min-width: 992px) {
 .container {max-width: 1264px;}
 }

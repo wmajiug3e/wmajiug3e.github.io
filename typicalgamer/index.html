@@ -963,10 +963,22 @@ VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "300", color2: '595d
 <div class="input-group input-mail">
 <input type="text" class="form-control" placeholder="Ваш E-mail">
 <div class="input-group-append">
-<button class="btn btn-outline-secondary" type="button">Подписаться</button>
+<button class="btn" type="button">Подписаться</button>
 </div>
 </div>
-<small class="form-text text-muted">Никакого спама! Только полезная информация: скидки, акции, предзаказы и т.д.</small>
+<small class="form-text text-muted">Никакого спама, только полезная информация: скидки, акции, предзаказы и т.д.</small>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col">
+<img class="logo" src="img/logo.svg">
+</div>
+<div class="col-auto">
+1
+</div>
+</div>
 </div>
 </div>
 <script src="js/jquery.js"></script>
@@ -975,5 +987,10 @@ VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "300", color2: '595d
 <script src="js/apps.js"></script>
 <script src="js/select2.js"></script>
 <script src="js/bsnav.js"></script>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 77558923, {disableExpandChatSound: "1",disableButtonTooltip: "1"});
+</script>
 </body>
 </html>
