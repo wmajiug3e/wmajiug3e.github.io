@@ -88,6 +88,10 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .about {background: #fff;padding: 30px 0px;color: #595d6e;}
 .about a {color: #595d6e;}
 .about a:hover {color: #5867dd;text-decoration: none;border-bottom: 2px solid #5867dd;}
+.mail {background: #1f1e2e;padding: 30px 0px;color: #6c6e86;text-align: center;}
+.mail .input-mail {max-width: 450px;margin: auto;}
+.mail .text-muted {color: #6c6e86!important;margin-top: 15px;}
+.mail h4 {margin-bottom: 30px;}
 @media (min-width: 992px) {
 .container {max-width: 1264px;}
 }
@@ -128,7 +132,8 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .fortuna-banner {margin-top: 15px;padding: 20px 0px;margin-bottom: 0px;}
     .reviews-title {margin-bottom: 15px;margin-top: 15px;}
     .reviews {padding: 15px;margin-bottom: 15px;}
-
+    .about {padding: 15px 0px;}
+    .vk_groups {margin: auto;}
 }
 @media (max-width: 576px) {
     .header {display: none;}
