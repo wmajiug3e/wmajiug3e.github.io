@@ -98,7 +98,16 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .mail .form-control::placeholder {color: #807da1;}
 .mail .form-control:focus, .mail .btn:focus {box-shadow: none;border: 0px;}
 .footer {background: #181824;padding: 30px 0px;}
-.footer .logo {height: 50px;}
+.footer .logo {height: 50px;opacity: 0.8;}
+.footer .logo:hover {opacity: 1;}
+.footer .social-icon {margin-top: 5px;}
+.footer .social-icon a {font-size: 30px;padding: 7px;color: #6c6e86;}
+.footer .social-icon a:hover {color: #5867dd;}
+.footer .button a {padding: 10px 15px;background: #232337;color: #fff;}
+.footer .button a:hover {background: #5867dd;text-decoration: none;}
+.footer-link {margin-left: 30px;color: #6c6e86;}
+.footer-link:hover {color: #fff;text-decoration: none;}
+.footer-link:hover i {color: #5867dd;}
 @media (min-width: 992px) {
 .container {max-width: 1264px;}
 }
@@ -141,6 +150,14 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .reviews {padding: 15px;margin-bottom: 15px;}
     .about {padding: 15px 0px;}
     .vk_groups {margin: auto;}
+    .footer {padding: 15px 0px;}
+    .footer-logo {display: none;}
+    .footer .button-footer {margin: auto;padding-top: 20px;padding-bottom: 10px;}
+    .footer .links {text-align: center;}
+    .footer .links a {white-space: nowrap;}
+    .mail {padding: 15px 0px;}
+    .mail h4 {margin-bottom: 15px;}
+    .footer-link {margin-left: 15px;}
 }
 @media (max-width: 576px) {
     .header {display: none;}
