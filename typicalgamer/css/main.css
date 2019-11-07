@@ -164,8 +164,7 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .game-list .nav-item {min-width: fit-content;}
 }
 
-.game-background {height: 500px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;
-background-image: url('https://steammachine.ru/gallery/2729587_38415708273117.jpg');}
+.game-background {height: 500px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .game-background .container {position: relative;}
 .game-background .overlay {background: rgba(0, 0, 0, 0.9);width: 100%;height: 500px;position: absolute;}
 .game-background .bread {padding-top: 24px;}
@@ -182,5 +181,19 @@ background-image: url('https://steammachine.ru/gallery/2729587_38415708273117.jp
 .game-background .game-list a:hover {color: #dbdada;text-decoration: none;border: 0px;}
 .game-background .game-list .col-lg-6 {padding-left: 0px;padding-bottom: 5px;}
 .game-background .game-list i {color: #374afb;}
-
-
+.game-background .screenshot-carousel {max-width: 462px;flex-wrap: nowrap;overflow: hidden;overflow-x: scroll;}
+.game-background .screenshot-carousel-list {display: flex;float: left;}
+.game-background .screenshot-carousel-list img {width: 197px;height: 110px;}
+.game-background .screenshot-carousel::-webkit-scrollbar{height: 8px;}
+.game-background .screenshot-carousel::-webkit-scrollbar-thumb{border-width:1px 1px 1px 2px;border-color: #636363;background-color: #e2004b;cursor: pointer;border-radius: 5px;}
+.game-background .screenshot-carousel::-webkit-scrollbar-thumb:hover{border-width: 1px 1px 1px 2px;border-color: #c00040;background-color: #c00040;cursor: pointer;}
+.game-background .screenshot-carousel::-webkit-scrollbar-track{border-width:0;}
+.game-background .price .discont {border: 2px solid rgba(10, 187, 134, 0.5);padding: 14px;font-size: 1.3rem;padding-bottom: 15px;color: #fff;}
+.game-background .price {font-size: 1.8rem;color: #fff;}
+.game-background .price span {text-decoration: line-through;color: #dbdada;font-size: 12px;}
+.game-background .btn-buy {background: #0abb87;color: #fff;border: 0px;border-radius: 0px;padding: 19px 45px;}
+.game-background .btn-buy:hover, .game-background .btn-buy:focus {background: #09a174;box-shadow: none;}
+.game-background .btn-favorites {color: #fff;border: 0px;border-radius: 0px;}
+.game-background .btn-favorites i {color: #c00040;}
+.game-background .btn-favorites:hover {color: #dbdada;}
+.game-background .btn-favorites:hover, .game-background .btn-favorites:focus {box-shadow: none;}
