@@ -163,3 +163,24 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .header {display: none;}
     .game-list .nav-item {min-width: fit-content;}
 }
+
+.game-background {height: 500px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;
+background-image: url('https://steammachine.ru/gallery/2729587_38415708273117.jpg');}
+.game-background .container {position: relative;}
+.game-background .overlay {background: rgba(0, 0, 0, 0.9);width: 100%;height: 500px;position: absolute;}
+.game-background .bread {padding-top: 24px;}
+.game-background .bread a {color: #fff;}
+.game-background .bread a:hover {color: #dbdada;text-decoration: none;}
+.game-background .bread i {margin: 0px 5px;color: #374afb;font-size: 0.7rem;}
+.game-background .title {margin-top: 11px;color: #fff;font-size: 2rem;}
+.game-background .game-img {width: 100%;margin-top: 17px;}
+.game-background li {padding-left: 0px;list-style: none;padding-bottom: 5px;}
+.game-background li:last-child {padding-bottom: 0px;}
+.game-background span {float: left;width: 120px;}
+.game-background .game-list {margin-top: 11px;color: #fff;padding-left: 0px;}
+.game-background .game-list a {color: #fff;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+.game-background .game-list a:hover {color: #dbdada;text-decoration: none;border: 0px;}
+.game-background .game-list .col-lg-6 {padding-left: 0px;padding-bottom: 5px;}
+.game-background .game-list i {color: #374afb;}
+
+
