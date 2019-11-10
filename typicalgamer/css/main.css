@@ -164,9 +164,9 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
     .game-list .nav-item {min-width: fit-content;}
 }
 
-.game-background {height: 500px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.game-background {height: 562px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .game-background .container {position: relative;}
-.game-background .overlay {background: rgba(0, 0, 0, 0.9);width: 100%;height: 500px;position: absolute;}
+.game-background .overlay {background: rgba(0, 0, 0, 0.9);width: 100%;height: 562px;position: absolute;}
 .game-background .bread {padding-top: 24px;}
 .game-background .bread a {color: #fff;}
 .game-background .bread a:hover {color: #dbdada;text-decoration: none;}
@@ -181,15 +181,15 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .game-background .game-list a:hover {color: #dbdada;text-decoration: none;border: 0px;}
 .game-background .game-list .col-lg-6 {padding-left: 0px;padding-bottom: 5px;}
 .game-background .game-list i {color: #374afb;}
-.game-background .screenshot-carousel {max-width: 462px;flex-wrap: nowrap;overflow: hidden;overflow-x: scroll;}
+.game-background .screenshot-carousel {max-width: 462px;flex-wrap: nowrap;overflow: hidden;overflow-x: scroll;padding-bottom: 10px;}
 .game-background .screenshot-carousel-list {display: flex;float: left;}
-.game-background .screenshot-carousel-list img {width: 197px;height: 110px;}
+.game-background .screenshot-carousel-list img {width: 231px;height: 129px;}
 .game-background .screenshot-carousel::-webkit-scrollbar{height: 8px;}
-.game-background .screenshot-carousel::-webkit-scrollbar-thumb{border-width:1px 1px 1px 2px;border-color: #636363;background-color: #e2004b;cursor: pointer;border-radius: 5px;}
+.game-background .screenshot-carousel::-webkit-scrollbar-thumb{border-width:1px 1px 1px 2px;border-color: #636363;background-color: #e2004b;cursor: pointer;border-radius: 0px;}
 .game-background .screenshot-carousel::-webkit-scrollbar-thumb:hover{border-width: 1px 1px 1px 2px;border-color: #c00040;background-color: #c00040;cursor: pointer;}
 .game-background .screenshot-carousel::-webkit-scrollbar-track{border-width:0;}
 .game-background .price .discont {border: 2px solid rgba(10, 187, 134, 0.5);padding: 14px;font-size: 1.3rem;padding-bottom: 15px;color: #fff;}
-.game-background .price {font-size: 1.8rem;color: #fff;}
+.game-background .price {font-size: 1.8rem;color: #fff;margin-top: 42.5px;}
 .game-background .price span {text-decoration: line-through;color: #dbdada;font-size: 12px;}
 .game-background .btn-buy {background: #0abb87;color: #fff;border: 0px;border-radius: 0px;padding: 19px 45px;}
 .game-background .btn-buy:hover, .game-background .btn-buy:focus {background: #09a174;box-shadow: none;}
@@ -197,3 +197,32 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .game-background .btn-favorites i {color: #c00040;}
 .game-background .btn-favorites:hover {color: #dbdada;}
 .game-background .btn-favorites:hover, .game-background .btn-favorites:focus {box-shadow: none;}
+
+.game-preorder, .game-bonus {background: #fff;padding: 30px;margin-top: 30px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);color: #595d6e;}
+.game-preorder h5, .game-bonus h5 {margin-bottom: 30px;}
+.game-preorder img, .game-bonus img {width: 100%;}
+.game-preorder li, .game-bonus li {list-style-type:square;}
+.game-preorder ul, .game-bonus ul {padding-left: 15px;margin-top: 35px;margin-bottom: 0px;}
+.game-tabs {background: #fff;padding: 30px;margin-top: 30px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);color: #595d6e;}
+
+@media (max-width: 992px) {
+    .game-background {background: #fff;background-image: none!important;height: auto;padding-bottom: 2px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
+    .game-background .overlay {display: none;}
+    .game-background .bread {padding-top: 9px;}
+    .game-background .bread a {color: #646c9a;}
+    .game-background .bread a:hover {color: #5b638b;}
+    .game-background .title {color: #646c9a;font-size: 1.5rem;margin-top: 1px;}
+    .game-background .game-img {margin-top: 6px;}
+    .game-background .game-list {color: #646c9a;}
+    .game-background .game-list a {color: #646c9a;border-bottom: 1px solid rgba(100, 108, 154, 0.1);}
+    .game-background .game-list a:hover {color: #646c9a;}
+    .game-background span {width: auto;margin-right: 5px;color: #595d6e;}
+    .game-background .game-list .row {clear: both;padding: 15px;padding-top: 5px;}
+    .game-background .screenshot-carousel {max-width: 100%;}
+    .game-background .price .discont {border: 0px;padding: 14px;font-size: 1.3rem;padding-bottom: 15px;background-color: rgba(10,187,135,.1);color: #0abb87;}
+    .game-background .price {color: #646c9a;text-align: center;margin-top: -27px;}
+    .game-background .btn-buy {width: 100%;margin-top: 14px;margin-bottom: 5px;}
+    .game-background .btn-favorites {color: #646c9a;}
+    .game-background .btn-favorites:hover {color: #5b638b;}
+
+    }
