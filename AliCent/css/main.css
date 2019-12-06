@@ -15,7 +15,10 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;backgro
 .buy-login {background: #232337;color: #fff!important;padding: 7px 15px!important;}
 .buy-login:hover {background: #fc2e30;}
 .banner {background: #fff2f2;}
-.search {margin-top: 30px;}
+.search {margin-top: 30px;margin-bottom: 15px;}
 .form-control {border-radius: 0px;}
 .btn-search {background: #fc2e30;border-radius: 0px;color: #fff;}
 .btn-search:hover {background: #e22a2d}
+
+.all-item a {color: #130f40;}
+.card {border-radius: 0px;}
