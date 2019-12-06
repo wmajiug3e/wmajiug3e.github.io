@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,800');
+@import "icon.css";
+@import "bootstrap.css";
+@import "select.css";
+@import "select-bootstrap.css";
+@import "bsnav.css";
+
+body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;background: #fff;}
+.navbar-toggler:focus {outline: none;}
+.header {background: #181824;margin-bottom: 0px;}
+.nav-header {color: #6c6e86!important;}
+.nav-header:hover {color: #fff!important;}
+.nav-header i {color: #6c6e86!important;font-size: 1rem;}
+.nav-header:hover i {color: #fc2e30!important;}
+.buy-login {background: #232337;color: #fff!important;padding: 7px 15px!important;}
+.buy-login:hover {background: #fc2e30;}
+.banner {background: #fff2f2;}
+.search {margin-top: 30px;}
+.form-control {border-radius: 0px;}
+.btn-search {background: #fc2e30;border-radius: 0px;color: #fff;}
+.btn-search:hover {background: #e22a2d}
