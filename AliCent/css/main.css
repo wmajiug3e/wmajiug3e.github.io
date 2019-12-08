@@ -21,4 +21,20 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;backgro
 .btn-search:hover {background: #e22a2d}
 
 .all-item a {color: #130f40;}
-.card {border-radius: 0px;}
+.card {border-radius: 0px;margin-bottom: 30px;}
+.card-title {text-align: center;}
+.card-title span {color: #6c6e86;text-decoration: line-through;font-size: 0.8rem;}
+.text-muted i {margin-right: 5px;}
+.page-item.active .page-link {background: #fc2e30;border-color: #fc2e30;}
+.page-item:first-child .page-link {border-top-left-radius: 0px!important;border-bottom-left-radius: 0px!important;}
+.page-item:last-child .page-link {border-top-right-radius: 0px!important;border-bottom-right-radius: 0px!important;}
+.card-body {padding: 15px;}
+
+@media (min-width: 992px) {
+.container {max-width: 1110px;}
+}
+@media (max-width: 992px) {
+.container {max-width: 100%!important;}
+.search {margin-top: 15px;}
+.card {margin-bottom: 15px;}
+}
