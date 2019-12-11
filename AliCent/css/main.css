@@ -12,8 +12,8 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;backgro
 .nav-header:hover {color: #fff!important;}
 .nav-header i {color: #6c6e86!important;font-size: 1rem;}
 .nav-header:hover i {color: #fc2e30!important;}
-.buy-login {background: #232337;color: #fff!important;padding: 7px 15px!important;}
-.buy-login:hover {background: #fc2e30;}
+.buy-btn {background: #232337;color: #fff!important;padding: 7px 15px!important;margin-top: 13px;}
+.buy-btn:hover {background: #fc2e30;}
 .banner {background: #fff2f2;}
 .search {margin-top: 30px;margin-bottom: 15px;}
 .form-control {border-radius: 0px;}
@@ -29,6 +29,9 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;backgro
 .page-item:first-child .page-link {border-top-left-radius: 0px!important;border-bottom-left-radius: 0px!important;}
 .page-item:last-child .page-link {border-top-right-radius: 0px!important;border-bottom-right-radius: 0px!important;}
 .card-body {padding: 15px;}
+
+.nav-item.dropdown>.navbar-nav {width: auto;}
+.contry {width: 18px;}
 
 @media (min-width: 992px) {
 .container {max-width: 1110px;}
