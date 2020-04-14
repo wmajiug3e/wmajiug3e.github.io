@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Помощь</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="navbar navbar-expand-lg bsnav header">
+<div class="container">
+<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse">
+<ul class="navbar-nav navbar-mobile mr-0">
+<li class="nav-item"><a class="nav-link nav-header" href="index.html"><i class="fad fa-bags-shopping"></i> Товары за $0.01</a></li>
+<li class="nav-item"><a class="nav-link nav-header" href="help.html"><i class="fad fa-question-circle"></i> Помощь</a></li>
+<li class="nav-item"><a class="nav-link buy-btn" href="accounts.html"><i class="fad fa-shopping-basket"></i> Купить аккаунты</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bsnav-mobile">
+<div class="bsnav-mobile-overlay"></div>
+<div class="navbar"></div>
+</div>
+<div class="container help-page">
+<div class="accordion" id="accordionExample">
+<div class="card">
+<div class="card-header" id="headingOne">
+<h5 class="mb-0">
+<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+Как правильно заказывать товары за $0.01?
+</button>
+</h5>
+</div>
+<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+<div class="card-body">
+Товары за $0.01 рассчитаны на новых пользователей, поэтому чтобы не закрывали заказы нужно принимать меры предосторожности. Вот самый актуальный способ заказывать товары:<br><br>
+<ul>
+<li>Скачиваем портативную версию браузера <a href="https://portableapps.com/apps/internet/firefox_portable"><i class="fad fa-external-link-alt"></i> Firefox</a> и устанавливаем расширения:
+<br>
+<b><a href="https://addons.mozilla.org/en-US/firefox/addon/no-canvas-fingerprinting/"><i class="fad fa-puzzle-piece"></i> Canvas Defender</a></b> - для генерации случайных отпечатков браузера
+<br>
+<b><a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/"><i class="fad fa-puzzle-piece"></i> Disable WebRTC</a></b> - отключает WebRTC (чтобы не утек Ваш реальный IP адрес)
+<br>
+<b><a href="https://addons.mozilla.org/ru/firefox/addon/random_user_agent/"><i class="fad fa-puzzle-piece"></i> Random User-Agent</a></b> - для генерации случайного User-Agent
+<br>
+Если будете использовать прокси, то установите еще 
+<b><a href="https://addons.mozilla.org/en-US/firefox/addon/spoof-timezone/"><i class="fad fa-puzzle-piece"></i> Spoof Timezone</a></b>
+и <b><a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/"><i class="fad fa-puzzle-piece"></i> FoxyProxy Standard</a></b>
+</li> 
+<li>В настройках <b>"Приватность и защита"</b> поставьте галочку <b>"Удалять куки и данные сайтов при закрытии Firefox"</b></li>
+</ul>
+При каждом открытии браузера нажимайте на расширение <b>Canvas Defender</b>, там нажмите кнопку <b>Genegate new noise</b>,
+в расширении <b>Random User-Agent</b> нажмите кнопку <b>"Сгененировать новый"</b>, для смены IP можно использовать прокси/ВПН или 3g телефона (При каждом включении мобильного интернета у вас будет новый IP).
+Заказы оплачивайте только через WebMoney чтобы AliExpress не мог Вас отследить.
+<br><br>
+Адрес доставки нужно коверкать чтобы AliExpress ничего не заподозрил, номер указывать рандомный либо коверкать (например 00-0000/00-0-00).
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" id="headingTwo">
+<h5 class="mb-0">
+<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+Почему закрывает заказы?
+</button>
+</h5>
+</div>
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+<div class="card-body">
+Вот основные причины почему закрывает заказы:
+<ul>
+<li>Плохая коверка адреса/номера телефона (рекомендуем использовать рандомный номер телефона)</li>
+<li>IP адрес уже использовался. Такое часто бывает если использовать публичные прокси/ВПН, рекомендуем использовать мобильный интернет</li>
+<li>Товар заблокирован. Есть товары из-за которых всегда закрывает заказы, поэтому заказывайте всегда разные товары.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bsnav.js"></script>
+</body>
+</html>

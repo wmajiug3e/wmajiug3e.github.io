@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-group description="" sid="850666048916957" title="Venom Animation">
+            <sub-events>
+                <event-block sid="473738837337155">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="716256321729592" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="351415868788596" type="Venom">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="475156177321996" type="Venom">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="792937614961084">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="940099159338360" type="Keyboard">
+                            <param id="0" name="Key">65</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="944888431886264" type="Venom">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="914095019189802" type="Venom">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="188956784080376">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="163569884664940" type="Keyboard">
+                            <param id="0" name="Key">87</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="122271473459879" type="Venom">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="841484168187968">
+                    <conditions>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="109261280597987" type="Venom" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="175193922418193">
+                            <conditions>
+                                <condition behavior="Platform" id="0" name="Is moving" sid="305009330384029" type="Venom" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="905700036976690" type="Venom">
+                                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="166045259503146">
+                            <conditions>
+                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="273084828283925" type="Venom" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="945048810510694" type="Venom">
+                                    <param id="0" name="Animation">&quot;stand&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="414202990551281">
+                    <conditions>
+                        <condition behavior="Platform" id="5" name="On jump" sid="314705349938085" type="Venom" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="421813048100250" type="Venom">
+                            <param id="0" name="Animation">&quot;jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="473310525641028">
+                    <conditions>
+                        <condition behavior="Platform" id="6" name="On fall" sid="957112606835077" type="Venom" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="645128442523394" type="Venom">
+                            <param id="0" name="Animation">&quot;fall&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="374812448685893" title="Enemy Animation">
+            <sub-events>
+                <event-block sid="481120827558790">
+                    <conditions>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="488697477989951" type="Enemy" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="654344410259379">
+                            <conditions>
+                                <condition behavior="Platform" id="0" name="Is moving" sid="744814748064571" type="Enemy" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="816630209495049" type="Enemy">
+                                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="542550577632187" title="Enemy AI">
+            <sub-events>
+                <event-block sid="292730457408675">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="314852332601990" type="System">
+                            <param id="0" name="First value">distance(Enemy.X,Enemy.Y,Venom.X,Venom.Y)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="746615501152859">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="392972023889117" type="System">
+                                    <param id="0" name="First value">Enemy.X</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Second value">Venom.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="989122039380233" type="Enemy">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="311080212684216" type="Enemy">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="290227431612234">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="463610456124375" type="System">
+                                    <param id="0" name="First value">Enemy.X</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Second value">Venom.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="181443429016914" type="Enemy">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="313096262406005" type="Enemy">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="600667736101805">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="185294732696926" type="System">
+                    <param id="0" name="First value">distance(Enemy.X,Enemy.Y,Venom.X,Venom.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="1" name="Set max speed" sid="889139239261132" type="Enemy">
+                    <param id="0" name="Max Speed">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="686961248823589" type="System">
+                    <param id="0" name="Group name">&quot;Enemy Animation&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="936842438488605" type="Enemy">
+                    <param id="0" name="Animation">&quot;kick&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="448242026948410">
+            <conditions>
+                <condition id="4" name="On finished" sid="570055948884380" type="Enemy">
+                    <param id="0" name="Animation">&quot;kick&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="1" name="Set max speed" sid="446081467347809" type="Enemy">
+                    <param id="0" name="Max Speed">220</param>
+                </action>
+                <action id="-12" name="Set group active" sid="659154885142462" type="System">
+                    <param id="0" name="Group name">&quot;Enemy Animation&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="825812297406133">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="159194621557571" type="System">
+                    <param id="0" name="First value">distance(Enemy.X,Enemy.Y,Venom.X,Venom.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">150</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="190584212179461" type="Venom">
+                    <param id="0" name="Instance variable">hp</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-5" name="Set width" sid="331832958754822" type="hp">
+                    <param id="0" name="Width">17*Venom.hp</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

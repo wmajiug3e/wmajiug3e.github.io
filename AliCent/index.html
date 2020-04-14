@@ -14,7 +14,7 @@
 <ul class="navbar-nav navbar-mobile mr-0">
 <li class="nav-item"><a class="nav-link nav-header" href="index.html"><i class="fad fa-bags-shopping"></i> Товары за $0.01</a></li>
 <li class="nav-item"><a class="nav-link nav-header" href="help.html"><i class="fad fa-question-circle"></i> Помощь</a></li>
-<li class="nav-item"><a class="nav-link buy-btn" href="accounts.html"><i class="fad fa-shopping-basket"></i> Купить аккаунты</a></li>
+<li class="nav-item"><a class="nav-link buy-btn" href="#" data-toggle="modal" data-target="#accounts"><i class="fad fa-shopping-basket"></i> Купить аккаунты</a></li>
 </ul>
 </div>
 <div class="collapse navbar-collapse justify-content-sm-end">
@@ -34,6 +34,43 @@
 <div class="bsnav-mobile-overlay"></div>
 <div class="navbar"></div>
 </div>
+<div class="modal fade" id="accounts" tabindex="-1" role="dialog" aria-labelledby="accountsLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="accountsLabel"><i class="fad fa-shopping-basket"></i> Купить аккаунты AliExpress</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="container-fluid">
+<div class="row align-items-center">
+<div class="col-lg-2"><img src="img/cupon23.png" class="img-fluid"></div>
+<div class="col-lg">
+<h6>Аккаунт AliExpress для центовиков</h6>
+Аккаунты с купоном 2/3 (скидка $2 на покупки от $3) либо для оформления центовиков
+</div>
+<div class="col-lg-auto">$0.10/шт.</div>
+<div class="col-lg-auto"><a href="#" class="btn btn-success btn-block"><i class="fad fa-shopping-basket"></i> Купить</a></div>
+</div>
+<div class="row align-items-center mt-4">
+<div class="col-lg-2"><img src="img/cupon45.png" class="img-fluid"></div>
+<div class="col-lg">
+<h6>Аккаунт AliExpress с купоном 4/5</h6>
+Аккаунты с купоном 4/5 (скидка $4 на покупки от $5)
+</div>
+<div class="col-lg-auto">$0.20/шт.</div>
+<div class="col-lg-auto"><a href="#" class="btn btn-success btn-block"><i class="fad fa-shopping-basket"></i> Купить</a></div>
+</div>
+<div class="alert alert-danger mt-5" role="alert">
+Перед тем как покупать аккаунты прочитайте всю информацию по этой <a href="http://alicent.pro/?get=help">ссылке</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="banner">
 <div class="container">
 <div class="bd-example">
@@ -49,8 +86,9 @@
 </div>
 <div class="search">
 <div class="container">
+<form method="post" action="/?act=search">
 <div class="row">
-<div class="col-lg-7">
+<div class="col-lg-4">
 <div class="form-group">
 <input type="search" class="form-control" placeholder="Поиск среди 3845 товаров...">
 </div>
@@ -59,14 +97,52 @@
 <div class="form-group">
 <select id="single" class="form-control select2-single">
 <option></option>
-<option value="1">Чехлы для телефонов</option>
-<option value="2">Защитные стекла</option>
-<option value="3">Аккумуляторы</option>
+<optgroup label="Alaskan/Hawaiian Time Zone">
+<option value="AK">Alaska</option>
+<option value="HI" disabled="disabled">Hawaii</option>
+</optgroup>
+<option value="TNOGZ" disabled="disabled">The No Optgroup Zone</option>
+<option value="TPZ">The Panic Zone</option>
+<option value="TTZ">The Twilight Zone</option>
+</select>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="form-group">
+<select class="form-control" id="exampleFormControlSelect1">
+<option value="" disabled selected style='display:none;'>Страна доставки</option>
+<option value="UA">Бесплатно в Украину</option value="1">
+<option value="RU">Бесплатно в Россию</option value="1">
 </select>
 </div>
 </div>
 <div class="col-lg-2">
 <button type="submit" class="btn btn-search btn-block"><i class="fad fa-search"></i> Найти</button>
+</div>
+</div>
+</form>
+<div class="search-result">
+<div class="row">
+<div class="col-lg text">
+Найдено: <b>8907</b> <span><a id="toggler" href="#">Показать список</a></span>
+</div>
+<div class="col-lg text">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="customCheck1">
+<label class="custom-control-label" for="customCheck1">Не показывать товары дороже $0.01</label>
+</div>
+</div>
+<div class="col-lg-auto text">Цена, от</div>
+<div class="col-lg-1">
+<input class="form-control form-control-sm" type="text" value="100">
+</div>
+<div class="col-lg-auto text">до</div>
+<div class="col-lg-1">
+<input class="form-control form-control-sm" type="text" value="200">
+</div>
+<div class="col-lg-auto">
+<button type="button" class="btn btn-dark btn-sm btn-block">Применить</button>
+</div>
 </div>
 </div>
 </div>
@@ -81,6 +157,11 @@
 <a href="#">Для Xiaomi redmi note 7 Примечание 8 чехол ультра тонкий пластиковый...</a>
 </p>
 <h6 class="card-title">$0.01 <span>$2.59-$4.59</span></h6>
+</div>
+<div class="card-stats">
+<span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 5.0</span>
+<span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 526</span>
+<span data-toggle="tooltip" data-placement="top" title="Рейтинг продавца"><i class="fad fa-store"></i> 4.3</span>
 </div>
 <div class="card-footer">
 <small class="text-muted"><i class="fad fa-sync"></i> Проверенно 5 минут назад</small>
