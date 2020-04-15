@@ -108,6 +108,12 @@
 <label class="custom-control-label" for="only">Только за $0.01</label>
 </div>
 </div>
+<div class="col-lg col-checkbox">
+<div class="custom-control custom-checkbox my-1 mr-sm-2">
+<input type="checkbox" class="custom-control-input" id="cashback">
+<label class="custom-control-label" for="cashback">С кешбеком</label>
+</div>
+</div>
 <div class="col-lg-auto text"><b>Сортировать </b></div>
 <div class="col-lg-auto col-filter">
 <select class="form-control form-control-item form-control-sm mr-sm-2" id="inlineFormCustomSelect">
@@ -115,8 +121,8 @@
 <option value="1">От дешевых к дорогим</option>
 <option value="2">По количеству заказов</option>
 <option value="3">По количеству отзывов</option>
-<option value="4">По дате обновления, новые</option>
-<option value="5">По дате обновления, старые</option>
+<option value="4">По дате, новые</option>
+<option value="5">По дате, старые</option>
 </select>
 </div>
 <div class="col-lg-auto text"><b>Товаров на странице</b></div>
@@ -151,8 +157,9 @@
 <div class="card-body">
 <p class="card-text">
 <a href="#" target="_blank">
-Противоударный динамический зыбучий песок чехол для iPhone 11 Pro X XR XS MAX значок приложения Блестящий силиконовый Жесткий Чехол для iPhone 8 7 6 6s Plus
+Противоударный динамический зыбучий песок чехол для iPhone 11 Pro X XR XS MAX значок приложения Блестящий силиконовый Жесткий Чехол для iPhone 8 7 6 6s Plus 
 </a>
+<span class="badge badge-success cashback" data-toggle="tooltip" data-placement="bottom" title="За данный товар можно получить кешбек"><i class="fas fa-sack-dollar"></i> С кешбеком</span>
 </p>
 <h6 class="card-title">$0.01 - $3.25<br><span>$2.03 - $5.24</span></h6>
 </div>
@@ -174,6 +181,7 @@
 <a href="#" target="_blank">
 Противоударный чехол из углеродного волокна для samsung M10 M20 M30, охлаждающие Чехлы для Galaxy A10 A20 A30 A40 A50 A70, мягкий чехол для рассеивания тепла
 </a>
+<span class="badge badge-success cashback" data-toggle="tooltip" data-placement="bottom" title="За данный товар можно получить кешбек"><i class="fas fa-sack-dollar"></i> С кешбеком</span>
 </p>
 <h6 class="card-title">$0.01<br><span>$2.03</span></h6>
 </div>
@@ -216,6 +224,7 @@ PZOZ 6 шт для Apple Pencil 1 2 Tablet stylus Touch Pen nib case мягки�
 <a href="#" target="_blank">
 Наружная портативная складная надувная подушка двухсторонняя стекающаяся мини-подушка для кемпинга путешествия пешего туризма Камп офисный самолет
 </a>
+<span class="badge badge-success cashback" data-toggle="tooltip" data-placement="bottom" title="За данный товар можно получить кешбек"><i class="fas fa-sack-dollar"></i> С кешбеком</span>
 </p>
 <h6 class="card-title">$0.01<br><span>$1.97</span></h6>
 </div>
@@ -274,13 +283,13 @@ PZOZ 6 шт для Apple Pencil 1 2 Tablet stylus Touch Pen nib case мягки�
 </div>
 <nav aria-label="Page navigation example">
 <ul class="pagination pagination-sm justify-content-center">
-<li class="page-item disabled">
-<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Предыдущая</a>
-</li>
 <li class="page-item"><a class="page-link" href="#">1</a></li>
-<li class="page-item active" aria-current="page"><span class="page-link">2<span class="sr-only">(current)</span></span>
+<li class="page-item active" aria-current="page"><span class="page-link">2</span>
 <li class="page-item"><a class="page-link" href="#">3</a></li>
-<li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">...</a></li>
+<li class="page-item"><a class="page-link" href="#">38</a></li>
+<li class="page-item" aria-current="page"><span class="page-link">39</span>
+<li class="page-item"><a class="page-link" href="#">40</a></li>
 </ul>
 </nav>
 <script src="js/jquery.js"></script>

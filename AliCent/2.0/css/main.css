@@ -91,6 +91,8 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .page-link {color: #595d6e;}
 .pagination {margin-bottom: 30px;}
 .alert-dismissible .close:focus {outline: none;}
+.custom-control-label {padding-top: 2px;}
+.cashback {font-size: 10px;font-weight: normal;border-radius: 0px;padding: 5px;cursor: pointer;}
 @media (max-width: 992px) {
     .logo {display: none;}
     .logo-mobile {height: 30px;display: block;}
