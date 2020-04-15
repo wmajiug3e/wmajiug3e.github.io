@@ -41,7 +41,7 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 
 .bsnav-light .nav-item.dropdown>.navbar-nav, .bsnav-light .nav-item.dropdown>.navbar-nav .navbar-nav {border-radius: 0px;box-shadow: 0 0 20px 0 rgba(62,28,131,0.1);padding: 10px;}
 .dropdown .navbar-nav .nav-link {color: #959cb6!important;}
-.nav-login {background: #e03d3d;padding: 10px 15px!important;margin-top: 10px;color: #fff!important;}
+.nav-login {background: #e03d3d;padding: 10px 15px!important;margin-top: 5px;color: #fff!important;}
 .nav-login:hover {background: #d13a3a;}
 .btn:focus, .btn.focus {outline: 0;box-shadow: none;}
 .form-control:focus {box-shadow: none;}
@@ -76,7 +76,21 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {background-color: #FF4747;}
 .custom-checkbox .custom-control-label::before {border-radius: 0px;}
 .custom-control-input:focus ~ .custom-control-label::before {box-shadow: none;}
-.nav-user {margin-top: 12px;}
+.nav-user {margin-top: 7px;}
+.card-text {text-align: justify;}
+.card-text a {color: #130f40;}
+.card-text a:hover {color: #FF4747;}
+.favorite {color: #959cb6;font-size: 16px;}
+.favorite:hover {color: #374afb;}
+.favorite-del {color: #FF4747;font-size: 16px;}
+.favorite-del:hover {color: #374afb;}
+.admin-header {background: #d13a3a;}
+.navbar-brand {display: none;}
+.alert {border-radius: 0px;margin-bottom: 30px;}
+.page-item.active .page-link {background-color: #FF4747;border-color: #FF4747;}
+.page-link {color: #595d6e;}
+.pagination {margin-bottom: 30px;}
+.alert-dismissible .close:focus {outline: none;}
 @media (max-width: 992px) {
     .logo {display: none;}
     .logo-mobile {height: 30px;display: block;}
@@ -94,4 +108,11 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
     .search-block .col-filter .form-control {margin-bottom: 0px!important;}
     .col-filter {margin-bottom: 10px;}
     .nav-user {margin-top: 0px;}
+    .container-fluid {padding-left: 15px;padding-right: 15px;}
+    .search-block {margin-bottom: 15px;}
+    .card-deck .card:last-child {margin-bottom: 0px;}
+    .card-deck {margin-bottom: 15px;}
+    .navbar-brand {display: block;}
+    .alert {margin-bottom: 15px;}
+    .pagination {margin-bottom: 15px;}
 }

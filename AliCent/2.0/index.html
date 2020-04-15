@@ -7,11 +7,30 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark admin-header">
+<div class="container">
+<div class="collapse navbar-collapse" id="admin">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item"><a class="nav-link" href="#"><i class="fad fa-analytics"></i> Статистика</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="fad fa-shopping-bag"></i> Товары</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="fad fa-cog"></i> Настройки</a></li>
+</ul>
+<ul class="navbar-nav my-lg-0">
+<span class="navbar-text">
+Товаров проверить осталось: 5 695
+</span>
+</ul>
+</div>
+</div>
+</nav>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
 <a class="navbar-brand" href="#"><img class="logo-mobile" src="img/logo-mobile.png"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#admin" aria-controls="admin" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fad fa-crown"></i>
+</button>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header" aria-controls="header" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
+<i class="fad fa-bars"></i>
 </button>
 <div class="collapse navbar-collapse" id="header">
 <ul class="navbar-nav mr-auto">
@@ -31,7 +50,8 @@
 <a class="dropdown-item" href="#"><i class="fad fa-sign-out"></i> Выйти</a>
 </div>
 </li>
-<li class="nav-item"><a class="nav-link nav-login" href="#"><i class="fab fa-vk"></i> Авторизация</a></li>
+<li class="nav-item"><a class="nav-link nav-login" href="#" data-toggle="tooltip" data-placement="bottom" title="После авторизации Вам станет доступно больше функций!">
+<i class="fab fa-vk"></i> Авторизация</a></li>
 </ul>
 </div>
 </div>
@@ -115,14 +135,25 @@
 <button type="button" class="btn btn-search btn-block"><i class="fad fa-search"></i> Найти товары</button>
 </div>
 </div>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+<strong>Внимание!</strong> Спасибо за внимание!
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
 </div>
-
+</div>
 <div class="container-fluid">
 <div class="card-deck">
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/HTB10YdrTMHqK1RjSZFEq6AGMXXaD/iPhone-11-Pro.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">Противоударный динамический зыбучий песок чехол для iPhone 11 Pro X XR XS MAX значок приложения Блестящий силиконовый Жесткий Чехол для iPhone 8 7 6 6s Plus</p>
+<p class="card-text">
+<a href="#" target="_blank">
+Противоударный динамический зыбучий песок чехол для iPhone 11 Pro X XR XS MAX значок приложения Блестящий силиконовый Жесткий Чехол для iPhone 8 7 6 6s Plus
+</a>
+</p>
 <h6 class="card-title">$0.01 - $3.25<br><span>$2.03 - $5.24</span></h6>
 </div>
 <div class="card-footer">
@@ -130,13 +161,20 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 90</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 3.9</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 10</span>
+<span data-toggle="tooltip" data-placement="top" title="Добавить в избранное"><a class="favorite" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/He5236320024242f7888dcb03e51b414dZ/samsung-M10-M20-M30.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">Противоударный чехол из углеродного волокна для samsung M10 M20 M30, охлаждающие Чехлы для Galaxy A10 A20 A30 A40 A50 A70, мягкий чехол для рассеивания тепла</p>
+<p class="card-text">
+<a href="#" target="_blank">
+Противоударный чехол из углеродного волокна для samsung M10 M20 M30, охлаждающие Чехлы для Galaxy A10 A20 A30 A40 A50 A70, мягкий чехол для рассеивания тепла
+</a>
+</p>
 <h6 class="card-title">$0.01<br><span>$2.03</span></h6>
 </div>
 <div class="card-footer">
@@ -144,13 +182,20 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 8</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 5.0</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 1</span>
+<span data-toggle="tooltip" data-placement="top" title="Добавить в избранное"><a class="favorite" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/Hdb55bdb050104c098dfd24b2a4d9d25a9/PZOZ-6-Apple-Pencil-1-2-Tablet-stylus-Touch-Pen-nib-case.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">PZOZ 6 шт для Apple Pencil 1 2 Tablet stylus Touch Pen nib case мягкий силиконовый защитный чехол для apple Pen case touch cover</p>
+<p class="card-text">
+<a href="#" target="_blank">
+PZOZ 6 шт для Apple Pencil 1 2 Tablet stylus Touch Pen nib case мягкий силиконовый защитный чехол для apple Pen case touch cover
+</a>
+</p>
 <h6 class="card-title">$0.01<br><span>$2.03</span></h6>
 </div>
 <div class="card-footer">
@@ -158,13 +203,20 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 123</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 4.7</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 35</span>
+<span data-toggle="tooltip" data-placement="top" title="Удалить из избранного"><a class="favorite-del" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/HTB1rcLoewmH3KVjSZKzq6z2OXXaa/-.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">Наружная портативная складная надувная подушка двухсторонняя стекающаяся мини-подушка для кемпинга путешествия пешего туризма Камп офисный самолет</p>
+<p class="card-text">
+<a href="#" target="_blank">
+Наружная портативная складная надувная подушка двухсторонняя стекающаяся мини-подушка для кемпинга путешествия пешего туризма Камп офисный самолет
+</a>
+</p>
 <h6 class="card-title">$0.01<br><span>$1.97</span></h6>
 </div>
 <div class="card-footer">
@@ -172,13 +224,20 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 836</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 3.6</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 135</span>
+<span data-toggle="tooltip" data-placement="top" title="Добавить в избранное"><a class="favorite" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/Hd830fb6232284d45889278ca959ebc35h/Meizu-Note-9-16th-16s-16x16-Plus-16XS-Pro.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">Тканевый чехол для Meizu Note 9 16th 16s 16x16 Plus 16XS Pro, мягкие силиконовые чехлы для Sony Xperia XZ3 XZ4</p>
+<p class="card-text">
+<a href="#" target="_blank">
+Тканевый чехол для Meizu Note 9 16th 16s 16x16 Plus 16XS Pro, мягкие силиконовые чехлы для Sony Xperia XZ3 XZ4
+</a>
+</p>
 <h6 class="card-title">$0.01 - $0.87<br><span>$2.99 - $3.88</span></h6>
 </div>
 <div class="card-footer">
@@ -186,13 +245,20 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 1963</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 5.0</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 352</span>
+<span data-toggle="tooltip" data-placement="top" title="Добавить в избранное"><a class="favorite" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 <div class="card">
+<a href="#" target="_blank">
 <img src="https://ae01.alicdn.com/kf/HTB1kwYFVNjaK1RjSZFAq6zdLFXaS/220-3-E14.jpg" class="card-img-top">
+</a>
 <div class="card-body">
-<p class="card-text">Дальность вытяжки Светодиодная лампа 220 В 3 Вт E14 Базовый срок службы 10000 ч теплый и белый свет лампы прозрачное стекло без затемнения для кухонного осветительного инструмента</p>
+<p class="card-text">
+<a href="#" target="_blank">
+Дальность вытяжки Светодиодная лампа 220 В 3 Вт E14 Базовый срок службы 10000 ч теплый и белый свет лампы прозрачное стекло без затемнения для кухонного осветительного инструмента
+</a>
+</p>
 <h6 class="card-title">$0.01 - $3.56<br><span>$1.89 - $5.66</span></h6>
 </div>
 <div class="card-footer">
@@ -200,11 +266,23 @@
 <span data-toggle="tooltip" data-placement="top" title="Заказов"><i class="fad fa-bags-shopping"></i> 10356</span>
 <span data-toggle="tooltip" data-placement="top" title="Рейтинг товара"><i class="fad fa-star"></i> 4.2</span>
 <span data-toggle="tooltip" data-placement="top" title="Отзывов о товаре"><i class="fad fa-comments-alt"></i> 1632</span>
+<span data-toggle="tooltip" data-placement="top" title="Добавить в избранное"><a class="favorite" href="#"><i class="fad fa-heart"></i></a></span>
 </div>
 </div>
 </div>
 </div>
 </div>
+<nav aria-label="Page navigation example">
+<ul class="pagination pagination-sm justify-content-center">
+<li class="page-item disabled">
+<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Предыдущая</a>
+</li>
+<li class="page-item"><a class="page-link" href="#">1</a></li>
+<li class="page-item active" aria-current="page"><span class="page-link">2<span class="sr-only">(current)</span></span>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+</ul>
+</nav>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/popper.js"></script>
