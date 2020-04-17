@@ -96,7 +96,8 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .item-block {margin-bottom: 30px;}
 .modal-body .form-control {border-radius: 0px;}
 .modal-body .alert {margin-bottom: 15px;}
-.nav-user .badge {padding: 5px 8px;font-weight: normal;border-radius: 0px;font-size: 10px;}
+.badge-premium {padding: 5px 8px;font-weight: normal;border-radius: 0px;font-size: 10px;margin-right: 5px;margin-top: 15px;}
+.custom-control-label::after {cursor: pointer;}
 @media (max-width: 992px) {
     .logo {display: none;}
     .logo-mobile {height: 30px;display: block;}
@@ -121,4 +122,6 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
     .pagination {margin-bottom: 15px;}
     .container {max-width: 100%!important;}
     .item-block {margin-bottom: 15px;}
+    .badge-premium {margin-right: 0px;margin-top: 0px;}
+    .admin-header .navbar-collapse {margin-top: 0px;}
 }
