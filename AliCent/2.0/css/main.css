@@ -17,8 +17,8 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .search-block .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {height: 33px;border-radius: 0px;background-color: #fff;}
 .search-block .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {margin: 5px 0 0 6px;border-radius: 0px;}
 .select2-container--bootstrap .select2-selection.form-control {border-radius: 0px;}
-.search-block .btn-search {background-color: #FF4747;color: fff;border-radius: 0px;font-size: 14px!important;margin-top: 15px;}
-.search-block .btn-search:hover {background-color: #e63e3e;}
+.btn-search {background-color: #FF4747;color: fff;border-radius: 0px;font-size: 14px!important;margin-top: 15px;}
+.btn-search:hover {background-color: #e63e3e;}
 .search-block .form-control {border-bottom: solid 1px #e2e5ec;border-top: solid 1px #e2e5ec;border-radius: 0px;font-size: 14px!important;border-right: none;border-left: none;}
 .form-control-search {border-left: solid 1px #e2e5ec!important;}
 .form-control-category {border-left: solid 1px #edf0f7!important;}
@@ -84,7 +84,7 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .favorite:hover {color: #374afb;}
 .favorite-del {color: #FF4747;font-size: 16px;}
 .favorite-del:hover {color: #374afb;}
-.admin-header {background: #d13a3a;}
+.admin-header {background: #181824;}
 .navbar-brand {display: none;}
 .alert {border-radius: 0px;margin-bottom: 30px;}
 .page-item.active .page-link {background-color: #FF4747;border-color: #FF4747;}
@@ -93,6 +93,10 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .alert-dismissible .close:focus {outline: none;}
 .custom-control-label {padding-top: 2px;}
 .cashback {font-size: 10px;font-weight: normal;border-radius: 0px;padding: 5px;cursor: pointer;}
+.item-block {margin-bottom: 30px;}
+.modal-body .form-control {border-radius: 0px;}
+.modal-body .alert {margin-bottom: 15px;}
+.nav-user .badge {padding: 5px 8px;font-weight: normal;border-radius: 0px;font-size: 10px;}
 @media (max-width: 992px) {
     .logo {display: none;}
     .logo-mobile {height: 30px;display: block;}
@@ -112,9 +116,9 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
     .nav-user {margin-top: 0px;}
     .container-fluid {padding-left: 15px;padding-right: 15px;}
     .search-block {margin-bottom: 15px;}
-    .card-deck .card:last-child {margin-bottom: 0px;}
-    .card-deck {margin-bottom: 15px;}
     .navbar-brand {display: block;}
     .alert {margin-bottom: 15px;}
     .pagination {margin-bottom: 15px;}
+    .container {max-width: 100%!important;}
+    .item-block {margin-bottom: 15px;}
 }
