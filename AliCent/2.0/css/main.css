@@ -82,6 +82,8 @@ body {font-family: 'Roboto', sans-serif;color: #130f40;background: #f5f5f5;font-
 .card-text a:hover {color: #FF4747;}
 .favorite {color: #959cb6;font-size: 16px;}
 .favorite:hover {color: #374afb;}
+.favorite:focus {color: #FF4747;}
+.favorite:visited {color: #FF4747;}
 .favorite-del {color: #FF4747;font-size: 16px;}
 .favorite-del:hover {color: #374afb;}
 .admin-header {background: #181824;}
