@@ -38,7 +38,7 @@ body {font-family: 'Play', sans-serif;font-size: 0.9rem;color: #646c9a;backgroun
 .search-block .btn {padding: 10px;background: #181824;color: #6c6e86;border-radius: 0px;}
 .search-block .btn:focus, .search-block .btn:hover {background: #374afb;box-shadow: none;color: #fff;}
 .custom-select {background: #f2f3f7 url("../img/menu.svg") no-repeat right 0.75rem center;
-background-size: 16px 16px;border: 0px;border-radius: 0px;color: #b7bfcc;border-color: #f2f3f7;}
+background-size: 16px 16px;border: 0px;border-radius: 0px;border-color: #f2f3f7;}
 .search-block .col-lg-auto {padding-right: 0px;}
 .search-block .col-lg {padding-left: 0px;}
 .custom-select:focus {box-shadow: none;}
@@ -79,7 +79,7 @@ background-size: 16px 16px;border: 0px;border-radius: 0px;color: #b7bfcc;border-
 .page .search {margin-bottom: 15px;border-bottom: 1px dashed #ebedf2;padding-bottom: 15px;}
 .page .btn-search {padding: 9px;background: #f2f3f7;color: #c1bfd1;border-radius: 0px;}
 .page .btn-search:focus, .page .btn-search:hover {background: #374afb;box-shadow: none;color: #fff;}
-.page .form-control {border-radius: 0px;background: #f2f3f7;color: #b7bfcc;border-color: #f2f3f7;font-size: 0.9rem;}
+.page .form-control {border-radius: 0px;background: #f2f3f7;border-color: #f2f3f7;font-size: 0.9rem;}
 .page .form-control:focus {box-shadow: none;}
 .page .form-control::placeholder {color: #b7bfcc;}
 .page .card {box-shadow: none;}
@@ -93,6 +93,9 @@ background-size: 16px 16px;border: 0px;border-radius: 0px;color: #b7bfcc;border-
 .card-body {padding: 15px;padding-bottom: 0px;}
 .card-footer {background: #fff;border-top: dashed 1px #e2e5ec;}
 .card-text {font-size: 14px;}
+.hr-setting {border-top: dashed 1px #e2e5ec;margin-top: 15px;padding-top: 15px;}
+.custom-file-label {border-radius: 0px;background: #f2f3f7;border-color: #f2f3f7;font-size: 0.9rem;}
+.custom-file-label::after {content: "Выбрать";}
 @media (max-width: 992px) {
     .navbar-toggler {display: block;margin-right: 0px;}
     .search-block {background: #181824;}

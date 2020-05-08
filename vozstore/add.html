@@ -21,103 +21,10 @@
 </div>
 <div class="container">
 <div class="page">
-<div class="row">
-<div class="col-lg">
-<select id="category" class="custom-select custom-select-sm">
-<option disabled hidden>Категория</option>
-<option value="case" selected>Чехлы</option>
-<option value="glass">Защитные стекла</option>
-<option value="cable">Кабели</option>
-<option value="charger">Зарядки</option>
-<option value="headphones">Наушники</option>
-<option value="stand">Подставки и держатели</option>
-<option value="different">Разное</option>
-</select>
+<input type="text" class="form-control mt-3" placeholder="Ссылка на товар в AliExpress">
+<button onclick="document.location='add2.html'" type="button" class="btn btn-button btn-sm btn-block mt-3"><i class="fad fa-arrow-alt-circle-right"></i> Продолжить</button>
+<button type="button" class="btn btn-link btn-sm btn-block mt-3">Пропустить</button>
 </div>
-<div id="case" class="col-lg">
-<select  class="custom-select custom-select-sm">
-<option disabled hidden>Марка</option>
-<option value="asus">Asus</option>
-<option value="htc">HTC</option>
-<option value="huawei">Huawei</option>
-<option value="honor">Honor</option>
-<option value="iphone" selected>iPhone</option>
-<option value="lg">LG</option>
-<option value="meizu">Meizu</option>
-<option value="motorola">Motorola</option>
-<option value="nokia">Nokia</option>
-<option value="oneplus">OnePlus</option>
-<option value="oppo">OPPO</option>
-<option value="samsung">Samsung Galaxy</option>
-<option value="sony">Sony</option>
-<option value="xiaomi">Xiaomi</option>
-<option value="all">Все</option>
-</select>
-</div>
-<div id="iphone" class="col-lg">
-<select  class="custom-select custom-select-sm">
-<option disabled selected hidden>Модель</option>
-<option value="4">iPhone 4</option>
-<option value="4s">iPhone 4s</option>
-<option value="5">iPhone 5</option>
-<option value="5s">iPhone 5s</option>
-<option value="SE">iPhone SE</option>
-<option value="6">iPhone 6</option>
-<option value="6P">iPhone 6 Plus</option>
-<option value="6S">iPhone 6s</option>
-<option value="6SP">iPhone 6s Plus</option>
-<option value="7">iPhone 7</option>
-<option value="7P">iPhone 7 Plus</option>
-<option value="8">iPhone 8</option>
-<option value="8P">iPhone 8 Plus</option>
-<option value="X">iPhone X</option>
-<option value="XS">iPhone Xs</option>
-<option value="XSM">iPhone Xs Max</option>
-<option value="XR">iPhone XR</option>
-<option value="11">iPhone 11</option>
-<option value="11P">iPhone 11 Pro</option>
-<option value="11PM">iPhone 11 Pro Max</option>
-</select>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-11">
-<input type="text" class="form-control mt-3" placeholder="Название" value="Чехол для iPhone 11 Pro">
-</div>
-<div class="col-lg-1">
-<input type="text" class="form-control mt-3" placeholder="Цена">
-</div>
-</div>
-<div class="form-group mt-3">
-<select id="multiple" class="form-control select2-multiple" multiple>
-<option value="1">Стеклянный</option>
-<option value="2">Тканевый</option>
-<option value="3">Резиновый</option>
-<option value="4">Силиконовый</option>
-<option value="5">Бампер</option>
-<option value="6">Накладка</option>
-<option value="7">Книжка</option>
-<option value="8">Флип</option>
-<option value="9">Аквабокс</option>
-<option value="10">Пластиковый</option>
-<option value="11">Кожанный</option>
-<option value="12">Металический</option>
-</select>
-</div>
-<input type="text" class="form-control mt-3" placeholder="ID" value="523689">
-<input type="text" class="form-control mt-3" placeholder="Ссылка AliExpress">
-<div class="row">
-<div class="col-lg-9">
-<input type="text" class="form-control mt-3" placeholder="Ссылка на изображение">
-</div>
-<div class="col-lg-3">
-<div class="custom-file mt-3">
-<input type="file" class="custom-file-input" id="customFile">
-<label class="custom-file-label" for="customFile">Выбрать изображение</label>
-</div>
-</div>
-</div>
-<button type="button" class="btn btn-button btn-sm btn-block mt-3"><i class="fad fa-plus"></i> Добавить</button>
 </div>
 </div>
 <script src="js/jquery.js"></script>
