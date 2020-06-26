@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="nav-scroller mini-header mini-header-admin">
+<div class="container">
+<nav class="nav nav-underline">
+<a class="nav-link" href="items.html"><i class="fad fa-bags-shopping"></i> Товары</a>
+<a class="nav-link" href="order.html"><i class="fad fa-shopping-basket"></i> Заказы</a>
+<a class="nav-link" href="setting.html"><i class="fad fa-cog"></i> Настройки</a>
+<a class="nav-link" href="setting.html"><i class="fad fa-file-export"></i> Экспорт на Prom.ua</a>
+<div class="ml-md-auto cart-block">
+<a class="nav-link cart-link" href="add.html"><i class="fad fa-layer-plus"></i> <span>Добавить товар</span></a>
+</div>
+</nav>
+</div>
+</div>
+<div class="container">
+<div class="page">
+<div class="row">
+<div class="col-12">
+<div class="form-group">
+<label>Что нужно экспортировать?</label>
+<select id="multiple" class="form-control select2-multiple" multiple>
+<option value="1">Asus</option>
+<option value="2">HTC</option>
+<option value="3">Huawei и Honor</option>
+<option value="11">iPhone</option>
+<option value="4">Meizu</option>
+<option value="5">Google</option>
+<option value="6">Nokia</option>
+<option value="7">OnePlus</option>
+<option value="8">Samsung Galaxy</option>
+<option value="9">Sony</option>
+<option value="10">Xiaomi</option>
+</select>
+</div>
+</div>
+<div class="col-lg-auto">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="1">
+<label class="custom-control-label" for="1">Кабели</label>
+</div>
+</div>
+<div class="col-lg-auto">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="2">
+<label class="custom-control-label" for="2">Зарядки</label>
+</div>
+</div>
+<div class="col-lg-auto">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="3">
+<label class="custom-control-label" for="3">Наушники</label>
+</div>
+</div>
+<div class="col-lg-auto">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="4">
+<label class="custom-control-label" for="4">Подставки и держатели</label>
+</div>
+</div>
+</div>
+<div class="row hr-setting">
+<div class="col-lg-10 align-self-center">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="5">
+<label class="custom-control-label" for="5">Указать цену на все товары</label>
+</div>
+</div>
+<div class="col-lg-2 align-self-center"><input type="text" class="form-control" placeholder="Цена"></div>
+</div>
+<button type="button" class="btn btn-button btn-sm btn-block mt-3">Сгенерировать</button>
+<input disabled type="text" class="form-control mt-3" value="http://vozstore.pp.ua/prom.xml">
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bsnav.js"></script>
+</body>
+</html>

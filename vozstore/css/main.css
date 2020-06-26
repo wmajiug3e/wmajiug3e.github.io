@@ -63,8 +63,8 @@ background-size: 16px 16px;border: 0px;border-radius: 0px;border-color: #f2f3f7;
 .page .item:last-child {border: 0px;margin-bottom: 0px;padding-bottom: 0px;}
 .page .item h6 {color: #595d6e;}
 .page .item:hover {text-decoration: none;color: #5d78ff;}
-.page .item .info {color: #74788d;margin-right: 3px;border-right: 1px solid #ebedf2;padding-right: 5px;}
-.page .item .info:last-child {border: 0px;}
+.page .item .info {color: #74788d;margin-right: 5px;padding-left: 5px;}
+.page .item .info-type {color: #74788d;margin-right: 5px;padding-left: 5px;border-left: 1px solid #ebedf2;}
 .page .item .price span {background-color: rgba(10,187,135,.1);color: #0abb87;padding: .5rem 1rem;font-size: 0.9rem;margin-right: 10px;}
 .page .item .price {font-size: 1.3rem;color: #595d6e;}
 .page .btn-button {background: #0abb87;color: #fff;border-radius: 0px;}
