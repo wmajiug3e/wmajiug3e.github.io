@@ -32,6 +32,8 @@ blockquote:active:after {transform: rotateY(360deg);}
 .page-news {padding: 15px;border-radius: 0px;}
 .page-news h1 {font-size: 22px;}
 .info .col-lg {margin-bottom: 15px;}
+.news-background {height: 250px;}
+.news-background .overlay {height: 170px;}
 blockquote {border-top: 2px solid #93a2dd;border-bottom: 2px solid #93a2dd;border-left: none;margin: 15px 0;padding: 15px 0;}
 blockquote:before {left: 50%;top: 0;height: 4px;margin-top: -3px;margin-left: -1em;width: 2em;}
 blockquote:after {font-size: 0.75em;left: 50%;top: 0;margin-top: -0.5em;margin-left: -0.5em;}
