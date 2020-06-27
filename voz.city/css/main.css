@@ -7,9 +7,18 @@
 
 body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;background: #f5f5f5;}
 
-a {color: #93a2dd;}
-a:hover {text-decoration: none;border-bottom: 1px solid #93a2dd;color: #93a2dd;}
-1
+.logo {height: 24px;}
+.avatar-header {width: 18px;border-radius: 50px;}
+.nav-item.dropdown>.navbar-nav .nav-item .nav-link {padding: 10px 15px;}
+.bsnav-light .nav-item.dropdown>.navbar-nav, .bsnav-light .nav-item.dropdown>.navbar-nav .navbar-nav {border-radius: 5px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
+.navbar-nav {padding: 10px 0;}
+.dropdown-link {color: #6c7293!important;}
+.dropdown-link:hover {color: #374afb!important;}
+.link-header {color: #fff!important;}
+.link-header i {font-size: 1rem;}
+.link-header:hover i {color: #374afb!important;}
+.page-news a {color: #93a2dd;}
+.page-news a:hover {text-decoration: none;border-bottom: 1px solid #93a2dd;color: #93a2dd;}
 .navbar-toggler:focus {outline: none;}
 .news-background {height: 350px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .news-background .overlay {background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0) 100%);width: 100%;height: 270px;position: absolute;}
@@ -18,14 +27,14 @@ a:hover {text-decoration: none;border-bottom: 1px solid #93a2dd;color: #93a2dd;}
 .page-news .info {color: #c7c7c7;font-size: 13px;margin-bottom: 15px;}
 .page-news .info a {color: #c7c7c7;font-weight: bold;border-bottom: 1px solid #c7c7c7;}
 .page-news .info a:hover {text-decoration: none;border-bottom: none;}
-
 blockquote {border-left: 3px solid #93a2dd;color: #1a1a1a;font-size: 0.9em;font-style: italic;line-height: 1.8em;padding: 1em 2em;position: relative;transition: 0.2s border ease-in-out;z-index: 0;}
 blockquote:before {content: "";position: absolute;top: 50%;left: -4px;height: 2em;background-color: #fff;width: 5px;margin-top: -1em;}
 blockquote:after {font-family:"Font Awesome 5 Pro";content: "";font-weight: 900;position: absolute;top: 50%;left: -0.5em;color: #93a2dd;font-style: normal;line-height: 1em;
 text-align: center;text-indent: -2px;width: 1em;margin-top: -0.5em;transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;}
 blockquote.format:before, blockquote.format:after {display: none;}
-
 blockquote:active:after {transform: rotateY(360deg);}
+
+.bsnav-mobile .navbar.bsnav-dark {background: #181824;}
 
 @media (max-width: 992px) {
 .container {padding-left: 0px;padding-right: 0px;}
