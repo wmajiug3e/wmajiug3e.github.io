@@ -33,8 +33,59 @@ blockquote:after {font-family:"Font Awesome 5 Pro";content: "";font-weight: 9
 text-align: center;text-indent: -2px;width: 1em;margin-top: -0.5em;transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;}
 blockquote.format:before, blockquote.format:after {display: none;}
 blockquote:active:after {transform: rotateY(360deg);}
-
+.tags a {color: #93a2dd;padding: 7.5px 15px;border-radius: 5px;}
+.tags a:hover {text-decoration: none;background: #f0f3ff;border: 0px;}
 .bsnav-mobile .navbar.bsnav-dark {background: #181824;}
+.comment {border-top: 1px dashed #e2e2e2;margin-top: 15px;padding-top: 15px;}
+
+.footer {color: #646771;background-color: #16151a;margin-top: 30px;padding-top: 30px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px
+}
+
+ul>li:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: white
+}
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+
+
+
+
 
 @media (max-width: 992px) {
 .container {padding-left: 0px;padding-right: 0px;}
