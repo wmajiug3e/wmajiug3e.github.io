@@ -38,57 +38,15 @@ blockquote:active:after {transform: rotateY(360deg);}
 .bsnav-mobile .navbar.bsnav-dark {background: #181824;}
 .comment {border-top: 1px dashed #e2e2e2;margin-top: 15px;padding-top: 15px;}
 
-.footer {color: #646771;background-color: #16151a;margin-top: 30px;padding-top: 30px;}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-}
-
-ul>li {
-    padding: 4px
-}
-
-ul>li:hover {
-    color: #957bda;
-    cursor: pointer
-}
-
-hr {
-    border-width: 3px
-}
-
-.social>i {
-    padding: 1%;
-    font-size: 15px
-}
-
-.social>i:hover {
-    color: #957bda;
-    cursor: pointer
-}
-
-.policy>div {
-    padding: 4px
-}
-
-.heading {
-    font-family: 'Titillium Web', sans-serif;
-    color: white
-}
-
-.divider {
-    border-top: 2px solid rgba(189, 196, 203, 0.5);
-}
-
-
-
-
-
-
+.footer {color: #4c4e6f;background-color: #1e1e2d;padding: 30px 0;margin-top: 30px;}
+.footer .logo {height: 30px;}
+.copyright a {color: #a2a3b7;border-bottom: 1px solid #a2a3b7;padding-bottom: 3px;}
+.copyright a:hover {text-decoration: none;border-bottom: 0px;}
+.footer .menu a {color: #4c4e6f;}
+.footer .menu a:hover {color: #fff;text-decoration: none;}
+.footer .menu i {color: #374afb;font-size: 1rem;margin-right: 3px;}
+.footer .menu div {margin-bottom: 10px;}
 @media (max-width: 992px) {
-.container {padding-left: 0px;padding-right: 0px;}
 .page-news {padding: 15px;border-radius: 0px;}
 .page-news h1 {font-size: 22px;}
 .info .col-lg {margin-bottom: 15px;}
@@ -97,4 +55,6 @@ hr {
 blockquote {border-top: 2px solid #93a2dd;border-bottom: 2px solid #93a2dd;border-left: none;margin: 15px 0;padding: 15px 0;}
 blockquote:before {left: 50%;top: 0;height: 4px;margin-top: -3px;margin-left: -1em;width: 2em;}
 blockquote:after {font-size: 0.75em;left: 50%;top: 0;margin-top: -0.5em;margin-left: -0.5em;}
+.footer {padding: 15px 0;margin-top: 15px;}
+.copyright {padding-bottom: 15px;border-bottom: 1px dashed #4c4e6f;margin-bottom: 15px;}
 }
