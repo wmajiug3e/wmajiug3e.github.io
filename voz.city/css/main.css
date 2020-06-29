@@ -22,6 +22,8 @@ body {font-family: 'Roboto', sans-serif;font-size: 0.9rem;color: #130f40;backgro
 .navbar-toggler:focus {outline: none;}
 .news-background {height: 350px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .news-background .overlay {background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0) 100%);width: 100%;height: 270px;position: absolute;}
+.slider-background {height: 400px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.slider-background .overlay {background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.42) 100%);width: 100%;height: 400px;position: absolute;}
 .page-news {background: #fff;padding: 30px;margin-top: -80px;border-radius: 10px;box-shadow: 0 0 13px 0 rgba(82,63,105,.05);}
 .page-news h1 {border-bottom: 1px dashed #e2e2e2;padding-bottom: 15px;font-size: 30px;margin-bottom: 15px;}
 .page-news .info {color: #c7c7c7;font-size: 13px;margin-bottom: 15px;}
@@ -46,6 +48,11 @@ blockquote:active:after {transform: rotateY(360deg);}
 .footer .menu i {color: #374afb;font-size: 1rem;margin-right: 3px;}
 .bsnav-mobile .navbar {width: 200px;padding: 0px 0 15px;}
 .footer .menu div {margin-bottom: 10px;}
+.carousel-caption a {color: #fff;}
+.carousel-caption a:hover {text-decoration: none;}
+.carousel-caption {max-width: 1140px;margin: auto;}
+.slider-poster {width: 100%;}
+.carousel-caption h3 {margin-bottom: 15px;}
 @media (max-width: 992px) {
 .page-news {padding: 15px;border-radius: 5px;}
 .page-news h1 {font-size: 22px;}
@@ -60,4 +67,11 @@ blockquote:after {font-size: 0.75em;left: 50%;top: 0;margin-top: -0.5em;margin-l
 .logo {height: 20px;}
 .bsnav-mobile .navbar-nav .nav-item .nav-link:hover {color: #fff!important;}
 .bsnav-mobile .navbar-nav .nav-item .navbar-nav {background: #12121b;}
+.carousel-caption {right: 0;left: 0;padding: 0px 15px;}
+.carousel-indicators {bottom: 0px;}
+.carousel-caption .col-3 {padding: 7.5px;}
+.carousel-caption .row {padding: 7.5px;padding-bottom: 0px;}
+.slider-background {height: 300px;}
+.slider-background .overlay {height: 300px;}
+.carousel-caption h3 {margin-bottom: 0px;}
 }
