@@ -53,7 +53,25 @@ blockquote:active:after {transform: rotateY(360deg);}
 .carousel-caption {max-width: 1140px;margin: auto;}
 .slider-poster {width: 100%;}
 .carousel-caption h3 {margin-bottom: 15px;}
+.main-page {background: #fff;padding: 30px;}
+.main-page .img-news {width: 100%;}
+.main-page .tags-link i {margin-right: 2px;}
+.main-page .tags-link a {margin-right: 5px;color: #93a2dd;padding-bottom: 3px;}
+.main-page .tags-link a:hover {text-decoration: none;border-bottom: 1px solid #93a2dd;}
+.main-page h6 a {color: #130f40;}
+.main-page h6 a:hover {text-decoration: none;}
+.main-page .hr-dashed {border-bottom: 1px dashed #e2e2e2;margin: 30px 15px;}
+.main-page .banner {background: #93a2dd;width: 100%;height: 100%;}
+.taxi-banner {background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;padding: 30px;color: #fff;}
+.taxi-banner a {color: #fff;}
+.taxi-banner a:hover {text-decoration: none;}
+.taxi-banner h4 {margin-bottom: 30px;}
+
 @media (max-width: 992px) {
+.container-main {padding-left: 0px;padding-right: 0px;}
+.main-page .hr-dashed {border-bottom: 1px dashed #e2e2e2;margin: 15px 15px;}
+.main-page {padding: 15px;}
+.main-page .img-news {margin-bottom: 15px;}
 .page-news {padding: 15px;border-radius: 5px;}
 .page-news h1 {font-size: 22px;}
 .info .col-lg {margin-bottom: 15px;}
@@ -71,7 +89,10 @@ blockquote:after {font-size: 0.75em;left: 50%;top: 0;margin-top: -0.5em;margin-l
 .carousel-indicators {bottom: 0px;}
 .carousel-caption .col-3 {padding: 7.5px;}
 .carousel-caption .row {padding: 7.5px;padding-bottom: 0px;}
-.slider-background {height: 300px;}
-.slider-background .overlay {height: 300px;}
+.slider-background {height: 260px;}
+.slider-background .overlay {height: 260px;}
 .carousel-caption h3 {margin-bottom: 0px;}
+.taxi-banner {padding: 15px;height: 568px;}
+.taxi-banner h4 {margin-bottom: 15px;}
+.taxi-banner .img-fluid {margin-bottom: 15px;}
 }
