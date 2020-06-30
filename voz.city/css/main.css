@@ -103,3 +103,8 @@ blockquote:after {font-size: 0.75em;left: 50%;top: 0;margin-top: -0.5em;margin-l
 .top-service {padding-top: 15px;}
 .top-service .card:last-child {margin-bottom: 0px;}
 }
+
+::-webkit-scrollbar-track {background-color:#f5f6fc;}
+::-webkit-scrollbar-thumb {-webkit-border-radius: 0px;border-radius: 0px;background-color:#93a2dd;}
+::-webkit-scrollbar-thumb:hover{background-color:#591df1;}
+::-webkit-scrollbar{width: 5px;}
