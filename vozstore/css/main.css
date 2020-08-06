@@ -48,13 +48,14 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .item-info .price {font-size: 2.5rem;}
 .item-info .discount {color: #6c7293;}
 .item-info .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
-.item-info .buy-button {background: #F3F6F9;border-radius: 5px;padding: 22px;}
+.item-info .buy-button {background: #F3F6F9;border-radius: 5px;padding: 18px;}
 .item-info .delivery-list {margin-bottom: 30px;}
 .item-info .table-striped tbody tr:nth-of-type(odd) {background-color: #F3F6F9;}
 .item-info .description {margin-top: 30px;padding-top: 30px;border-top: 1px dashed #e2e5ec;}
 .alert-compatibility {border-radius:0px;font-size: 0.886rem;}
 .item-info .description a {color: #3445E5;border-bottom: 1px solid #3445E5;}
 .item-info .description a:hover {border: 0px;text-decoration: none;}
+.item-info .icon-delivery {width: 1.5rem;fill: #6c7293;color: #6c7293;}
 @media (max-width: 992px) { 
     body {background: #fff;}
     .category-link {width: 100%;}
@@ -78,4 +79,5 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
     .item-info .delivery-list {margin-bottom: 0px;}
     .item-info .buy-button {padding: 15px;}
     .item-info .description {padding-top: 15px;margin-top: 15px;}
+
  }
