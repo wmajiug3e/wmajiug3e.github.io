@@ -40,8 +40,8 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .item-img {max-width: 100%;}
 .item-code {background: #f8f9fa;color: rgba(0,0,0,.54);padding: 5px 10px;margin-top: 4px;}
 .container {max-width: 1000px;}
-.btn-buy {background: #00a046;color: #fff;padding: 10px;border-radius: 5px;}
-.btn-buy:hover {background: #008539;color: #fff;}
+.btn-buy {background: #34c678;color: #fff;padding: 10px;border-radius: 5px;}
+.btn-buy:hover {background: #30b46e;color: #fff;}
 .btn-favorite {background: #F3F6F9;color: rgba(0,0,0,.54);padding: 10px;border-radius: 5px;}
 .btn-favorite:hover {background: #F64E60;color: #fff;}
 .btn:focus {box-shadow: none;}
@@ -56,6 +56,19 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .item-info .description a {color: #3445E5;border-bottom: 1px solid #3445E5;}
 .item-info .description a:hover {border: 0px;text-decoration: none;}
 .item-info .icon-delivery {width: 1.5rem;fill: #6c7293;color: #6c7293;}
+.together-buy {background: #fff;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);padding: 30px;margin-top: 30px;}
+.together-buy .plus-icon {color: #F64E60;}
+.together-buy h2 {margin-bottom: 30px;}
+.together-buy .discount {color: #6c7293;}
+.together-buy .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
+.together-buy .price {font-size: 2.5rem;}
+.together-buy .title {color: #646c9a;}
+.together-buy a:hover {text-decoration: none;}
+.together-buy .title {margin-top: 15px;}
+.together-buy .price {color: #212529;}
+.together-buy .discount {margin-top: 15px;}
+.mt-100 {margin-top: 100px;}
+.mt-20 {margin-top: 20px;}
 @media (max-width: 992px) { 
     body {background: #fff;}
     .category-link {width: 100%;}
