@@ -9,7 +9,7 @@ $(function () {
 $(function () {
   $.fn.select2.defaults.set( "theme", "bootstrap" );
 
-  var placeholder = "не выбрано";
+  var placeholder = "Выберите модель телефона";
   
   $( ".select2-single, .select2-multiple" ).select2( {
   placeholder: placeholder,
