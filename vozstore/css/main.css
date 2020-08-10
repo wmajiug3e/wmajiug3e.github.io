@@ -90,9 +90,17 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .card-item .card-body {padding: 15px;color: #000A0A;padding-bottom: 0px;}
 .card-item .card-footer {background: #fff;border-top: 0px dashed #e2e5ec;padding: 15px;}
 .card-footer .discount {color: #959cb6;font-size: 0.95rem;margin-bottom: 10px;}
-.card-footer .discount span {background:#F64E60;padding: 5px 10px;color: #fff;margin-left: 5px;}
+.card-footer .discount span {background:#F64E60;padding: 5px 10px;color: #fff;margin-left: 5px;border-radius: 5px;}
 .card-footer .price {font-size: 1.5rem;}
 .item-block {margin-bottom: 30px;}
+.page-link, .page-link {border-radius: 0px;}
+.page-link {border: 1px solid #e2e5ec;color: #000A0A;}
+.page-link:hover {background: #e2e5ec;color: #000A0A;}
+.page-link:focus {box-shadow: none;}
+.pagination {margin-bottom: 30px;}
+.promo-title {position: absolute;}
+.promo-title .green {background: rgba(52, 198, 120, 0.9);color: #fff;margin-top: 10px;margin-left: 10px;padding: 5px 10px;border-radius: 5px;}
+.promo-title .red {background: rgba(246, 78, 95, 0.9);color: #fff;margin-top: 10px;margin-left: 10px;padding: 5px 10px;border-radius: 5px;}
 @media (max-width: 992px) { 
     body {background: #fff;}
     .category-link {width: 100%;}
@@ -126,4 +134,8 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
     .footer {padding: 15px 0;margin-top: 15px;}
     .footer .phone {text-align: center;}
     .footer .menu {margin-top: 15px;text-align: center;}
+    .pagination {margin-bottom: 15px;}
+    .item-block {margin-bottom: 15px;}
+    .categoty-item {margin-top: 0px;margin-bottom: 15px;padding: 15px;}
+    .btn-search {margin-top: 15px;}
  }
