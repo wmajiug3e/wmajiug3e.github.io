@@ -52,7 +52,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .item-info .delivery-list {margin-bottom: 30px;}
 .item-info .table-striped tbody tr:nth-of-type(odd) {background-color: #F3F6F9;}
 .item-info .description {margin-top: 30px;padding-top: 30px;border-top: 1px dashed #e2e5ec;}
-.alert-compatibility {border-radius:0px;font-size: 0.886rem;}
+.alert-compatibility {border-radius:5px;font-size: 0.886rem;margin-bottom: 30px;}
 .item-info .description a {color: #3445E5;border-bottom: 1px solid #3445E5;}
 .item-info .description a:hover {border: 0px;text-decoration: none;}
 .item-info .icon-delivery {width: 1.5rem;fill: #6c7293;color: #6c7293;}
@@ -115,6 +115,23 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .basket-page .delete {background:#F64E60;color: #fff;border-radius: 50px;font-size: 12px;padding: 5px 7px;margin-top: -12px;margin-left: -12px;}
 .basket-page .delete:hover {background:#dd4655;}
 .basket-page .price-right {text-align: right;}
+.alert-search {margin-top: 30px;border-top: 1px dashed #e2e5ec;padding-top: 30px;}
+.alert-search a {border-bottom: 1px solid #3445E5;color: #3445E5;}
+.alert-search a:hover {border: 0px;text-decoration: none;}
+.basket-page .form-control {margin-bottom: 30px;}
+.basket-page form {margin-bottom: 0px;}
+.order-img {width: 50px;}
+.order-contact .discount {font-size: 10px;}
+.order-contact .discount span {padding: 5px;}
+.order-contact .price {font-size: 1.2rem;}
+.order-contact .col-title {padding-left: 0px;padding-right: 0px;}
+.order-contact .mb-15 {margin-bottom: 15px;}
+.order-contact .buy-info {margin-top: 30px;}
+.order-contact .price-now {margin-bottom: 15px;font-size: 1.5rem;}
+.order-contact {background: #fff;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);padding: 30px;margin: 30px 0;}
+.order-contact .title {border-bottom: 1px dashed #e2e5ec;padding-bottom: 15px;margin-bottom: 30px;}
+.edit-contact {background: #e2e5ec;padding: 7px 10px;color: #6c7293;border-radius: 5px;}
+.edit-contact:hover {background: #d4d7dd;text-decoration: none;}
 @media (max-width: 992px) { 
     body {background: #fff;}
     .category-link {width: 100%;}
@@ -160,5 +177,12 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
     .mb-30 {margin-bottom: 15px;}
     .promo-title {position: absolute;right: 5px;}
     .price-footer {margin-top: 15px;padding-top: 15px;}
-    .basket-page .btn-buy {margin-top: 15px;}
+    .alert-compatibility {margin-bottom: 15px;margin-left: 15px;margin-right: 15px;}
+    .alert-search {margin-top: 15px;padding-top: 15px;}
+    .item-info .alert-compatibility {margin-bottom: 15px;margin-left: 0px;margin-right: 0px;}
+    .basket-page .form-control {margin-bottom: 15px;}
+    .order-contact .btn-buy {margin-bottom: 15px;}
+    .order-contact {margin-top: 15px;padding: 15px;}
+    .lg-mt-15 {margin-top: 15px;}
+    .lg-mb-0 {margin-bottom: 0px!important;}
  }
