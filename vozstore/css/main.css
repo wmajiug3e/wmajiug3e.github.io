@@ -132,6 +132,8 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .order-contact .title {border-bottom: 1px dashed #e2e5ec;padding-bottom: 15px;margin-bottom: 30px;}
 .edit-contact {background: #e2e5ec;padding: 7px 10px;color: #6c7293;border-radius: 5px;}
 .edit-contact:hover {background: #d4d7dd;text-decoration: none;}
+.page-block {background: #fff;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);padding: 30px;margin-bottom: 30px;}
+.page-block .title {border-bottom: 1px dashed #e2e5ec;padding-bottom: 15px;margin-bottom: 30px;}
 @media (max-width: 992px) { 
     body {background: #fff;}
     .category-link {width: 100%;}
@@ -185,4 +187,6 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
     .order-contact {margin-top: 15px;padding: 15px;}
     .lg-mt-15 {margin-top: 15px;}
     .lg-mb-0 {margin-bottom: 0px!important;}
+    .page-block {background: #fff;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);padding: 15px;margin-bottom: 15px;}
+    .page-block .title {border-bottom: 1px dashed #e2e5ec;padding-bottom: 15px;margin-bottom: 15px;}
  }
