@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import "icon.css";
+@import "bootstrap.css";
+@import "select.css";
+@import "select-bootstrap.css";
+@import "bsnav.css";
+
+body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A0A;background: #D7FBFC;}
+.navbar-toggler:focus {outline: none;}
+.mini-header {background: #1f1e2e;height: 63px;padding: 15px;margin-bottom: 30px;}
+.mini-header .nav-link {color: #6c6e86;font-size: 13px;}
+.mini-header .nav-link:hover {color: #fff;}
+.mini-header .nav-link.active {color: #fff;}
+.mini-header .container {padding: 0px;}
+.mini-header .cart-link:hover {text-decoration: none;color: #fff;}
+.nav-scroller {position: relative;z-index: 2;overflow-y: hidden;}
+.nav-scroller .nav {display: -ms-flexbox;display: flex;-ms-flex-wrap: nowrap;flex-wrap: nowrap;padding-bottom: 1rem;margin-top: -1px;overflow-x: auto;color: rgba(255, 255, 255, .75);text-align: center;white-space: nowrap;-webkit-overflow-scrolling: touch;}
+.counter-block .value {font-size: 32px;}
+.counter-block .title {color: #909090;}
+.counter-block i {font-size: 72px;color: #a2a3b7;}
+.counter-block {background: #fff;padding: 30px;margin-bottom: 30px;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);}
+.page {background: #fff;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);padding: 30px;}
+.table {margin-bottom: 0px;}
+.status-green {background: #C9F7F5;border-color: transparent;color: #1BC5BD;padding: 7px 10px;border-radius: 5px;}
+.status-red {background: #FFE2E5;border-color: transparent;color: #F64E60;padding: 7px 10px;border-radius: 5px;}
+.status-orange {background: #FFF4DE;border-color: transparent;color: #FFA800;padding: 7px 10px;border-radius: 5px;}
+.status-blue {background: #E1F0FF;border-color: transparent;color: #3699FF;padding: 7px 10px;border-radius: 5px;}
+.status-dark {background: #D1D3E0;border-color: transparent;color: #181C32;padding: 7px 10px;border-radius: 5px;}
+.status-light {background: #F3F6F9;border-color: transparent;color: #7E8299;padding: 7px 10px;border-radius: 5px;}
+.status-success {background: #1BC5BD;border-color: transparent;color: #fff;padding: 7px 10px;border-radius: 5px;}
+.download-button {margin-top: 30px;}
+.link-btn {background-color: rgba(88,103,221, 0.1);color: #5867dd;border-radius: 5px;padding: 7px 10px;}
+.link-btn:hover {background-color: rgba(88, 104, 221, 0.2);color: #5867dd;}
+.btn:focus, .form-control:focus {box-shadow: none;}
+.container-fluid {padding: 0px 25px;}
+.hr-line {border-top: dashed 1px #e2e5ec;margin-top: 30px;padding-top: 30px;}
+.page .title {border-bottom: dashed 1px #e2e5ec;padding-bottom: 15px;margin-bottom: 30px;}
+.page form {margin-bottom: 0px;}
+@media (max-width: 992px) { 
+
+ }
