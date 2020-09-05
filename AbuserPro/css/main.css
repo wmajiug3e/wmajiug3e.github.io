@@ -37,5 +37,9 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .page .title {border-bottom: dashed 1px #e2e5ec;padding-bottom: 15px;margin-bottom: 30px;}
 .page form {margin-bottom: 0px;}
 @media (max-width: 992px) { 
-
+    .container-fluid {padding: 0px 15px;}
+    .mini-header {margin-bottom: 15px;}
+    .counter-block {margin-bottom: 15px;}
+    .page {padding: 15px;}
+    .link-btn {margin-top: 15px;}
  }
