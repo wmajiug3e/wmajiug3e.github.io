@@ -141,7 +141,25 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .select2-search--dropdown {padding: 5px;}
 .select2-container--bootstrap .select2-search--dropdown .select2-search__field {border: 1px solid #f2f3f7;border-radius: 5px;box-shadow: none;}
 .select2-container--bootstrap .select2-results__option--highlighted[aria-selected] {background: #F64E60;}
+.alike {padding-top: 30px;background: #c3edef;}
+.alike h4 {margin-bottom: 30px;}
+.form-control {background: #f2f3f7;border: none;color: #555555;border-radius: 5px;}
+.custom-select {background: #f2f3f7 url("../img/menu.svg") no-repeat right 0.75rem center;background-size: 16px 16px;border: 0px;border-radius: 5px;}
+.custom-select:focus {box-shadow: none;background: #edeef3 url("../img/menu.svg") no-repeat right 0.75rem center;background-size: 16px 16px;border: 0px;}
+.form-control:focus {box-shadow: none;background: #edeef3;}
+.good-order {margin-top: 30px;}
+.good-order h1 {color: #34c678;}
+.order-list {background: #f2f3f7;border-radius: 5px;padding: 30px;margin-top: 15px;}
+.order-list .discount {font-size: 10px;}
+.order-list .discount span {padding: 5px;}
+.order-list .price {font-size: 1.2rem;}
+.order-list .discount {color: #6c7293;}
+.order-list .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
+.order-list .mb-15 {margin-bottom: 15px;}
+.order-price {margin-top: 15px;border-top: 1px dashed #e2e5ec;padding-top: 15px;font-size: 1.5rem;}
 @media (max-width: 992px) { 
+    .alike {padding-top: 15px;margin-bottom: -15px;}
+    .alike h4 {margin-bottom: 15px;}
     .carousel-inner {border-radius: 0px;}
     body {background: #fff;}
     .category-link {width: 100%;}
