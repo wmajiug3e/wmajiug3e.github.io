@@ -159,7 +159,11 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .order-price {margin-top: 15px;border-top: 1px dashed #e2e5ec;padding-top: 15px;font-size: 1.5rem;}
 .good-order-list {border-bottom: 1px dashed #e2e5ec;margin-bottom: 15px;}
 .sale-banner {background: #ac1864;margin-bottom: 30px;}
+.img-promo {margin-bottom: 30px;}
+.page-block .icon-delivery {width: 1.5rem;fill: #6c7293;color: #6c7293;margin-right: 5px;}
+.ahtun {padding: 30px;background:#F64E60;border-radius: 5px;color: #fff;}
 @media (max-width: 992px) { 
+    .img-promo {margin-bottom: 15px;}
     .sale-banner {margin-bottom: 15px;}
     .good-order {margin-top: 15px;}
     .good-order h1 {font-size: 1.3rem;}
