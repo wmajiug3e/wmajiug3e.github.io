@@ -157,7 +157,15 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .order-list .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
 .order-list .mb-15 {margin-bottom: 15px;}
 .order-price {margin-top: 15px;border-top: 1px dashed #e2e5ec;padding-top: 15px;font-size: 1.5rem;}
+.good-order-list {border-bottom: 1px dashed #e2e5ec;margin-bottom: 15px;}
+.sale-banner {background: #ac1864;margin-bottom: 30px;}
 @media (max-width: 992px) { 
+    .sale-banner {margin-bottom: 15px;}
+    .good-order {margin-top: 15px;}
+    .good-order h1 {font-size: 1.3rem;}
+    .order-price {font-size: 1.2rem;}
+    .order-list {padding: 15px;}
+    .col-title {padding-left: 0px!important;padding-right: 0px!important;}
     .alike {padding-top: 15px;margin-bottom: -15px;}
     .alike h4 {margin-bottom: 15px;}
     .carousel-inner {border-radius: 0px;}
