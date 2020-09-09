@@ -4,6 +4,7 @@
 @import "select.css";
 @import "select-bootstrap.css";
 @import "bsnav.css";
+@import "vozstore.css";
 
 body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A0A;background: #D7FBFC;}
 .navbar-toggler:focus {outline: none;}
@@ -166,7 +167,19 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .btn-red {background:#F64E60;color: #fff;border-radius: 5px;}
 .btn-red:hover {background:#e74a5a;color: #fff;}
 .basket-main .img-basket {width: 60px;margin-right: 10px;}
+.category-block {background: #fff;padding-top: 30px;margin-bottom: 30px;}
+.category-block a {text-decoration: none;}
+.category-block a:hover .case {background: #2e56bb;color: #fff;}
+.category-block a:hover .glass {background: #ec303e;color: #fff;}
+.category-block a:hover .cable {background: #34c678;color: #fff;}
+.category-block a:hover .charger {background: #e75480;color: #fff;}
+.category-block a:hover .headphones {background:#ffb712;color: #fff;}
+.category-block a:hover .holder {background: #2f52a8;color: #fff;}
+.category-list {background: #D7FBFC;padding: 30px;border-radius: 5px;margin-bottom: 30px;color: #6c7293;}
+.category-list i {font-size: 2.46rem;}
 @media (max-width: 992px) { 
+    .category-list {margin-bottom: 15px;}
+    .category-block {padding-top: 15px;margin-bottom: 15px;}
     .basket-main {padding: 15px;margin: 15px;}
     .basket-main .img-basket {margin-right: 0px;}
     .basket-main .col-lg {text-align: center;}
@@ -217,7 +230,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
     .item-block {margin-bottom: 15px;}
     .categoty-item {margin-top: 0px;margin-bottom: 15px;padding: 15px;}
     .btn-search {margin-top: 15px;}
-    .slide {margin-top: 0px;margin-bottom: 15px;}
+    .slide {margin-top: 0px;margin-bottom: 0px;}
     .img-basket {width: 100%;margin-bottom: 15px;}
     .basket-page {padding: 15px;border-radius: 0px;margin: 0px;}
     .basket-page .title {margin-bottom: 15px;padding-bottom: 0px;}
