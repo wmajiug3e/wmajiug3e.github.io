@@ -208,6 +208,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .page-block .link:hover {color: #8950FC;text-decoration: none;border-bottom:  1px solid #8950FC;}
 .mt-30 {margin-top: 30px;}
 .mt-15 {margin-top: 15px;}
+.pb-30 {padding-bottom: 30px!important;}
 .input-group-text {background: #edeef3;border-color: #edeef3;}
 .mb-0 {margin-bottom: 0px;}
 .custom-control.image-checkbox {position: relative;padding-left: 0;}
@@ -223,6 +224,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 
 
 @media (max-width: 992px) { 
+.pb-30 {padding-bottom: 15px!important;}
 .img-check-list {padding: 0px 7.5px;}
 .img-check {padding: 0px 7.5px;}
 .mb-0 {margin-bottom: 0px;}
