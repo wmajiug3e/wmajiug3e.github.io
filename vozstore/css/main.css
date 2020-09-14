@@ -222,8 +222,37 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .form-group-image-checkbox.is-invalid .invalid-feedback {display: block;}
 .custom-control-input:checked~.custom-control-label::before, .custom-control-input:not(:disabled):active~.custom-control-label::before {color: #fff;border-color: #F64E60;background-color: #F64E60;}
 
+.orders {cursor: pointer;}
+.orders .img-order {width: 58px;height: 58px;margin-right: 5px;}
+.orders .price {font-size: 1.4rem;}
+.order-info {margin-top: 30px;padding-top: 30px;border-top: 1px solid #edeef3;}
+.order-info h5 {margin-bottom: 15px;}
+.order-info .col-title {padding-left: 0px;padding-right: 0px;}
+.order-info .discount {font-size: 10px;}
+.order-info .discount span {padding: 5px;}
+.order-info .price {font-size: 1.2rem;}
+.order-info .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
+.order-info .mb-15 {margin-bottom: 15px;}
+.orders .status-green {color: #34c678;}
+.orders .status-red {color: #F64E60;}
+.orders .status-grey {color: #6c7293;}
+.orders .status-yellow {color: #f57f17;}
+.pulse-orders {color: #f57f17;width: 17px;height: 17px;border-radius: 50%;box-shadow: 0 0 0 rgba(204,169,44, 0.4);animation: pulse 2s infinite;}
+.pulse-order {width: 24px;height: 24px;border-radius: 50%;box-shadow: 0 0 0 rgba(204,169,44, 0.4);animation: pulse 2s infinite;}
+@-webkit-keyframes pulse {0% {-webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);}
+70% {-webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);}
+100% {-webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);}}
+@keyframes pulse {0% {-moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);}
+70% {-moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);box-shadow: 0 0 0 10px rgba(204,169,44, 0);}
+100% {-moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);box-shadow: 0 0 0 0 rgba(204,169,44, 0);}}
+
 
 @media (max-width: 992px) { 
+.order-info .btn-add {margin-bottom: 15px;}
+.order-info h5 {margin-top: 15px;}
+.order-info {margin-top: 15px;padding-top: 0px;}
+.orders .img-order {margin-top: 15px;}
+.orders .price {margin-top: 15px;padding-bottom: 0px;}
 .pb-30 {padding-bottom: 15px!important;}
 .img-check-list {padding: 0px 7.5px;}
 .img-check {padding: 0px 7.5px;}
