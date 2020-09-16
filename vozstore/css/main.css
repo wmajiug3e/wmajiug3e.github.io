@@ -245,7 +245,13 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 @keyframes pulse {0% {-moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);}
 70% {-moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);box-shadow: 0 0 0 10px rgba(204,169,44, 0);}
 100% {-moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);box-shadow: 0 0 0 0 rgba(204,169,44, 0);}}
-
+.orders-list .col-title {padding-left: 0px;padding-right: 0px;}
+.orders-list .discount {font-size: 10px;}
+.orders-list .discount span {padding: 5px;}
+.orders-list .price {font-size: 1.2rem;}
+.orders-list .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
+.new-order .mb-15 {margin-bottom: 15px;}
+.new-order .form-group {margin-bottom: 0px;}
 
 @media (max-width: 992px) { 
 .order-info .btn-add {margin-bottom: 15px;}
