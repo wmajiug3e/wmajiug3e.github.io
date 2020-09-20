@@ -21,84 +21,42 @@
 <div class="container page mt-30">
 <a class="btn btn-table" href="admin_setting.html" role="button"><i class="fad fa-globe"></i> Настройки сайта</a>
 <a class="btn btn-table active" href="admin_setting_2.html" role="button"><i class="fad fa-th-list"></i> Категории</a>
+<a class="btn btn-table" href="admin_setting_3.html" role="button"><i class="fad fa-phone-laptop"></i> Модели телефонов</a>
 <div class="page-block">
 <div class="row">
-<div class="col-lg-4 mb-30">
-<div class="form-group">
-<select id="single" class="form-control select2-single">
-<option value="1">iPhone</option>
-<option value="2">Samsung Galaxy</option>
-<option value="3">Huawei</option>
-<option value="4">Xiaomi</option>
-</select>
-</div>
-</div>
-<div class="col-lg-4 mb-30"><input type="text" class="form-control" placeholder="Модель"></div>
-<div class="col-lg-4 mb-30">
+<div class="col-lg-6 mb-30"><input type="text" class="form-control" placeholder="Название категории"></div>
+<div class="col-lg-6 mb-30">
 <div class="form-group">
 <select class="custom-select mr-sm-2">
-<option selected disabled>Разъем для зарядки</option>
-<option>Micro-USB</option>
-<option>USB Type-C</option>
-<option>Lightning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 mb-30">
-<div class="form-group">
-<label for="multiple" class="control-label">Совместимость чехлов</label>
-<select id="multiple" class="form-control select2-multiple" multiple>
-<option value="1">A50</option>
-<option value="2">A30</option>
-<option value="3">A30s</option>
-<option value="4">A70</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 mb-30">
-<div class="form-group">
-<label for="multiple" class="control-label">Совместимость стекол</label>
-<select id="multiple" class="form-control select2-multiple" multiple>
-<option value="1">Huawei P30</option>
-<option value="2">Huawei P40</option>
-<option value="3">Huawei Honor 7A</option>
-<option value="4">Xiaomi K30 Pro</option>
+<option selected>Без категории</option>
+<option>Кабели</option>
+<option>Зарядки</option>
+<option>Наушники</option>
+<option>Подставки и держатели</option>
+<option>Разное</option>
 </select>
 </div>
 </div>
 </div>
 <input type="submit" value="Добавить" class="btn btn-add btn-block">
 <div class="phone-list">
-<table class="table table-borderless">
-<thead>
-<tr>
-<th scope="col">Модель</th>
-<th scope="col">Совместимость чехлов</th>
-<th scope="col">Совместимость стекол</th>
-<th scope="col">Разъем</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="link" href="#">Huawei Nova 7i</a></td>
-<td>A7 (2018), Redmi Note 8 Pro</td>
-<td>P40, M20</td>
-<td>Lightning</td>
-</tr>
-<tr>
-<td><a class="link" href="#">Xiaomi Mi 9</a></td>
-<td>S9, S20</td>
-<td>Nova 5 Pro, S8 Plus</td>
-<td>USB Type-C</td>
-</tr>
-<tr>
-<td><a class="link" href="#">Samsung Galaxy J6 (2018)</a></td>
-<td>A6+ (2018), Redmi Note 8</td>
-<td>A50, Mi CC9 Pro</td>
-<td>Micro-USB</td>
-</tr>
-</tbody>
-</table>
+<ul class="list-unstyled">
+<li>Подставки и держатели</li>
+<ul>
+<li>Автомобильный держатель <a href="#" class="link-edit"><i class="fad fa-pen-square"></i></a> <a href="#" class="link-edit"><i class="fad fa-arrow-square-up"></i></a> <a href="#" class="link-edit"><i class="fad fa-arrow-square-down"></i></a></li>
+<li>Велосипедный держатель</li>
+<li>Попсокет</li>
+<li>Держатель-подставка</li>
+<li>Штатив</li>
+</ul>
+<li>Разное
+<ul>
+<li>Аквабокс</li>
+<li>Bluetooth кнопка</li>
+<li>Другое</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 </div>

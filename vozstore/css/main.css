@@ -260,11 +260,12 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .btn-table {padding-bottom: 15px;margin-right: 15px;padding-top: 15px;color:#6c7293;}
 .btn-table:hover {color:#6c7293;}
 .btn-table.active {background: #fff;border-radius: 5px 5px 0px 0px;color:#8950FC;}
-.phone-list {margin-top: 30px;padding-top: 15px;border-top: 1px dashed #e2e5ec;}
+.phone-list {margin-top: 30px;padding-top: 30px;border-top: 1px dashed #e2e5ec;}
 .page-block table {margin-bottom: 0px;}
 .page-block .form-group {margin-bottom: 0px;}
 .img-check-list {margin-bottom: -15px;}
-
+.link-edit {color: #6c7293;}
+.link-edit:hover {color:#8950FC;}
 @media (max-width: 992px) { 
 .phone-list {margin-top: 15px;padding-top: 15px;}
 .order-info .btn-add {margin-bottom: 15px;}
