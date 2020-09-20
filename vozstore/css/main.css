@@ -161,7 +161,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .good-order-list {border-bottom: 1px dashed #e2e5ec;margin-bottom: 15px;}
 .sale-banner {background: #ac1864;margin-bottom: 30px;}
 .img-promo {margin-bottom: 30px;}
-.page-block .icon-delivery {width: 1.5rem;fill: #6c7293;color: #6c7293;margin-right: 5px;}
+.page-block .delivery-icon {width: 1.5rem;fill: #6c7293;color: #6c7293;margin-right: 5px;}
 .ahtun {padding: 30px;background:#F64E60;border-radius: 5px;color: #fff;}
 .basket-main {background: #fff;padding: 30px;margin-top: 30px;border-radius: 5px;box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);}
 .btn-red {background:#F64E60;color: #fff;border-radius: 5px;}
@@ -252,8 +252,21 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .orders-list .discount span {background:#F64E60;color: #fff;padding: 5px 8px;margin-left: 5px;border-radius: 5px;}
 .new-order .mb-15 {margin-bottom: 15px;}
 .new-order .form-group {margin-bottom: 0px;}
+.btn-x {color: #6c7293;padding: 0px;}
+.btn-x:hover {color: #F64E60;}
+.col-del {padding-left: 0px;}
+.input-group-append .btn-add {border-left: 1px solid #f2f3f7;}
+.page-setting {border-radius: 0px 5px 5px 5px;}
+.btn-table {padding-bottom: 15px;margin-right: 15px;padding-top: 15px;color:#6c7293;}
+.btn-table:hover {color:#6c7293;}
+.btn-table.active {background: #fff;border-radius: 5px 5px 0px 0px;color:#8950FC;}
+.phone-list {margin-top: 30px;padding-top: 15px;border-top: 1px dashed #e2e5ec;}
+.page-block table {margin-bottom: 0px;}
+.page-block .form-group {margin-bottom: 0px;}
+
 
 @media (max-width: 992px) { 
+.phone-list {margin-top: 15px;padding-top: 15px;}
 .order-info .btn-add {margin-bottom: 15px;}
 .order-info h5 {margin-top: 15px;}
 .order-info {margin-top: 15px;padding-top: 0px;}
