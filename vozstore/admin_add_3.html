@@ -12,6 +12,7 @@
 <nav class="nav nav-underline">
 <a class="nav-link" href="admin_items.html"><i class="fad fa-bags-shopping"></i> Товары</a>
 <a class="nav-link" href="admin_orders.html"><i class="fad fa-shopping-basket"></i> Заказы</a>
+<a class="nav-link" href="admin_tracks.html"><i class="fad fa-archive"></i> Треки</a>
 <div class="ml-md-auto cart-block">
 <a class="nav-link setting-link" href="admin_setting.html"><i class="fad fa-cog"></i> Настройки</span></a>
 </div>
@@ -106,19 +107,27 @@
 </select>
 </div>
 </div>
-<div class="col-lg-9 mt-30">
+<div class="col-lg-7 mt-30">
 <input type="text" class="form-control" placeholder="Название товара, необязательно">
 </div>
-<div class="col-lg-2 col-9 mt-30">
+<div class="col-lg-2 col-4 mt-30">
 <div class="input-group">
-<input type="text" class="form-control" placeholder="Цена" value="120">
-<div class="input-group-append">
-<span class="input-group-text">грн</span>
+<input type="text" class="form-control" value="75">
+<input type="text" class="form-control" value="150">
 </div>
 </div>
-</div>
-<div class="col-lg-1 col-3 mt-30">
+<div class="col-lg-1 col-3 mt-30 ml-0">
 <input type="text" class="form-control" placeholder="шт." value="1">
+</div>
+<div class="col-lg-2 col-5 mt-30 ml-0">
+<div class="form-group">
+<select class="custom-select mr-sm-2">
+<option selected="" disabled="">Статус</option>
+<option selected>В наличии</option>
+<option>Заказан</option>
+<option>Продан</option>
+</select>
+</div>
 </div>
 <div class="col-lg-6 mt-30">
 <input type="text" class="form-control" placeholder="Ссылка на AliExpress" value="https://aliexpress.ru/item/33019444768.html" disabled>
@@ -133,6 +142,7 @@
 </div>
 </div>
 <input onclick="document.location='admin_items.html'" type="submit" value="Добавить товар" class="btn btn-add btn-block mt-30 mb-15">
+<div class="mt-30 text-center"><a class="link" href="admin_items.html">Удалить товар</a></div>
 </div>
 <div class="row">
 <div class="col-lg-4"><b>Трек-код:</b> UC084109150EE</div>

@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="nav-scroller header-admin">
+<div class="container">
+<nav class="nav nav-underline">
+<a class="nav-link" href="admin_items.html"><i class="fad fa-bags-shopping"></i> Товары</a>
+<a class="nav-link" href="admin_orders.html"><i class="fad fa-shopping-basket"></i> Заказы</a>
+<div class="ml-md-auto cart-block">
+<a class="nav-link setting-link" href="admin_setting.html"><i class="fad fa-cog"></i> Настройки</span></a>
+</div>
+</nav>
+</div>
+</div>
+<div class="container page">
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+<li class="breadcrumb-item" aria-current="page">Новый заказ</li>
+</ol>
+</nav>
+<div class="page-block new-order">
+<div class="row align-items-center orders-list">
+<div class="col-auto">
+<img class="order-img" src="http://vozstore.pp.ua/img/order/387843.jpg">
+</div>
+<div class="col col-title">
+<h6>Пластиковый чехол для Xiaomi Redmi Note 4</h6>
+</div>
+<div class="col-auto text-right">
+<div class="discount"><strike>199</strike> грн <span>-54%</span></div>
+<div class="price">90 грн</div>
+</div>
+<div class="col-auto col-del">
+<button type="button" class="btn btn-x" title="Удалить"><i class="fas fa-times"></i></button>
+</div>
+<div class="w-100 mb-15"></div>
+<div class="col-auto">
+<img class="order-img" src="http://vozstore.pp.ua/img/order/715772.jpg">
+</div>
+<div class="col col-title">
+<h6>Бронированный чехол для Samsung Galaxy M20</h6>
+</div>
+<div class="col-auto text-right">
+<div class="discount"><strike>150</strike> грн <span>-55%</span></div>
+<div class="price">85 грн</div>
+</div>
+<div class="col-auto col-del">
+<button type="button" class="btn btn-x" title="Удалить"><i class="fas fa-times"></i></button>
+</div>
+</div>
+<div class="input-group mt-30">
+<input type="text" class="form-control" placeholder="ID товара">
+<div class="input-group-append">
+<button class="btn btn-add" type="button">Добавить в заказ</button>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 mt-30">
+<input type="text" class="form-control" placeholder="Имя">
+</div>
+<div class="col-lg-3 mt-30">
+<input type="text" class="form-control" placeholder="Фамилия">
+</div>
+<div class="col-lg-3 mt-30">
+<input type="tel" class="form-control masked-phone" name="tel[]" data-phonemask="+38 (___)___-____" maxlength="17">
+</div>
+<div class="col-lg-3 mt-30">
+<div class="form-group">
+<select id="single" class="form-control select2-single">
+<option value="1">Вознесенск</option>
+<option value="2">Киев</option>
+<option value="3">Одесса</option>
+<option value="4">Мухосранск</option>
+</select>
+</div>
+</div>
+<div class="col-lg-4 mt-30">
+<div class="form-group">
+<select class="custom-select mr-sm-2">
+<option selected="" disabled="">Выберите способ доставки</option>
+<option>При личной встрече в Вознесенске</option>
+<option>Новая Почта</option>
+<option>УкрПочта</option>
+</select>
+</div>
+</div>
+<div class="col-lg-4 mt-30">
+<div class="form-group">
+<select class="custom-select mr-sm-2">
+<option selected="" disabled="">Выберите отделение</option>
+<option>Новая Почта №1</option>
+<option>Новая Почта №2</option>
+</select>
+</div>
+</div>
+<div class="col-lg-4 mt-30">
+<div class="form-group">
+<select class="custom-select mr-sm-2">
+<option selected="" disabled="">Выберите способ оплаты</option>
+<option>Наложенный платеж</option>
+<option>Оплата на карту онлайн</option>
+<option>Наличными при личной встрече</option>
+</select>
+</div>
+</div>
+<div class="col-lg-12 mt-30">
+<div class="form-group mb-0">
+<textarea class="form-control" rows="3" placeholder="Примечание, необязательно"></textarea>
+</div>
+</div>
+</div>
+<input onclick="document.location='admin_orders.html'" type="submit" value="Создать заказ" class="btn btn-add btn-block mt-30">
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bsnav.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/apps.js"></script>
+<script src="js/phone-mask.min.js"></script>
+</body>
+</html>

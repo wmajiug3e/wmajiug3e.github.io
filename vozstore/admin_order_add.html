@@ -12,6 +12,7 @@
 <nav class="nav nav-underline">
 <a class="nav-link" href="admin_items.html"><i class="fad fa-bags-shopping"></i> Товары</a>
 <a class="nav-link" href="admin_orders.html"><i class="fad fa-shopping-basket"></i> Заказы</a>
+<a class="nav-link" href="admin_tracks.html"><i class="fad fa-archive"></i> Треки</a>
 <div class="ml-md-auto cart-block">
 <a class="nav-link setting-link" href="admin_setting.html"><i class="fad fa-cog"></i> Настройки</span></a>
 </div>
@@ -63,52 +64,24 @@
 </div>
 <div class="row">
 <div class="col-lg-3 mt-30">
-<input type="text" class="form-control" placeholder="Имя">
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">+38</span>
 </div>
-<div class="col-lg-3 mt-30">
-<input type="text" class="form-control" placeholder="Фамилия">
+<input type="tel" name="tel" class="form-control" placeholder="XXX-XXX-XX-XX">
 </div>
-<div class="col-lg-3 mt-30">
-<input type="tel" class="form-control masked-phone" name="tel[]" data-phonemask="+38 (___)___-____" maxlength="17">
 </div>
-<div class="col-lg-3 mt-30">
+<div class="col-lg-5 mt-30">
 <div class="form-group">
-<select id="single" class="form-control select2-single">
-<option value="1">Вознесенск</option>
-<option value="2">Киев</option>
-<option value="3">Одесса</option>
-<option value="4">Мухосранск</option>
+<select class="custom-select mr-sm-2">
+<option selected="" disabled="">Тип заказа</option>
+<option>По месту</option>
+<option>Prom.ua</option>
 </select>
 </div>
 </div>
 <div class="col-lg-4 mt-30">
-<div class="form-group">
-<select class="custom-select mr-sm-2">
-<option selected="" disabled="">Выберите способ доставки</option>
-<option>При личной встрече в Вознесенске</option>
-<option>Новая Почта</option>
-<option>УкрПочта</option>
-</select>
-</div>
-</div>
-<div class="col-lg-4 mt-30">
-<div class="form-group">
-<select class="custom-select mr-sm-2">
-<option selected="" disabled="">Выберите отделение</option>
-<option>Новая Почта №1</option>
-<option>Новая Почта №2</option>
-</select>
-</div>
-</div>
-<div class="col-lg-4 mt-30">
-<div class="form-group">
-<select class="custom-select mr-sm-2">
-<option selected="" disabled="">Выберите способ оплаты</option>
-<option>Наложенный платеж</option>
-<option>Оплата на карту онлайн</option>
-<option>Наличными при личной встрече</option>
-</select>
-</div>
+<input type="text" class="form-control" placeholder="Номер заказа">
 </div>
 <div class="col-lg-12 mt-30">
 <div class="form-group mb-0">
