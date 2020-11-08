@@ -289,6 +289,8 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .link-comp {color: #212529;}
 .link-comp:hover {color: #212529;text-decoration: none;border-bottom: 1px solid #212529;}
 .table-striped tbody tr:nth-of-type(odd) {background-color: #F3F6F9;}
+.btn-link-table {background: #F3F6F9;border-radius: 5px;}
+.btn-link-table:hover {background: #3445E5;color: #fff;}
 @media (max-width: 992px) { 
 .header-admin .container {padding-right: 0px;padding-left: 0px;}
 .alert-danger {padding: 15px;}
