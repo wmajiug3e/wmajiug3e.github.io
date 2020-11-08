@@ -285,10 +285,10 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .alert-danger {background-color: #F64E60;color:#fff;font-size: 1rem;padding: 30px;border-radius: 5px;border: 0px;}
 .alert-danger i {font-size: 3rem;}
 .track-price {background-color: rgba(10,187,135,.1);color: #0abb87;padding: 10px 20px;border-radius: 5px;}
-
-
-
-
+.table-hover tbody tr:hover {background: #F3F6F9;}
+.link-comp {color: #212529;}
+.link-comp:hover {color: #212529;text-decoration: none;border-bottom: 1px solid #212529;}
+.table-striped tbody tr:nth-of-type(odd) {background-color: #F3F6F9;}
 @media (max-width: 992px) { 
 .header-admin .container {padding-right: 0px;padding-left: 0px;}
 .alert-danger {padding: 15px;}
