@@ -291,6 +291,7 @@ body {font-family: 'Source Sans Pro', sans-serif;font-size: 0.95rem;color: #000A
 .table-striped tbody tr:nth-of-type(odd) {background-color: #F3F6F9;}
 .btn-link-table {background: #F3F6F9;border-radius: 5px;}
 .btn-link-table:hover {background: #3445E5;color: #fff;}
+.stock {color: #30b46e;margin-top: 5px;}
 @media (max-width: 992px) { 
 .header-admin .container {padding-right: 0px;padding-left: 0px;}
 .alert-danger {padding: 15px;}
