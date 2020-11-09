@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-flash:before {
+  content: "\e907";
+}
+.icon-band:before {
+  content: "\e906";
+}
 .icon-cable:before {
   content: "\e900";
 }
@@ -43,3 +49,4 @@
 .icon-holder:before {
   content: "\e905";
 }
+
